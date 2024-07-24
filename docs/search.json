@@ -1,0 +1,46 @@
+[
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "Data",
+    "section": "",
+    "text": "Datasets\nSlides",
+    "crumbs": [
+      "Data"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "beforestart.html",
+    "href": "beforestart.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Example schedule:\n\n\n\n\n\n\n\n\n\nMorning\nAfternoon\n\n\n\n\nL\nIntro + Data manipulation\ngit / GitHub\n\n\nM\nGeneralised Linear Models\nData visualisation\n\n\nX\nMixed models / GAM / Bayes\nFunctional programming + Students work\n\n\nJ\nMultivariate analyses\nReproducible workflows\n\n\nV\nUsing R as GIS + Students work\nProject presentations"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to R Reciew Course!",
+    "section": "",
+    "text": "Course Description\nOfficial syllabus can be found here.\n\n\nLeraning Objectives\n\n\nTentative Schedule\n\n\n\nDate\nTopic\n\n\n\n\n8/19 (Mon)\nIntroduction to R and R studio interface\n\n\n\nBasic operation of R\n\n\n8/20 (Tue)\nData wrangling with data.table\n\n\n8/21 (Wed)\nData visualization with ggplot2 package\n\n\n8/22 (Wed)\nRegression analysis with R, and Monte Carlo simulation\n\n\n8/23 (Thu)\nRegression analysis with R, and Monte Carlo simulation\n\n\n8/24 (Fri)\nWrite functions, Introduction to Quarto, Review\n\n\n\n\n\nIn preparation for the course",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "materials.html",
+    "href": "materials.html",
+    "title": "Course Materials",
+    "section": "",
+    "text": "Datasets\nSlides",
+    "crumbs": [
+      "Course Materials"
+    ]
+  }
+]

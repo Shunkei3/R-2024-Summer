@@ -1,13 +1,28 @@
 project:
   type: website
+  title: "Introduction to R Statistical Analysis Software"
+  output-dir: docs
 
 website:
-  title: "R-2024-Summer"
+  title: "Introduction to R Statistical Analysis Software (2024-Summer)"
   navbar:
-    left:
+    background: primary
+    right:
+      - icon: github
+        href: https://github.com/Shunkei3/R-2024-Summer
+        # text: GitHub
+  sidebar:
+    style: "docked"
+    search: true
+    # logo: "images/logo.png"
+    # pinned: true
+    # align: center
+    contents:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: data.qmd
+      - href: materials.qmd
+    page-navigation: true
 
 format:
   html:
@@ -15,5 +30,8 @@ format:
     css: styles.css
     toc: true
 
-editor: visual
+callout-appearance: simple
 
+
+execute:
+  freeze: auto
