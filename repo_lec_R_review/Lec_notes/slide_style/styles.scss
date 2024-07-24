@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/*-- scss:defaults --*/
+
+$link-color: #EE6331;
+$font-family-sans-serif: 'Open Sans', sans-serif;
+$font-family-monospace: 'Fira Mono', monospace;
+
+$presentation-title-slide-text-align: left;
+
+/*-- scss:rules --*/
+h2 {
+  color: #447099 !important;
+}
+
+
+// Header ----------------------------
+
+// .reveal h2 {
+//   font-size: 1.8rem;
+//   color: #447099 !important;
+// }
+
+// .reveal h2 code {
+//   font-size: 1.8rem;
+// }
+
+// .reveal h3 {
+//   font-size: 1.4rem;
+// }
+
+
+// call-out box configurations
+.reveal .callout.callout-style-default div.callout-title {
+  font-size: 1.5rem;
+}
+
+.reveal .callout.callout-style-default div.callout-content {
+  font-size: 1.5rem;
+}
+
+.content-box-blue {
+  background-color: #F0F8FF;
+}
+
+.content-box-gray {
+  background-color: #e2e2e2;
+}
+
+.content-box-grey {
+  background-color: #F5F5F5;
+}
+
+.content-box-army {
+  background-color: #737a36;
+}
+
+.content-box-green {
+  background-color: #d9edc2;
+}
+
+.content-box-purple {
+  background-color: #e2e2f9;
+}
+
+.content-box-red {
+  background-color: #ffcccc;
+}
+
+.content-box-yellow {
+  background-color: #fef5c4;
+}
+
+
+// Code configurations ----------------------------
+
+// code in a regular R code chunk
+code.sourceCode.r {
+  font-size: 1.2rem;
+  background-color: #F0F8FF;
+}
+
+code in an webr code chunk 
+.reveal .mtk1{
+  font-size: 0.8rem;
+}
+
+// results of running codes
+pre div code {
+  font-size: 1rem;
+}
+
+// results of running codes in a regular r code chunk
+div.cell-output.cell-output-stdout pre code {
+  font-size: 1rem;
+  background-color: #f8f2f6;
+}
+
+
+// results of running codes in an webr code chunk
+div.qwebr-output-code-area pre {
+  background-color: #f8f2f6;
+}

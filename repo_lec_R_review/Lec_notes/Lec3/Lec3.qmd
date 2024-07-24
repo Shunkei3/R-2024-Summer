@@ -1,0 +1,138 @@
+---
+title: "Day 3: Data visualization with ggplot2 package"
+subtitle: "Department of Applied Economics, University of Minnesota"
+author: "Shunkei Kakimoto"
+format: 
+  revealjs:
+    self-contained: false
+    slide-number: c/t
+    width: 1600
+    height: 900
+    theme: 
+      - default 
+      - ../slide_style/styles.scss
+    fontsize: 1.5em
+    callout-icon: false
+    scrollable: true
+    echo: true
+    multiplex: true
+    code-link: true
+    title-slide-attributes:
+      data-background-color: "#447099"
+    fig-dpi: 400
+webr:
+  packages: ["data.table", "tidyverse", "rio", "nycflights13", "openintro"]
+  cell-options:
+    editor-font-scale: 0.8
+filters:
+  - webr
+---
+
+
+## {.center}
+
+### Learning Objectives
+
++ Learn how to create figures with `ggplot2` package.
+
+
+<br>
+
+:::{.fragment .center}
+### Reference {.center}
++ [ggplot2: Elegant Graphics for Data Analysis (3e)](https://ggplot2-book.org/)
++ [R for Data Science (2e), Ch1: Data visualization](https://r4ds.had.co.nz/pipes.html)
+:::
+
+
+## Today's outline: {.center}
+
+
+
+## {.center}
+
+By the end of the lecture, you will be able to create the following figures with `ggplot2` package.
+
+
+```{r}
+
+```
+
+
+
+## Before starting {.center}
+
+Install the package `ggplot2`if you haven't done so.
+```{r}
+#| eval: false
+install.packages('ggplot2')
+```
+
+Once you have the package in your R, let's load it.
+
+```{webr-r}
+library(ggplot2)
+```
+
+<br>
+
+::: {.callout-note}
++ There is a package called `tidyverse`, which is  a collection of R packages designed for data science.
++ When you load the `tidyverse` package, `ggplot2` package is automatically loaded.
+:::
+
+
+
+## Introduction {.center}
+
+:::{.panel-tabset}
+
+### What is ggplot2?
+
++ There are built-in R functions to create figures (e.g., `plot()` and `hist()`), but functions in `ggplot2` is a more powerful package for creating figures.
++ `ggplot2` is an R package for producing visualizations of data.
+
+
+### What is ggplot2?
+
+
+### 
+
+:::
+
+
+
+
+## Exercise Problmes
+
+:::{.panel-tabset}
+
+### Exercise 1
+
+:::{.panel-tabset}
+
+### Problem
+
+For this exercise problem, you will use "corn_yield_dt.rds" in the "Data" folder. This data contains the county-level corn yield data (in BU / ACRE) for each major corn production state in the US Midwest from 2000 to 2001. 
+
+<br>
+1. Load the data, and take a look at the data. 
+2. Convert the data to a `data.table` object. The `value` column contains the corn yield data. Let's rename the column to `yield`. 
+3. 
+
+### Answer
+
+```{webr-r}
+# === Part 1 === #
+yield_dt <- readRDS("Data/corn_yield_dt.rds")
+
+# === Part 2 === #
+yield_dt <- 
+  as.data.table(yield_dt) %>% 
+  setnames("value", "yield")
+
+# === Part 3 === #
+```
+:::
+
+:::
