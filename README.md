@@ -8,6 +8,8 @@ The main goal of this course is to provide students with a basic understanding o
 
 ## Lecture Slides
 <!-- base: https://shunkei3.github.io/R-2024-Summer/ -->
-+  Lecture 0: [slides](https://shunkei3.github.io/R-2024-Summer/repo_lec_R_review/Lec_notes/Lec0/Lec0-speaker.html)
++  Lecture 0: 
+   +  [slides](https://shunkei3.github.io/R-2024-Summer/repo_lec_R_review/Lec_notes/Lec0/Lec0-speaker.html)
+   +  [slides](https://shunkei3.github.io/R-slides/Lec_notes/Lec0/Lec0.html)
 
 
