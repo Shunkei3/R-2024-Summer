@@ -1,33 +1,67 @@
 ---
 title: "Welcome to R Reciew Course!"
-subtitle: "Applied Economics, University of Minnesota"
 ---
 
+:::: {.grid .course-details .course-details-smaller}
 
-# Course Description
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
+### Instructor
+
+- {{< fa user >}} {{< var instructor.name >}}
+- {{< fa university >}} {{< var instructor.office >}}
+- {{< fa envelope >}} <a href='mailto:{{< var instructor.email >}}'>{{< var instructor.email >}}</a>
+
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
+### Course details
+
+- {{< fa calendar-alt >}} {{< var course.dates >}}
+- {{< fa clock >}} {{< var course.time >}}
+- {{< fa location-dot >}} {{< var course.location >}}
+:::
+
+::::
 
 
-Official syllabus can be found [here]().
+### Course Description
 
-# Leraning Objectives
+This is a one-week course designed as an introduction to R statistical software for incoming graduate students. R is the leading software used in Ph.D.-level econometric classes in APEC (APEC 8211-8214). For example, we use R to conduct Monte Carlo simulations to understand the properties of statistical tools. In this course, we will go through the basics of R programming. Although the topics we can cover within five days are limited, I selected essential topics that would be directly helpful to establish a solid foundation for students’ R skills not only for first-year Ph.D. Econometrics classes, but also for personal research and future development of R skills.
+
++ Official syllabus is available from [here](https://shunkei3.github.io/R-slides/z_doc/R_Summer_2024_Syllabus.pdf)
+
+---
+
+### Leraning Objectives
+
+By completing the course, students will be able to 
+
++ create an R project and know how to access and save data.
++ handle different types of base R objects (e.g. list, vector, matrix, and data.frame). 
++ use basic data wrangling skills with the data.table package (e.g. subset rows, select and compute on columns, rename columns, perform aggregations by group, merge multiple datasets, and reshape wide-to-long and long-to-wide, respectively). 
++ write their own R functions. 
++ write code for simple Monte Carlo Simulations with loop.
++ use basic ggplot functions to visualize data
+
+---
+
+### In preparation for the course
+
++ Download and Install R and R studio on your laptop. To do this, follow the procedure described in [this website](https://posit.co/download/rstudio-desktop/)
++ Get UCard access to Ruttan Hall:
+  + Request advanced access to the building (Ruttan Hall) through [this form](https://docs.google.com/forms/d/e/1FAIpQLScTSUXcENXbf5PBaqZPNW_kaDG2gEaVljUVd8saW4M4IFY3DQ/viewform).
+  + If you have questions, reach out to Melissa Isle (webe0342@umn.edu)
++ Finish [the Survey](https://forms.gle/FqUFKkPMw3rMo3A86). 
++ Bring your laptop to the class.
 
 
+---
 
-# Tentative Schedule
+### Class Style
 
-| Date        | Topic                                                  |
-|-------------|--------------------------------------------------------|
-| 8/19 (Mon)  | Introduction to R and R studio interface               |
-|             | Basic operation of R                                   |
-| 8/20 (Tue)  | Data wrangling with data.table                         |
-| 8/21 (Wed)  | Data visualization with ggplot2 package                |
-| 8/22 (Wed)  | Regression analysis with R, and Monte Carlo simulation |
-| 8/23 (Thu)  | Regression analysis with R, and Monte Carlo simulation |
-| 8/24 (Fri)  | Write functions, Introduction to Quarto, Review        |
+Each lecture will be divided into three sessions, where each session consists of a 50-minute lecture and a 10-minute break. 
 
-
-# In preparation for the course
-
+By just looking at code, you cannot acquire the skills for coding. The only way to learn coding is to do it yourself! At the end of each topic, we will work on small quizzes to check your understanding level. In addition, there will be exercise problems at the end of the slides. These exercise problems require you to combine multiple operations you learned in the lecture. Of course, I do not expect you to solve the quizzes and exercise problems immediately. I want you to go through the problems many times until you feel comfortable. The solutions are included in the slides.
 
 
 
