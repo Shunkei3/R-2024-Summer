@@ -1,0 +1,44 @@
+---
+title: "Recommended Textbook"
+---
+
+Below is the recommendation for reference. All the materials are freely available online. 
+
+
+### Textbooks
+
+{{< fa solid book >}} **[R for Data Science 2nd edition](https://r4ds.hadley.nz) and [Solutions to Exercise](https://mine-cetinkaya-rundel.github.io/r4ds-solutions/)**
+
+This book mostly uses the `dplyr` package, which we do not cover in this course (Instead, we use data.table package.) But still, some chapters are useful for learning the basics of R. Specifically, take a look at the following chapters:
+
++ [Chapter 2 Workflow: basics](https://r4ds.hadley.nz/workflow-basics)
++ [Chapter 6  Workflow: scripts and projects](https://r4ds.hadley.nz/workflow-scripts)
++ [Chapter 25  Functions](https://r4ds.hadley.nz/functions)
++ [Chapter 26  Iteration](https://r4ds.hadley.nz/iteration)
++ [Chapter 27 A field guide to base R](https://r4ds.hadley.nz/base-r)
+
+<br>
+
+{{< fa solid book >}} **[Introduction to data.table](https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html)**
+
+I highly recommend this as an introduction to data.table syntax.
+
+{{< fa solid book >}} **[ggplot2: Elegant Graphics for Data Analysis (3e)](https://ggplot2-book.org/)**
+
+{{< fa solid book >}} **[Modern Data Visualization with R by Robert Kabacoff](https://rkabacoff.github.io/datavis/)**
+
+{{< fa solid book >}} **[Matloff, Norman. The art of R programming: A tour of statistical software design. No Starch Press, 2011.](https://diytranscriptomics.com/Reading/files/The%20Art%20of%20R%20Programming.pdf)**
+
+The Programming for Econometrics class uses this book.
+
+
+---
+### Syntax Cheat Sheet
+
+{{< fa file >}} [Base R  Cheat Sheet](https://iqss.github.io/dss-workshops/R/Rintro/base-r-cheat-sheet.pdf)
+
+{{< fa file >}} [Data Transformation with data.table](https://raw.githubusercontent.com/rstudio/cheatsheets/master/datatable.pdf)
+
+{{< fa file >}} [Data visualization with ggplot2](https://posit.co/wp-content/uploads/2022/10/data-visualization-1.pdf)
+
+
