@@ -2,9 +2,17 @@ project:
   type: website
   title: "Introduction to R Statistical Analysis Software"
   output-dir: docs
+  render:
+    - index.qmd
+    - data.qmd
+    - about.qmd
+    - materials.qmd
+    - recommended.qmd
+
 
 website:
-  title: "Introduction to R Statistical Analysis Software (2024-Summer)"
+  title: "Introduction to R Statistical Analysis Software"
+  description: "Homepage for R - Review course in APEC at the University of Minnesota, Summer 2024."
   navbar:
     background: primary
     right:
@@ -19,23 +27,27 @@ website:
     # align: center
     contents:
       - href: index.qmd
-        text: Home
-      
+        text: Syllabus
+      - href: about.qmd
+        text: Schedule
       - href: data.qmd
       - href: materials.qmd
+      - href: recommended.qmd
     page-navigation: true
 
 format:
   html:
     theme: 
       # cosmo
-      light: flatly
-      dark: darkly
+      light: [cosmo, flatly, assets/css/theme.scss]
+      dark: [cosmo, darkly]
     css: styles.css
+    mainfont: "Atkinson Hyperlegible"
+    code-copy: true
+    code-overflow: wrap
     toc: true
 
 callout-appearance: simple
-
 
 execute:
   freeze: auto
