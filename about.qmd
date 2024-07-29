@@ -1,9 +1,15 @@
 ---
-title: "About"
+title: "Schedule"
 ---
 
-About this site
+### Tentative Schedule
 
-```{r}
-1 + 1
-```
+| Date        | Topic                                                  |
+|-------------|--------------------------------------------------------|
+| 8/19 (Mon)  | Introduction to R and R studio interface               |
+|             | Basic operation of R                                   |
+| 8/20 (Tue)  | Data wrangling with data.table                         |
+| 8/21 (Wed)  | Data visualization with ggplot2 package                |
+| 8/22 (Wed)  | Regression analysis with R, and Monte Carlo simulation |
+| 8/23 (Thu)  | Regression analysis with R, and Monte Carlo simulation |
+| 8/24 (Fri)  | Write functions, Introduction to Quarto, Review        |
