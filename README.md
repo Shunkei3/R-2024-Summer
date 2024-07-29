@@ -4,8 +4,7 @@ This is the repository for the Introduction to R Statistical Analysis Software (
 
 The main goal of this course is to provide students with a basic understanding of the R programming language and how to use it for data analysis. The course will cover topics such as data manipulation, data visualization, and basic regression analysis using R.
 
-
-Website for the course is [here](https://shunkei3.github.io/R-2024-Summer/)
+The course website is [here](https://shunkei3.github.io/R-2024-Summer/)
 
 <!-- ## Lecture Slides -->
 <!-- base: https://shunkei3.github.io/R-2024-Summer/ -->
