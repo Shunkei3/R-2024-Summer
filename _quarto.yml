@@ -40,7 +40,7 @@ format:
     theme: 
       # cosmo
       light: [cosmo, flatly, assets/css/theme.scss]
-      dark: [cosmo, darkly]
+      dark: [cosmo, darkly,  assets/css/theme.scss]
     css: styles.css
     mainfont: "Atkinson Hyperlegible"
     code-copy: true
