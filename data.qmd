@@ -2,6 +2,12 @@
 title: "Data"
 ---
 
-[Datasets](data/)
+## Download the datasets
 
-[Slides](slides/)
+Create "Data" folder in your working directory and download the datasets from [this links](https://www.dropbox.com/scl/fo/onuxrv9z5p9onfb5jaf56/AEcFPsDrbLlPfPy9cXwEpyE?rlkey=z3ozk85mv02ujwytv9yu4sjno&st=so8hay8r&dl=0){target="_blank"}.
+
+
+## Description of the datasets
+
++ 
+
