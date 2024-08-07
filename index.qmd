@@ -1,10 +1,11 @@
 ---
-title: "Welcome to R Reciew Course!"
+title: "Welcome to R Review Course!"
 ---
 
 :::: {.grid .course-details .course-details-smaller}
 
-::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
+<!-- ::: {.g-col-12 .g-col-sm-6 .g-col-md-4} -->
+::: {.g-col-12 .g-col-sm-6 .g-col-md-6}
 ### Instructor
 
 - {{< fa user >}} {{< var instructor.name >}}
@@ -13,26 +14,25 @@ title: "Welcome to R Reciew Course!"
 
 :::
 
-::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
+::: {.g-col-12 .g-col-sm-6 .g-col-md-6}
 ### Course details
 
 - {{< fa calendar-alt >}} {{< var course.dates >}}
 - {{< fa clock >}} {{< var course.time >}}
 - {{< fa location-dot >}} {{< var course.location >}}
+- {{< fa file >}} <a href='https://shunkei3.github.io/R-slides/z_doc/R_Summer_2024_Syllabus.pdf' target='_blank'>Syllabus (PDF)</a>
 :::
 
 ::::
 
 
-### Course Description
+## Course Description
 
 This is a one-week course designed as an introduction to R statistical software for incoming graduate students. R is the leading software used in Ph.D.-level econometric classes in APEC (APEC 8211-8214). For example, we use R to conduct Monte Carlo simulations to understand the properties of statistical tools. In this course, we will go through the basics of R programming. Although the topics we can cover within five days are limited, I selected essential topics that would be directly helpful to establish a solid foundation for students’ R skills not only for first-year Ph.D. Econometrics classes, but also for personal research and future development of R skills.
 
-+ Official syllabus is available from [here](https://shunkei3.github.io/R-slides/z_doc/R_Summer_2024_Syllabus.pdf)
 
----
 
-### Leraning Objectives
+## Leraning Objectives
 
 By completing the course, students will be able to 
 
@@ -43,9 +43,8 @@ By completing the course, students will be able to
 + write code for simple Monte Carlo Simulations with loop.
 + use basic ggplot functions to visualize data
 
----
 
-### In preparation for the course
+## In preparation for the course
 
 + Download and Install R and R studio on your laptop. To do this, follow the procedure described in [this website](https://posit.co/download/rstudio-desktop/)
 + Get UCard access to Ruttan Hall:
@@ -55,9 +54,7 @@ By completing the course, students will be able to
 + Bring your laptop to the class.
 
 
----
-
-### Class Style
+## Lecture Style
 
 Each lecture will be divided into three sessions, where each session consists of a 50-minute lecture and a 10-minute break. 
 

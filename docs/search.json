@@ -14,17 +14,17 @@
     "href": "recommended.html#textbooks",
     "title": "Recommended Textbooks",
     "section": "Textbooks",
-    "text": "Textbooks\n R for Data Science 2nd edition and Solutions to Exercises\nThis book mostly uses the dplyr package, which we do not cover in this course (Instead, we use data.table package.) But still, some chapters are useful for learning the basics of R. Specifically, take a look at the following chapters:\n\nChapter 2 Workflow: basics\nChapter 6 Workflow: scripts and projects\nChapter 25 Functions\nChapter 26 Iteration\nChapter 27 A field guide to base R\n\n\n Introduction to data.table\nI highly recommend this as an introduction to data.table syntax.\n ggplot2: Elegant Graphics for Data Analysis (3e)\n Modern Data Visualization with R by Robert Kabacoff\n Matloff, Norman. The art of R programming: A tour of statistical software design. No Starch Press, 2011.\nThe Programming for Econometrics class uses this book.",
+    "text": "Textbooks\n R for Data Science 2nd edition and Solutions to Exercises\nThis book mainly uses the dplyr package, which we do not cover in this course (Instead, we use data.table package.) But still, some chapters are highly useful for learning the basics of R. Specifically, take a look at the following chapters:\n\nChapter 2 Workflow: basics\nChapter 6 Workflow: scripts and projects\nChapter 25 Functions\nChapter 26 Iteration\nChapter 27 A field guide to base R\n\n\n Introduction to data.table\nI highly recommend this as an introduction to data.table syntax.\n ggplot2: Elegant Graphics for Data Analysis (3e)\n Modern Data Visualization with R by Robert Kabacoff\n Matloff, Norman. The art of R programming: A tour of statistical software design. No Starch Press, 2011.\nThe Programming for Econometrics class uses this book.",
     "crumbs": [
       "Recommended Textbooks"
     ]
   },
   {
-    "objectID": "recommended.html#syntax-cheat-sheet",
-    "href": "recommended.html#syntax-cheat-sheet",
+    "objectID": "recommended.html#syntax-cheat-sheets",
+    "href": "recommended.html#syntax-cheat-sheets",
     "title": "Recommended Textbooks",
-    "section": "Syntax Cheat Sheet",
-    "text": "Syntax Cheat Sheet\n Base R Cheat Sheet\n Data Transformation with data.table\n Data visualization with ggplot2",
+    "section": "Syntax Cheat Sheets",
+    "text": "Syntax Cheat Sheets\n Base R Cheat Sheet\n Data Transformation with data.table\n Data visualization with ggplot2",
     "crumbs": [
       "Recommended Textbooks"
     ]
@@ -44,7 +44,7 @@
     "href": "index.html",
     "title": "Welcome to R Review Course!",
     "section": "",
-    "text": "Shunkei Kakimoto\n 316a\n kakim002@umn.edu\n\n\n\n\n\n August 19–August 23, 2024\n 1:00–4:00 pm\n 135B Ruttan",
+    "text": "Shunkei Kakimoto\n 316a\n kakim002@umn.edu\n\n\n\n\n\n August 19–August 23, 2024\n 1:00–4:00 pm\n 135B Ruttan\n Syllabus (PDF)",
     "crumbs": [
       "Syllabus"
     ]
@@ -54,7 +54,7 @@
     "href": "index.html#course-description",
     "title": "Welcome to R Review Course!",
     "section": "Course Description",
-    "text": "Course Description\nThis is a one-week course designed as an introduction to R statistical software for incoming graduate students. R is the leading software used in Ph.D.-level econometric classes in APEC (APEC 8211-8214). For example, we use R to conduct Monte Carlo simulations to understand the properties of statistical tools. In this course, we will go through the basics of R programming. Although the topics we can cover within five days are limited, I selected essential topics that would be directly helpful to establish a solid foundation for students’ R skills not only for first-year Ph.D. Econometrics classes, but also for personal research and future development of R skills.\n\nOfficial syllabus is available from here",
+    "text": "Course Description\nThis is a one-week course designed as an introduction to R statistical software for incoming graduate students. R is the leading software used in Ph.D.-level econometric classes in APEC (APEC 8211-8214). For example, we use R to conduct Monte Carlo simulations to understand the properties of statistical tools. In this course, we will go through the basics of R programming. Although the topics we can cover within five days are limited, I selected essential topics that would be directly helpful to establish a solid foundation for students’ R skills not only for first-year Ph.D. Econometrics classes, but also for personal research and future development of R skills.",
     "crumbs": [
       "Syllabus"
     ]
@@ -94,7 +94,27 @@
     "href": "data.html",
     "title": "Data",
     "section": "",
-    "text": "Datasets\nSlides",
+    "text": "Create “Data” folder in your working directory and download the datasets from this links.",
+    "crumbs": [
+      "Data"
+    ]
+  },
+  {
+    "objectID": "data.html#download-the-datasets",
+    "href": "data.html#download-the-datasets",
+    "title": "Data",
+    "section": "",
+    "text": "Create “Data” folder in your working directory and download the datasets from this links.",
+    "crumbs": [
+      "Data"
+    ]
+  },
+  {
+    "objectID": "data.html#description-of-the-datasets",
+    "href": "data.html#description-of-the-datasets",
+    "title": "Data",
+    "section": "Description of the datasets",
+    "text": "Description of the datasets",
     "crumbs": [
       "Data"
     ]
@@ -102,31 +122,61 @@
   {
     "objectID": "materials.html",
     "href": "materials.html",
-    "title": "Course Materials",
+    "title": "Lecture Notes",
     "section": "",
     "text": "Read\n\n\n\n\n\nLecture 0: slides\nLecture 1: slides",
     "crumbs": [
-      "Course Materials"
+      "Lecture Notes"
     ]
   },
   {
     "objectID": "materials.html#day-1-introduction-to-r",
     "href": "materials.html#day-1-introduction-to-r",
-    "title": "Course Materials",
+    "title": "Lecture Notes",
     "section": "",
     "text": "Read\n\n\n\n\n\nLecture 0: slides\nLecture 1: slides",
     "crumbs": [
-      "Course Materials"
+      "Lecture Notes"
     ]
   },
   {
     "objectID": "materials.html#day-2",
     "href": "materials.html#day-2",
-    "title": "Course Materials",
+    "title": "Lecture Notes",
     "section": "Day 2:",
     "text": "Day 2:\n\nLecture 2: slides",
     "crumbs": [
-      "Course Materials"
+      "Lecture Notes"
+    ]
+  },
+  {
+    "objectID": "materials.html#day-3",
+    "href": "materials.html#day-3",
+    "title": "Lecture Notes",
+    "section": "Day 3:",
+    "text": "Day 3:",
+    "crumbs": [
+      "Lecture Notes"
+    ]
+  },
+  {
+    "objectID": "materials.html#day-4",
+    "href": "materials.html#day-4",
+    "title": "Lecture Notes",
+    "section": "Day 4:",
+    "text": "Day 4:",
+    "crumbs": [
+      "Lecture Notes"
+    ]
+  },
+  {
+    "objectID": "materials.html#appendix",
+    "href": "materials.html#appendix",
+    "title": "Lecture Notes",
+    "section": "Appendix",
+    "text": "Appendix\n Latex math notations and Example R codes with PDF output\nIn this document, you can find the list of basic LaTeX commands and exmaple codes to write mathematical equations, which might be useful if you are not familiar with LaTeX.\n Quarto document Cheet Sheet\n Template Rmarkdown document for PDF output: [here]",
+    "crumbs": [
+      "Lecture Notes"
     ]
   }
 ]
