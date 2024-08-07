@@ -12,12 +12,16 @@ $font-family-serif:           IBM Plex Sans Condensed, serif !default;  /* Not a
 
 
 // Colors
-// $dark-green: #858E79;
-// $light-green: #D1D9CE;
-// $cream: #FDFBF7;
-// $gray: #64605f;
-// $purple: #9158A2;
-// $orange: #ad7237;
+$dark-green: #0e372d;
+$light-green: #43cb9a;
+$blue: #375a7f;
+$cream: #FDFBF7;
+$gray: #64605f;
+$purple: #9158A2;
+$orange: #ad7237;
+$black: #000000;
+$umn-maroon:#7a0019;
+$umn-gold:#ffcc33;
 
 $font-size-base:              1.15rem !default;
 $headings-font-weight:        700 !default;
@@ -35,8 +39,10 @@ $sidebar-font-size: 1.1rem;
 $sidebar-font-size-section: 0.95rem;
 $footer-font-size: 0.95rem;
 
-// $link-color: $red;
-// $link-hover-color: $yellow;
+$link-color: $light-green;
+$link-hover-color: $orange;
+
+
 
 $monokai-bg: #2e3440;
 
@@ -118,23 +124,6 @@ ol {
 }
 
 
-// Active links in navbar and sidebar
-// .navbar-dark .navbar-nav .show>.nav-link,
-// .navbar-dark .navbar-nav .active>.nav-link,
-// .navbar-dark .navbar-nav .nav-link.active,
-// div.sidebar-item-container .active,
-// div.sidebar-item-container .show>.nav-link,
-// div.sidebar-item-container .sidebar-link>code{
-//   color: $yellow;
-
-// }
-
-// .navbar-dark .navbar-nav .nav-link:hover,
-// .navbar-dark .navbar-brand:hover {
-//   color: $orange;
-// }
-
-
 // Footer stuff
 .nav-footer-left {
   text-align: left;
@@ -157,7 +146,7 @@ ol {
 // Schedule stuff
 .content-title {
   font-weight: 700;
-  color: $blue;
+  // color: $blue;
 }
 
 .content-date {
