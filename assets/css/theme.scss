@@ -58,7 +58,7 @@ $monokai-bg: #2e3440;
 // }
 
 
-// Another custom callout box here
+// Custome callout box
 .solutionbox {
   margin-top: 1em;
   margin-bottom: 1em;  
@@ -114,6 +114,64 @@ $monokai-bg: #2e3440;
   padding-bottom: 0.5rem;
   margin-bottom: 0;
 }
+
+// Custome callout box 1 (stop and think)
+.stopthinkbox {
+  margin-top: 1em;
+  margin-bottom: 1em;  
+  border-radius: .25rem;
+  border-left: solid #acacac .3rem;
+  border-right: solid 1px silver;
+  border-top: solid 1px silver;
+  border-bottom: solid 1px silver;
+  border-left-color: $light-green !important;
+}
+
+.stopthinkbox-icon{
+  height: 1.5rem;
+  width: 1.5rem;
+  display: inline-block;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 1.5rem 1.5rem;
+  margin-top: .4rem;
+  padding-right: 2rem; // space between icon and text
+  // background-image: url('bullseye-solid.svg');
+  background-image: url("image/two-overlapping-speech-bubbles-icon.png");
+}
+
+.stopthinkbox-header{
+  // margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-bottom: none;
+  font-weight: 600;
+  opacity: 85%;
+  font-size:  $font-size-base; // size of the header
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  display: flex;
+  background-color: $light-green;
+  color: black;
+  height: 2em;
+  overflow: hidden;
+}
+
+.stopthinkbox-body{
+  font-size: 3; // size of text in the body
+  font-weight: 400;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.stopthinkbox-header p {
+  padding-top: 0.2em;
+}
+
+.stopthinkbox-body > :last-child {
+  padding-bottom: 0.5rem;
+  margin-bottom: 0;
+}
+
 
 // Another custom callout box here
 // https://www.andreashandel.com/posts/2023-06-13-custom-callouts-quarto/
