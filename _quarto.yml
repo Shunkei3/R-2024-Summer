@@ -10,14 +10,10 @@ website:
     right:
       - icon: github
         href: https://github.com/Shunkei3/R-2024-Summer
-        # text: GitHub
   sidebar:
     style: "docked"
     search: true
     collapse-level: 2
-    # logo: "images/logo.png"
-    # pinned: true
-    # align: center
     contents:
       - text: Syllabus
         href: contents/index.qmd
