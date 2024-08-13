@@ -2,16 +2,8 @@ project:
   type: website
   title: "Introduction to R Statistical Analysis Software"
   output-dir: docs
-  render:
-    - index.qmd
-    - data.qmd
-    - about.qmd
-    - materials.qmd
-    - recommended.qmd
-
-
 website:
-  title: "Introduction to R Statistical Analysis Software"
+  title: "Introduction to R Statistical Analysis Software (under construction)"
   description: "Homepage for R - Review course in APEC at the University of Minnesota, Summer 2024."
   navbar:
     background: primary
@@ -22,17 +14,25 @@ website:
   sidebar:
     style: "docked"
     search: true
+    collapse-level: 2
     # logo: "images/logo.png"
     # pinned: true
     # align: center
     contents:
-      - href: index.qmd
-        text: Syllabus
-      - href: about.qmd
-        text: Schedule
-      - href: data.qmd
-      - href: materials.qmd
-      - href: recommended.qmd
+      - text: Syllabus
+        href: contents/index.qmd
+      - text: Schedule
+        href: contents/plan.qmd
+      - section: "Materials"
+        contents:
+          - href: contents/day1.qmd
+          - href: contents/day2.qmd
+          - href: contents/day3.qmd
+          - href: contents/day4.qmd
+          - href: contents/day5.qmd
+          - href: contents/Appendix.qmd
+      - href: contents/data.qmd
+      - href: contents/recommended.qmd
     page-navigation: true
 
 format:
@@ -41,7 +41,7 @@ format:
       # cosmo
       light: [cosmo, flatly, assets/css/theme.scss]
       dark: [cosmo, darkly,  assets/css/theme.scss]
-    css: styles.css
+    # css: styles.css
     mainfont: "Atkinson Hyperlegible"
     code-copy: true
     code-overflow: wrap
