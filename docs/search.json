@@ -1,7 +1,70 @@
 [
   {
-    "objectID": "recommended.html",
-    "href": "recommended.html",
+    "objectID": "contents/data.html",
+    "href": "contents/data.html",
+    "title": "Data",
+    "section": "",
+    "text": "We mostly use the data from web and some R packes. But we use the data to practice\nCreate “Data” folder in your working directory and download the datasets from this links .",
+    "crumbs": [
+      "Data"
+    ]
+  },
+  {
+    "objectID": "contents/data.html#download-the-datasets",
+    "href": "contents/data.html#download-the-datasets",
+    "title": "Data",
+    "section": "",
+    "text": "We mostly use the data from web and some R packes. But we use the data to practice\nCreate “Data” folder in your working directory and download the datasets from this links .",
+    "crumbs": [
+      "Data"
+    ]
+  },
+  {
+    "objectID": "contents/data.html#description-of-the-datasets",
+    "href": "contents/data.html#description-of-the-datasets",
+    "title": "Data",
+    "section": "Description of the datasets",
+    "text": "Description of the datasets\n\nLec 1\nLec 2\n\n\n\nLec 3\n\n\n\nLec 4:\n\nAER::CPS1988 - Cross-section data originating from the March 1988 Current Population Survey by the US Census Bureau.\nAER::CPSSW9204 - Earnings in the US in 1992 and 2004 for college-educated full-time workers aged 25–34\nAER::Journals - Subscriptions to economics journals at US libraries, for the year 2000.\nAER::CASchools - The dataset contains data on test performance, school characteristics and student demographic backgrounds for school districts in California.\n\nLec 5",
+    "crumbs": [
+      "Data"
+    ]
+  },
+  {
+    "objectID": "contents/day3.html",
+    "href": "contents/day3.html",
+    "title": "Day 3: Introduction to Data Visualization with ggplot2 package",
+    "section": "",
+    "text": "Learning Objectives\n\n\n\nLearn the basic operations of ggplot2 package to create figures.\nYou will be able to create:\n\nscatter plot\nline plot\nbar plot\nhistogram\nbox plot\ndensity plot\nfacet plot\n\n\n\n\n\n\nPreparation\n\nBefore the class, look at what kind of plots you can create with ggplot2 package from the official website\nHere is a brief overview of the key components used in the ggplot2 package. Specifically, if you understand that any complicated plot is composed of multiple simple plot layers, then it is easy to understand how to create a plot with ggplot2!\n\n\n\n\nLecture Slides\n Click here for Lecture 3’s slides..\nQuick view of the slides:\n \n\n\n\n\nSupplementary Materials\n\nggplot2 homepage: ggplot2\n Data visualization with ggplot2",
+    "crumbs": [
+      "Materials",
+      "Day 3: Introduction to Data Visualization with `ggplot2` package"
+    ]
+  },
+  {
+    "objectID": "contents/day5.html",
+    "href": "contents/day5.html",
+    "title": "Day 5: Monte Carlo Simulation with R",
+    "section": "",
+    "text": "Learning Objectives\n\n\nLearning Objectives\n\n\n\nTo be able to use for loop function\nTo be ablt to run simpel Monte Calro Simulations\nTo be able to create R functions\n\n\n\n\n\nPreparation\nTake a look\n\n\nLecture Slides\n Lecture 5: slides",
+    "crumbs": [
+      "Materials",
+      "Day 5: Monte Carlo Simulation with R"
+    ]
+  },
+  {
+    "objectID": "contents/Appendix.html",
+    "href": "contents/Appendix.html",
+    "title": "Appendix",
+    "section": "",
+    "text": "LaTeX Mathematical Symbols\n Latex math notations and Example R codes with PDF output\nIn this document, you can find the list of basic LaTeX commands and exmaple codes to write mathematical equations, which might be useful if you are not familiar with LaTeX.\n\n\n\nRmarkdown for PDF\n Template Rmarkdown document for PDF output: Download from here\n\nThe output looks like this.\n\n\n\n\n\n\nBefore createing PDF documents from R Markdown\n\n\nBefore render R Markdown documents to PDF on your Rstudio, make sure that your computer has a LaTeX distribution installed. You can download and install the TinyTeX distribution with the R package tinytex. Unlike other LaTex distributions like MacTeX, tinytex is a lightweight distribution that only includes the essential packages needed to render R Markdown documents to PDF.\ntinytex::install_tinytex()\n# to uninstall TinyTeX, run\n# tinytex::uninstall_tinytex()\nReference: “R Markdown Cookbook” by Yihui Xie, Christophe Dervieux, and Emily Riederer [here]\n\n\n\n\n\nQuarto\n How to use Quarto in Rstudio? Follow this tutorial!\n Quarto document Cheet Sheet",
+    "crumbs": [
+      "Materials",
+      "Appendix"
+    ]
+  },
+  {
+    "objectID": "contents/recommended.html",
+    "href": "contents/recommended.html",
     "title": "Recommended Textbooks",
     "section": "",
     "text": "Below is the recommendation for reference. All the materials are freely available online.",
@@ -10,8 +73,8 @@
     ]
   },
   {
-    "objectID": "recommended.html#textbooks",
-    "href": "recommended.html#textbooks",
+    "objectID": "contents/recommended.html#textbooks",
+    "href": "contents/recommended.html#textbooks",
     "title": "Recommended Textbooks",
     "section": "Textbooks",
     "text": "Textbooks\n R for Data Science 2nd edition and Solutions to Exercises\nThis book mainly uses the dplyr package, which we do not cover in this course (Instead, we use data.table package.) But still, some chapters are highly useful for learning the basics of R. Specifically, take a look at the following chapters:\n\nChapter 2 Workflow: basics\nChapter 6 Workflow: scripts and projects\nChapter 25 Functions\nChapter 26 Iteration\nChapter 27 A field guide to base R\n\n\n Introduction to data.table\nI highly recommend this as an introduction to data.table syntax.\n ggplot2: Elegant Graphics for Data Analysis (3e)\n Modern Data Visualization with R by Robert Kabacoff\n Matloff, Norman. The art of R programming: A tour of statistical software design. No Starch Press, 2011.\nThe Programming for Econometrics class uses this book.",
@@ -20,28 +83,18 @@
     ]
   },
   {
-    "objectID": "recommended.html#syntax-cheat-sheets",
-    "href": "recommended.html#syntax-cheat-sheets",
+    "objectID": "contents/recommended.html#syntax-cheat-sheets",
+    "href": "contents/recommended.html#syntax-cheat-sheets",
     "title": "Recommended Textbooks",
     "section": "Syntax Cheat Sheets",
-    "text": "Syntax Cheat Sheets\n Base R Cheat Sheet\n Data Transformation with data.table\n Data visualization with ggplot2",
+    "text": "Syntax Cheat Sheets\n Data Transformation with data.table",
     "crumbs": [
       "Recommended Textbooks"
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Schedule",
-    "section": "",
-    "text": "Tentative Schedule\n\n\n\nDate\nTopic\n\n\n\n\n8/19 (Mon)\nIntroduction to R and R studio interface\n\n\n\nBasic operation of R\n\n\n8/20 (Tue)\nData wrangling with data.table\n\n\n8/21 (Wed)\nData visualization with ggplot2 package\n\n\n8/22 (Wed)\nRegression analysis with R, and Monte Carlo simulation\n\n\n8/23 (Thu)\nRegression analysis with R, and Monte Carlo simulation\n\n\n8/24 (Fri)\nWrite functions, Introduction to Quarto, Review",
-    "crumbs": [
-      "Schedule"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "contents/index.html",
+    "href": "contents/index.html",
     "title": "Welcome to R Review Course!",
     "section": "",
     "text": "Shunkei Kakimoto\n 316a\n kakim002@umn.edu\n\n\n\n\n\n August 19–August 23, 2024\n 1:00–4:00 pm\n 135B Ruttan\n Syllabus (PDF)",
@@ -50,8 +103,8 @@
     ]
   },
   {
-    "objectID": "index.html#course-description",
-    "href": "index.html#course-description",
+    "objectID": "contents/index.html#course-description",
+    "href": "contents/index.html#course-description",
     "title": "Welcome to R Review Course!",
     "section": "Course Description",
     "text": "Course Description\nThis is a one-week course designed as an introduction to R statistical software for incoming graduate students. R is the leading software used in Ph.D.-level econometric classes in APEC (APEC 8211-8214). For example, we use R to conduct Monte Carlo simulations to understand the properties of statistical tools. In this course, we will go through the basics of R programming. Although the topics we can cover within five days are limited, I selected essential topics that would be directly helpful to establish a solid foundation for students’ R skills not only for first-year Ph.D. Econometrics classes, but also for personal research and future development of R skills.",
@@ -60,8 +113,8 @@
     ]
   },
   {
-    "objectID": "index.html#leraning-objectives",
-    "href": "index.html#leraning-objectives",
+    "objectID": "contents/index.html#leraning-objectives",
+    "href": "contents/index.html#leraning-objectives",
     "title": "Welcome to R Review Course!",
     "section": "Leraning Objectives",
     "text": "Leraning Objectives\nBy completing the course, students will be able to\n\ncreate an R project and know how to access and save data.\nhandle different types of base R objects (e.g. list, vector, matrix, and data.frame).\nuse basic data wrangling skills with the data.table package (e.g. subset rows, select and compute on columns, rename columns, perform aggregations by group, merge multiple datasets, and reshape wide-to-long and long-to-wide, respectively).\nwrite their own R functions.\nwrite code for simple Monte Carlo Simulations with loop.\nuse basic ggplot functions to visualize data",
@@ -70,18 +123,18 @@
     ]
   },
   {
-    "objectID": "index.html#in-preparation-for-the-course",
-    "href": "index.html#in-preparation-for-the-course",
+    "objectID": "contents/index.html#in-preparation-for-the-course",
+    "href": "contents/index.html#in-preparation-for-the-course",
     "title": "Welcome to R Review Course!",
     "section": "In preparation for the course",
-    "text": "In preparation for the course\n\nDownload and Install R and R studio on your laptop. To do this, follow the procedure described in this website\nGet UCard access to Ruttan Hall:\n\nRequest advanced access to the building (Ruttan Hall) through this form.\nIf you have questions, reach out to Melissa Isle (webe0342@umn.edu)\n\nFinish the Survey.\nBring your laptop to the class.",
+    "text": "In preparation for the course\n\nDownload and Install R and R studio on your laptop. To do this, follow the procedure described in this website\nGet UCard access to Ruttan Hall:\n\nRequest access to the building (Ruttan Hall)\n\nFinish the Survey.\nBring your laptop to the class.",
     "crumbs": [
       "Syllabus"
     ]
   },
   {
-    "objectID": "index.html#lecture-style",
-    "href": "index.html#lecture-style",
+    "objectID": "contents/index.html#lecture-style",
+    "href": "contents/index.html#lecture-style",
     "title": "Welcome to R Review Course!",
     "section": "Lecture Style",
     "text": "Lecture Style\nEach lecture will be divided into three sessions, where each session consists of a 50-minute lecture and a 10-minute break.\nBy just looking at code, you cannot acquire the skills for coding. The only way to learn coding is to do it yourself! At the end of each topic, we will work on small quizzes to check your understanding level. In addition, there will be exercise problems at the end of the slides. These exercise problems require you to combine multiple operations you learned in the lecture. Of course, I do not expect you to solve the quizzes and exercise problems immediately. I want you to go through the problems many times until you feel comfortable. The solutions are included in the slides.",
@@ -90,93 +143,46 @@
     ]
   },
   {
-    "objectID": "data.html",
-    "href": "data.html",
-    "title": "Data",
+    "objectID": "contents/plan.html",
+    "href": "contents/plan.html",
+    "title": "Schedule",
     "section": "",
-    "text": "Create “Data” folder in your working directory and download the datasets from this links.",
+    "text": "Tentative Schedule\n\n\n\nDate\nTopic\n\n\n\n\n8/19 (Mon)\nIntroduction to R and R studio interface\n\n\n\nBasic operation of R\n\n\n8/20 (Tue)\nData wrangling with data.table\n\n\n8/21 (Wed)\nData visualization with ggplot2 package\n\n\n8/22 (Wed)\nRegression analysis with R, and Monte Carlo simulation\n\n\n8/23 (Thu)\nRegression analysis with R, and Monte Carlo simulation\n\n\n8/24 (Fri)\nWrite functions, Introduction to Quarto, Review",
     "crumbs": [
-      "Data"
+      "Schedule"
     ]
   },
   {
-    "objectID": "data.html#download-the-datasets",
-    "href": "data.html#download-the-datasets",
-    "title": "Data",
+    "objectID": "contents/day4.html",
+    "href": "contents/day4.html",
+    "title": "Day 4: Regression Analysis with R",
     "section": "",
-    "text": "Create “Data” folder in your working directory and download the datasets from this links.",
+    "text": "Learning Objectives\n\n\n\nto be able to use lm() function\nto be able to create a summary table of regression results\nto be able to create a summary table of discriptive statistics\n\n\n\n\n\nPreparation\n\n\n\nLecture Slides\n Click here for Lecture 3’s slides.\n\n\n\nSupplementary Materials",
     "crumbs": [
-      "Data"
+      "Materials",
+      "Day 4: Regression Analysis with R"
     ]
   },
   {
-    "objectID": "data.html#description-of-the-datasets",
-    "href": "data.html#description-of-the-datasets",
-    "title": "Data",
-    "section": "Description of the datasets",
-    "text": "Description of the datasets",
-    "crumbs": [
-      "Data"
-    ]
-  },
-  {
-    "objectID": "materials.html",
-    "href": "materials.html",
-    "title": "Lecture Notes",
+    "objectID": "contents/day2.html",
+    "href": "contents/day2.html",
+    "title": "Day 2: Data Wrangling with data.table package",
     "section": "",
-    "text": "Read\n\n\n\n\n\nLecture 0: slides\nLecture 1: slides",
+    "text": "Learning Objectives\n\n\n\nTo be able to use the basic data wrangling skills with the data.table package:\n\nsubset rows\nselect and compute on columns\nrename columns\nperform aggregations by group\nmerge multiple datasets\nreshape wide-to-long and long-to-wide, respectively\n\nto be able to use %&gt;% operator of the magrittr package.\n\n\n\n\n\nPreparation\n\nTake a look at  Introduction to data.table.\n\n\n\n\nLecture Slides\n Click here for Lecture 2’s slides.\nQuick view of the slides:\n \n\n\n\n\n\nSupplementary Materials\n [Exercise Problems]\n [Solutions for the Exercise Problems]\n data.table homepage\n data.table cheat sheet\n Using .SD for Data Analysis (This is an advanced topic, but it is very useful to know how to use .SD in data.table.)",
     "crumbs": [
-      "Lecture Notes"
+      "Materials",
+      "Day 2: Data Wrangling with `data.table` package"
     ]
   },
   {
-    "objectID": "materials.html#day-1-introduction-to-r",
-    "href": "materials.html#day-1-introduction-to-r",
-    "title": "Lecture Notes",
+    "objectID": "contents/day1.html",
+    "href": "contents/day1.html",
+    "title": "Day 1: Introduction to R",
     "section": "",
-    "text": "Read\n\n\n\n\n\nLecture 0: slides\nLecture 1: slides",
+    "text": "Learning Objectives\n\n\n\nUnderstand the basic operation of R and R studio interface\nLearn how to write and run R scripts\n\n\n\n\nPreparation\nIf you are completely new to R and R studio, these sections from the book “R for Data Science” might be helpful to read before the class:\n\nSection 1.4: Prerequites\nSection 4; Workflow: basics\nSection 6: Workflow: scripts\n\n\n\nLecture Slides\n Click here for Lecture 0’s slides.\n Click here for Lecture 1’s slides.\nQuick view of the Lecture 1 slides:\n \n\n\n\n\nSupplementary Materials\n Base R Cheat Sheet\n Exercise Problems solutions",
     "crumbs": [
-      "Lecture Notes"
-    ]
-  },
-  {
-    "objectID": "materials.html#day-2",
-    "href": "materials.html#day-2",
-    "title": "Lecture Notes",
-    "section": "Day 2:",
-    "text": "Day 2:\n\nLecture 2: slides",
-    "crumbs": [
-      "Lecture Notes"
-    ]
-  },
-  {
-    "objectID": "materials.html#day-3",
-    "href": "materials.html#day-3",
-    "title": "Lecture Notes",
-    "section": "Day 3:",
-    "text": "Day 3:",
-    "crumbs": [
-      "Lecture Notes"
-    ]
-  },
-  {
-    "objectID": "materials.html#day-4",
-    "href": "materials.html#day-4",
-    "title": "Lecture Notes",
-    "section": "Day 4:",
-    "text": "Day 4:",
-    "crumbs": [
-      "Lecture Notes"
-    ]
-  },
-  {
-    "objectID": "materials.html#appendix",
-    "href": "materials.html#appendix",
-    "title": "Lecture Notes",
-    "section": "Appendix",
-    "text": "Appendix\n Latex math notations and Example R codes with PDF output\nIn this document, you can find the list of basic LaTeX commands and exmaple codes to write mathematical equations, which might be useful if you are not familiar with LaTeX.\n Quarto document Cheet Sheet\n Template Rmarkdown document for PDF output: [here]",
-    "crumbs": [
-      "Lecture Notes"
+      "Materials",
+      "Day 1: Introduction to R"
     ]
   }
 ]
