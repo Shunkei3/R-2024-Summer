@@ -1,0 +1,14 @@
+## Useful shorcut keys in the Rstudio
+
+See [this](https://support.posit.co/hc/en-us/articles/200711853-Keyboard-Shortcuts-in-the-RStudio-IDE) for the full list of shortcut keys in Rstudio.
+
+Below, I list some shortcut keys that are commonly used. 
+
+
+Description                        | Windows        | Mac
+------------------------------------------| ------------------ | -------------
+Insert chunk (Sweave and Knitr)    | Ctrl+Alt+I     | Cmd+Option+I
+Knit or render Document |Ctrl+Shift+K  |Cmd+Shift+K
+Run current line/selection  |Ctrl+Enter  |Cmd+Return
+Comment/uncomment current line/selection  | Ctrl+Shift+C | Cmd+Shift+C
+Open document | Ctrl+O | Cmd+O

@@ -1,0 +1,9 @@
+## LaTeX Mathematical Symbols
+
+R markdown and Quarto support LaTeX mathematical expressions. 
+
+If you are not familiar with LaTeX, you can find the list of basic LaTeX commands and example codes to write mathematical equations in the following document. 
+
+{{< fa file >}} [Latex math notations and Example R codes with PDF output](https://shunkei3.github.io/R-slides/z_doc/Demonstration.pdf){target="_blank"}
+
+Especially, Sections 1 and 2 might be helpful for students unfamiliar with LaTeX math expressions. These are the most commonly used LATEX commands when you write assignments for econometrics and microeconomics classes in APEC!
