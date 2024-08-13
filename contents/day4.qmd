@@ -1,5 +1,5 @@
 ---
-title: "Day 4: Regression Analysis with R"
+title: "Day 4: Regression Analysis"
 ---
 
 <br>
