@@ -1,0 +1,50 @@
+---
+title: "Day 1: Introduction to R"
+---
+
+<br>
+
+:::{.goals}
+::::{.goals-header}
+Learning Objectives
+::::
+::::{.goals-container}
++ Understand the basic operation of R and R studio interface
++ Learn how to write and run R scripts
+::::
+:::
+
+
+
+### Preparation
+If you are completely new to R and R studio, these sections from the book "R for Data Science" might be helpful to read before the class:
+
++ [Section 1.4: Prerequites](https://r4ds.had.co.nz/introduction.html#prerequisites){target="_blank"}
++ [Section 4; Workflow: basics](https://r4ds.had.co.nz/workflow-basics.html){target="_blank"}
++ [Section 6: Workflow: scripts](https://r4ds.had.co.nz/workflow-scripts.html){target="_blank"}
+
+
+### Lecture Slides
+
+{{< fa laptop-code >}}  Click [here](https://shunkei3.github.io/R-slides/Lec_notes/Lec0/Lec0.html){target="_blank"} for Lecture 0's slides.
+
+
+{{< fa laptop-code >}}  Click [here](https://shunkei3.github.io/R-slides/Lec_notes/Lec1/Lec.html){target="_blank"} for Lecture 1's slides.
+
+
+Quick view of the Lecture 1 slides:
+
+
+```{=html}
+<div style="display: flex; justify-content: center;"> 
+<iframe width="900" height="600" src="https://shunkei3.github.io/R-slides/Lec_notes/Lec1/Lec1.html" title="Webpage example"></iframe>
+</div>
+```
+
+
+
+### Supplementary Materials
+
+{{< fa file >}} [Base R  Cheat Sheet](https://iqss.github.io/dss-workshops/R/Rintro/base-r-cheat-sheet.pdf){target="_blank"}
+
+{{< fa file >}} Exercise Problems solutions

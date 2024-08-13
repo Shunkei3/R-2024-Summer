@@ -1,0 +1,27 @@
+---
+title: "Day 5: Monte Carlo Simulation with R"
+---
+
+
+### Learning Objectives
+
+:::{.goals}
+::::{.goals-header}
+Learning Objectives
+::::
+::::{.goals-container}
++ To be able to use `for loop` function
++ To be ablt to run simpel Monte Calro Simulations
++ To be able to create R functions
+::::
+:::
+
+
+### Preparation
+
+Take a look 
+
+
+### Lecture Slides
+{{< fa laptop-code >}}  Lecture 5: [slides](https://shunkei3.github.io/R-slides/Lec_notes/Lec5/Lec5.html){target="_blank"}
+

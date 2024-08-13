@@ -1,0 +1,71 @@
+---
+title: "Day 2: Data Wrangling with `data.table` package"
+---
+
+<br>
+
+:::{.goals}
+::::{.goals-header}
+Learning Objectives
+::::
+::::{.goals-container}
++ To be able to use the basic data wrangling skills with the `data.table` package:
+  + subset rows
+  + select and compute on columns
+  + rename columns
+  + perform aggregations by group
+  + merge multiple datasets
+  + reshape wide-to-long and long-to-wide, respectively
++ to be able to use `%>%` operator of the `magrittr` package.
+::::
+:::
+
+<br>
+
+### Preparation
++ Take a look at {{< fa file >}} [Introduction to data.table](https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html).
+
+<br>
+
+### Lecture Slides
+{{< fa laptop-code >}}  Click [here](https://shunkei3.github.io/R-slides/Lec_notes/Lec2/Lec2.html){target="_blank"} for Lecture 2's slides.
+
+
+Quick view of the slides:
+
+
+```{=html}
+<div style="display: flex; justify-content: center;"> 
+<iframe width="900" height="600" src="https://shunkei3.github.io/R-slides/Lec_notes/Lec2/Lec2.html" title="Webpage example"></iframe>
+</div>
+```
+
+<br>
+
+### Supplementary Materials
+
+{{< fa file >}} [Exercise Problems]
+
+{{< fa file >}} [Solutions for the Exercise Problems]
+
+{{< fa file >}} [`data.table` homepage](https://rdatatable.gitlab.io/data.table/)
+
+{{< fa file >}} [`data.table` cheat sheet](https://raw.githubusercontent.com/rstudio/cheatsheets/master/datatable.pdf)
+
+{{< fa file >}} [Using .SD for Data Analysis](https://cran.r-project.org/web/packages/data.table/vignettes/datatable-sd-usage.html) (This is an advanced topic, but it is very useful to know how to use `.SD` in data.table.)
+
+
+<!-- :::{.solutionbox}
+
+::::{.solutionbox-header}
+:::: {.solutionbox-icon}
+::::
+This is my test note
+::::
+
+:::{.solutionbox-body}
+Add some content inside of it
+:::
+
+::: -->
+
