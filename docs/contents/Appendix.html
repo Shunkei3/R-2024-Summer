@@ -142,7 +142,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../contents/day1.html">Materials</a></li><li class="breadcrumb-item"><a href="../contents/Appendix.html">Appendix</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Appendix</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -177,7 +177,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Materials</span></a>
+ <span class="menu-text">Class Materials</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -215,18 +215,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../contents/Appendix.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Appendix</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../contents/data.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Data</span></a>
   </div>
 </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Appendix</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../contents/Apx1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Appendix 1</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../contents/Apx2.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Rmarkdown for making a PDF document</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../contents/recommended.html" class="sidebar-item-text sidebar-link">
@@ -243,8 +260,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#latex-mathematical-symbols" id="toc-latex-mathematical-symbols" class="nav-link active" data-scroll-target="#latex-mathematical-symbols">LaTeX Mathematical Symbols</a></li>
-  <li><a href="#rmarkdown-for-pdf" id="toc-rmarkdown-for-pdf" class="nav-link" data-scroll-target="#rmarkdown-for-pdf">Rmarkdown for PDF</a></li>
+  <li><a href="#useful-shorcut-keys-in-the-rstudio" id="toc-useful-shorcut-keys-in-the-rstudio" class="nav-link active" data-scroll-target="#useful-shorcut-keys-in-the-rstudio">Useful shorcut keys in the Rstudio</a></li>
+  <li><a href="#rmarkdown-for-making-a-pdf-document" id="toc-rmarkdown-for-making-a-pdf-document" class="nav-link" data-scroll-target="#rmarkdown-for-making-a-pdf-document">Rmarkdown for making a PDF document</a>
+  <ul class="collapse">
+  <li><a href="#getting-started" id="toc-getting-started" class="nav-link" data-scroll-target="#getting-started">Getting Started</a></li>
+  </ul></li>
+  <li><a href="#latex-mathematical-symbols" id="toc-latex-mathematical-symbols" class="nav-link" data-scroll-target="#latex-mathematical-symbols">LaTeX Mathematical Symbols</a></li>
   <li><a href="#quarto" id="toc-quarto" class="nav-link" data-scroll-target="#quarto">Quarto</a></li>
   </ul>
 </nav>
@@ -252,7 +273,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../contents/day1.html">Materials</a></li><li class="breadcrumb-item"><a href="../contents/Appendix.html">Appendix</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Appendix</h1>
 </div>
@@ -271,18 +292,57 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="latex-mathematical-symbols" class="level3">
-<h3 class="anchored" data-anchor-id="latex-mathematical-symbols">LaTeX Mathematical Symbols</h3>
-<p><i class="fa-solid fa-file" aria-label="file"></i> <a href="https://shunkei3.github.io/R-slides/z_doc/Demonstration.pdf" target="_blank">Latex math notations and Example R codes with PDF output</a></p>
-<p>In this document, you can find the list of basic LaTeX commands and exmaple codes to write mathematical equations, which might be useful if you are not familiar with LaTeX.</p>
+<section id="useful-shorcut-keys-in-the-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="useful-shorcut-keys-in-the-rstudio">Useful shorcut keys in the Rstudio</h2>
+<p>See <a href="https://support.posit.co/hc/en-us/articles/200711853-Keyboard-Shortcuts-in-the-RStudio-IDE">this</a> for full list of shortcut keys in Rstudio.</p>
+<p>Below, I list some shortcut keys that are commonly used.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 57%">
+<col style="width: 24%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Description</th>
+<th>Windows</th>
+<th>Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Insert chunk (Sweave and Knitr)</td>
+<td>Ctrl+Alt+I</td>
+<td>Cmd+Option+I</td>
+</tr>
+<tr class="even">
+<td>Knit or render Document</td>
+<td>Ctrl+Shift+K</td>
+<td>Cmd+Shift+K</td>
+</tr>
+<tr class="odd">
+<td>Run current line/selection</td>
+<td>Ctrl+Enter</td>
+<td>Cmd+Return</td>
+</tr>
+<tr class="even">
+<td>Comment/uncomment current line/selection</td>
+<td>Ctrl+Shift+C</td>
+<td>Cmd+Shift+C</td>
+</tr>
+<tr class="odd">
+<td>Open document</td>
+<td>Ctrl+O</td>
+<td>Cmd+O</td>
+</tr>
+</tbody>
+</table>
 <p><br></p>
 </section>
-<section id="rmarkdown-for-pdf" class="level3">
-<h3 class="anchored" data-anchor-id="rmarkdown-for-pdf">Rmarkdown for PDF</h3>
-<p><i class="fa-solid fa-file" aria-label="file"></i> Template Rmarkdown document for PDF output: <a href="https://shunkei3.github.io/R-slides/z_doc/templated_for_pdf.Rmd">Download from here</a></p>
-<ul>
-<li>The output looks like <a href="https://shunkei3.github.io/R-slides/z_doc/templated_for_pdf.pdf" target="_blank">this</a>.</li>
-</ul>
+<section id="rmarkdown-for-making-a-pdf-document" class="level2">
+<h2 class="anchored" data-anchor-id="rmarkdown-for-making-a-pdf-document">Rmarkdown for making a PDF document</h2>
+<section id="getting-started" class="level3">
+<h3 class="anchored" data-anchor-id="getting-started">Getting Started</h3>
 <div class="solutionbox">
 <div class="solutionbox-header">
 <div class="solutionbox-icon">
@@ -295,14 +355,97 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>tinytex<span class="sc">::</span><span class="fu">install_tinytex</span>()</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># to uninstall TinyTeX, run</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># tinytex::uninstall_tinytex()</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Reference: “R Markdown Cookbook” by Yihui Xie, Christophe Dervieux, and Emily Riederer [<a href="https://bookdown.org/yihui/rmarkdown-cookbook/">here</a>]</p>
+<p><em>Reference: “R Markdown Cookbook” by Yihui Xie, Christophe Dervieux, and Emily Riederer [<a href="https://bookdown.org/yihui/rmarkdown-cookbook/">here</a>]</em></p>
+</div>
+</div>
+<p>From top-down of New file icon, crick R Markdown -&gt; Select PDF format -&gt; A new Rmarkdown (<code>.Rmd</code>) file pops up -&gt; Crick “Knit” bottom to run the Rmd file</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">1.New .Rmd file</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">2.Select PDF format</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">3.Crick Knit</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">4.Output</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="z_photos/step1.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>Step 1</figcaption>
+</figure>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="z_photos/step2.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>Step 2: You can choose HTML if you want a HTML document.</figcaption>
+</figure>
+</div>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="z_photos/step3.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>Step 3</figcaption>
+</figure>
+</div>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="z_photos/step4.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>Step 4</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="solutionbox">
+<div class="solutionbox-header">
+<div class="solutionbox-icon">
+
+</div>
+<p>Template Rmarkdown document for PDF format</p>
+</div>
+<div class="solutionbox-body">
+<ul>
+<li><i class="fa-solid fa-file" aria-label="file"></i> <a href="https://shunkei3.github.io/R-slides/z_doc/templated_for_pdf.Rmd">Download .Rmd file from here</a>.
+<ul>
+<li>The produced PDF looks like <a href="https://shunkei3.github.io/R-slides/z_doc/templated_for_pdf.pdf" target="_blank">this</a>.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div class="solutionbox">
+<div class="solutionbox-header">
+<div class="solutionbox-icon">
+
+</div>
+<p><i class="fa-solid fa-file" aria-label="file"></i> Introduction to Markdown Syntax</p>
+</div>
+<div class="solutionbox-body">
+<p>Ramrkdown and Quarto use Markdown syntax to format text. They are just some rules to format text (e.g., how to make a header, how to make a font bold or italic, how to make a list, etc.). See this document for the basic markdown syntax: <a href="https://quarto.org/docs/authoring/markdown-basics.html">Markdown Basics</a>.</p>
 </div>
 </div>
 <p><br></p>
 </section>
-<section id="quarto" class="level3">
-<h3 class="anchored" data-anchor-id="quarto">Quarto</h3>
+</section>
+<section id="latex-mathematical-symbols" class="level2">
+<h2 class="anchored" data-anchor-id="latex-mathematical-symbols">LaTeX Mathematical Symbols</h2>
+<p><i class="fa-solid fa-file" aria-label="file"></i> <a href="https://shunkei3.github.io/R-slides/z_doc/Demonstration.pdf" target="_blank">Latex math notations and Example R codes with PDF output</a></p>
+<p>In this document, you can find the list of basic LaTeX commands and exmaple codes to write mathematical equations, which might be useful if you are not familiar with LaTeX.</p>
+<p><br></p>
+</section>
+<section id="quarto" class="level2">
+<h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
 <p><i class="fa-solid fa-link" aria-label="link"></i> How to use Quarto in Rstudio? Follow <a href="https://quarto.org/docs/get-started/hello/rstudio.html">this tutorial</a>!</p>
+<div class="solutionbox">
+<div class="solutionbox-header">
+<div class="solutionbox-icon">
+
+</div>
+<p>Do I need to install Quarto CLI to use Quarto in Rstudio?</p>
+</div>
+<div class="solutionbox-body">
+<p><em>Reference: <a href="https://github.com/quarto-dev/quarto-cli/discussions/5854">“Is it necessaryto install Quarto separately from Rstudio?”</a></em></p>
+</div>
+</div>
 <p><i class="fa-solid fa-file" aria-label="file"></i> <a href="https://rstudio.github.io/cheatsheets/quarto.pdf">Quarto document Cheet Sheet</a></p>
 
 

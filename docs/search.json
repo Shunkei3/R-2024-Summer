@@ -6,6 +6,7 @@
     "section": "",
     "text": "We mostly use the data from web and some R packes. But we use the data to practice\nCreate “Data” folder in your working directory and download the datasets from this links .",
     "crumbs": [
+      "Class Materials",
       "Data"
     ]
   },
@@ -16,6 +17,7 @@
     "section": "",
     "text": "We mostly use the data from web and some R packes. But we use the data to practice\nCreate “Data” folder in your working directory and download the datasets from this links .",
     "crumbs": [
+      "Class Materials",
       "Data"
     ]
   },
@@ -26,6 +28,7 @@
     "section": "Description of the datasets",
     "text": "Description of the datasets\n\nLec 1\nLec 2\n\n\n\nLec 3\n\n\n\nLec 4:\n\nAER::CPS1988 - Cross-section data originating from the March 1988 Current Population Survey by the US Census Bureau.\nAER::CPSSW9204 - Earnings in the US in 1992 and 2004 for college-educated full-time workers aged 25–34\nAER::Journals - Subscriptions to economics journals at US libraries, for the year 2000.\nAER::CASchools - The dataset contains data on test performance, school characteristics and student demographic backgrounds for school districts in California.\n\nLec 5",
     "crumbs": [
+      "Class Materials",
       "Data"
     ]
   },
@@ -34,9 +37,9 @@
     "href": "contents/day3.html",
     "title": "Day 3: Introduction to Data Visualization with ggplot2 package",
     "section": "",
-    "text": "Learning Objectives\n\n\n\nLearn the basic operations of ggplot2 package to create figures.\nYou will be able to create:\n\nscatter plot\nline plot\nbar plot\nhistogram\nbox plot\ndensity plot\nfacet plot\n\n\n\n\n\n\nPreparation\n\nBefore the class, look at what kind of plots you can create with ggplot2 package from the official website\nHere is a brief overview of the key components used in the ggplot2 package. Specifically, if you understand that any complicated plot is composed of multiple simple plot layers, then it is easy to understand how to create a plot with ggplot2!\n\n\n\n\nLecture Slides\n Click here for Lecture 3’s slides..\nQuick view of the slides:\n \n\n\n\n\nSupplementary Materials\n\nggplot2 homepage: ggplot2\n Data visualization with ggplot2",
+    "text": "Learning Objectives\n\n\n\nLearn the basic operations of ggplot2 package to create figures.\nYou will be able to create:\n\nscatter plot\nline plot\nbar plot\nhistogram\nbox plot\ndensity plot\nfacet plot\n\n\n\n\n\n\nPreparation\n\nBefore the class, look at what kind of plots you can create with ggplot2 package from the official website\nHere is a brief overview of the key components used in the ggplot2 package. Specifically, if you understand that any complicated plot is composed of multiple simple plot layers, then it is easy to understand how to create a plot with ggplot2!\n\n\n\n\nLecture Slides\n Click here for Lecture 3’s slides.\nQuick view of the slides:\n \n\n\n\n\nSupplementary Materials\n\nggplot2 homepage: ggplot2\n Data visualization with ggplot2",
     "crumbs": [
-      "Materials",
+      "Class Materials",
       "Day 3: Introduction to Data Visualization with `ggplot2` package"
     ]
   },
@@ -47,7 +50,7 @@
     "section": "",
     "text": "Learning Objectives\n\n\nLearning Objectives\n\n\n\nTo be able to use for loop function\nTo be ablt to run simpel Monte Calro Simulations\nTo be able to create R functions\n\n\n\n\n\nPreparation\nTake a look\n\n\nLecture Slides\n Lecture 5: slides",
     "crumbs": [
-      "Materials",
+      "Class Materials",
       "Day 5: Monte Carlo Simulation with R"
     ]
   },
@@ -56,11 +59,7 @@
     "href": "contents/Appendix.html",
     "title": "Appendix",
     "section": "",
-    "text": "LaTeX Mathematical Symbols\n Latex math notations and Example R codes with PDF output\nIn this document, you can find the list of basic LaTeX commands and exmaple codes to write mathematical equations, which might be useful if you are not familiar with LaTeX.\n\n\n\nRmarkdown for PDF\n Template Rmarkdown document for PDF output: Download from here\n\nThe output looks like this.\n\n\n\n\n\n\nBefore createing PDF documents from R Markdown\n\n\nBefore render R Markdown documents to PDF on your Rstudio, make sure that your computer has a LaTeX distribution installed. You can download and install the TinyTeX distribution with the R package tinytex. Unlike other LaTex distributions like MacTeX, tinytex is a lightweight distribution that only includes the essential packages needed to render R Markdown documents to PDF.\ntinytex::install_tinytex()\n# to uninstall TinyTeX, run\n# tinytex::uninstall_tinytex()\nReference: “R Markdown Cookbook” by Yihui Xie, Christophe Dervieux, and Emily Riederer [here]\n\n\n\n\n\nQuarto\n How to use Quarto in Rstudio? Follow this tutorial!\n Quarto document Cheet Sheet",
-    "crumbs": [
-      "Materials",
-      "Appendix"
-    ]
+    "text": "See this for full list of shortcut keys in Rstudio.\nBelow, I list some shortcut keys that are commonly used.\n\n\n\n\n\n\n\n\nDescription\nWindows\nMac\n\n\n\n\nInsert chunk (Sweave and Knitr)\nCtrl+Alt+I\nCmd+Option+I\n\n\nKnit or render Document\nCtrl+Shift+K\nCmd+Shift+K\n\n\nRun current line/selection\nCtrl+Enter\nCmd+Return\n\n\nComment/uncomment current line/selection\nCtrl+Shift+C\nCmd+Shift+C\n\n\nOpen document\nCtrl+O\nCmd+O"
   },
   {
     "objectID": "contents/recommended.html",
@@ -159,7 +158,7 @@
     "section": "",
     "text": "Learning Objectives\n\n\n\nto be able to use lm() function\nto be able to create a summary table of regression results\nto be able to create a summary table of discriptive statistics\n\n\n\n\n\nPreparation\n\n\n\nLecture Slides\n Click here for Lecture 3’s slides.\n\n\n\nSupplementary Materials",
     "crumbs": [
-      "Materials",
+      "Class Materials",
       "Day 4: Regression Analysis with R"
     ]
   },
@@ -170,7 +169,7 @@
     "section": "",
     "text": "Learning Objectives\n\n\n\nTo be able to use the basic data wrangling skills with the data.table package:\n\nsubset rows\nselect and compute on columns\nrename columns\nperform aggregations by group\nmerge multiple datasets\nreshape wide-to-long and long-to-wide, respectively\n\nto be able to use %&gt;% operator of the magrittr package.\n\n\n\n\n\nPreparation\n\nTake a look at  Introduction to data.table.\n\n\n\n\nLecture Slides\n Click here for Lecture 2’s slides.\nQuick view of the slides:\n \n\n\n\n\n\nSupplementary Materials\n [Exercise Problems]\n [Solutions for the Exercise Problems]\n data.table homepage\n data.table cheat sheet\n Using .SD for Data Analysis (This is an advanced topic, but it is very useful to know how to use .SD in data.table.)",
     "crumbs": [
-      "Materials",
+      "Class Materials",
       "Day 2: Data Wrangling with `data.table` package"
     ]
   },
@@ -181,8 +180,182 @@
     "section": "",
     "text": "Learning Objectives\n\n\n\nUnderstand the basic operation of R and R studio interface\nLearn how to write and run R scripts\n\n\n\n\nPreparation\nIf you are completely new to R and R studio, these sections from the book “R for Data Science” might be helpful to read before the class:\n\nSection 1.4: Prerequites\nSection 4; Workflow: basics\nSection 6: Workflow: scripts\n\n\n\nLecture Slides\n Click here for Lecture 0’s slides.\n Click here for Lecture 1’s slides.\nQuick view of the Lecture 1 slides:\n \n\n\n\n\nSupplementary Materials\n Base R Cheat Sheet\n Exercise Problems solutions",
     "crumbs": [
-      "Materials",
+      "Class Materials",
       "Day 1: Introduction to R"
+    ]
+  },
+  {
+    "objectID": "contents/Appendix.html#quarto",
+    "href": "contents/Appendix.html#quarto",
+    "title": "Appendix",
+    "section": "Quarto",
+    "text": "Quarto\n How to use Quarto in Rstudio? Follow this tutorial!\n\n\n\n\n\nDo I need to install Quarto CLI to use Quarto in Rstudio?\n\n\nReference: “Is it necessaryto install Quarto separately from Rstudio?”\n\n\n Quarto document Cheet Sheet"
+  },
+  {
+    "objectID": "contents/Appendix.html#latex-mathematical-symbols",
+    "href": "contents/Appendix.html#latex-mathematical-symbols",
+    "title": "Appendix",
+    "section": "LaTeX Mathematical Symbols",
+    "text": "LaTeX Mathematical Symbols\n Latex math notations and Example R codes with PDF output\nIn this document, you can find the list of basic LaTeX commands and exmaple codes to write mathematical equations, which might be useful if you are not familiar with LaTeX."
+  },
+  {
+    "objectID": "contents/Appendix.html#rmarkdown-for-pdf",
+    "href": "contents/Appendix.html#rmarkdown-for-pdf",
+    "title": "Appendix",
+    "section": "Rmarkdown for PDF",
+    "text": "Rmarkdown for PDF\n Template Rmarkdown document for PDF output: Download from here\n\nThe output looks like this.\n\n\n\n\n\n\nBefore createing PDF documents from R Markdown\n\n\nBefore render R Markdown documents to PDF on your Rstudio, make sure that your computer has a LaTeX distribution installed. You can download and install the TinyTeX distribution with the R package tinytex. Unlike other LaTex distributions like MacTeX, tinytex is a lightweight distribution that only includes the essential packages needed to render R Markdown documents to PDF.\ntinytex::install_tinytex()\n# to uninstall TinyTeX, run\n# tinytex::uninstall_tinytex()\nReference: “R Markdown Cookbook” by Yihui Xie, Christophe Dervieux, and Emily Riederer [here]",
+    "crumbs": [
+      "Class Materials",
+      "Appendix"
+    ]
+  },
+  {
+    "objectID": "contents/Appendix.html#rmarkdown",
+    "href": "contents/Appendix.html#rmarkdown",
+    "title": "Appendix",
+    "section": "Rmarkdown",
+    "text": "Rmarkdown\n\nRmarkdown\n\n\nRmarkdown for PDF document\nYou can create PDF documents from R Markdown.\n Template Rmarkdown document for PDF output: Download from here\n\nThe output looks like this.\n\n\n\n\n\n\nBefore createing PDF documents from R Markdown\n\n\nBefore render R Markdown documents to PDF on your Rstudio, make sure that your computer has a LaTeX distribution installed. You can download and install the TinyTeX distribution with the R package tinytex. Unlike other LaTex distributions like MacTeX, tinytex is a lightweight distribution that only includes the essential packages needed to render R Markdown documents to PDF.\ntinytex::install_tinytex()\n# to uninstall TinyTeX, run\n# tinytex::uninstall_tinytex()\nReference: “R Markdown Cookbook” by Yihui Xie, Christophe Dervieux, and Emily Riederer [here]",
+    "crumbs": [
+      "Class Materials",
+      "Appendix"
+    ]
+  },
+  {
+    "objectID": "contents/day3.html#day-3-introduction-to-data-visualization-with-ggplot2-package",
+    "href": "contents/day3.html#day-3-introduction-to-data-visualization-with-ggplot2-package",
+    "title": "Day 3: ggplot",
+    "section": "",
+    "text": "Learning Objectives\n\n\n\nLearn the basic operations of ggplot2 package to create figures.\nYou will be able to create:\n\nscatter plot\nline plot\nbar plot\nhistogram\nbox plot\ndensity plot\nfacet plot\n\n\n\n\n\n\n\n\nBefore the class, look at what kind of plots you can create with ggplot2 package from the official website\nHere is a brief overview of the key components used in the ggplot2 package. Specifically, if you understand that any complicated plot is composed of multiple simple plot layers, then it is easy to understand how to create a plot with ggplot2!\n\n\n\n\n\n Click here for Lecture 3’s slides.\nQuick view of the slides:\n \n\n\n\n\n\n\nggplot2 homepage: ggplot2\n Data visualization with ggplot2",
+    "crumbs": [
+      "Class Materials",
+      "Day 3: ggplot"
+    ]
+  },
+  {
+    "objectID": "contents/Appendix.html#useful-shorcut-keys-in-the-rstudio",
+    "href": "contents/Appendix.html#useful-shorcut-keys-in-the-rstudio",
+    "title": "Appendix",
+    "section": "",
+    "text": "See this for full list of shortcut keys in Rstudio.\nBelow, I list some shortcut keys that are commonly used.\n\n\n\n\n\n\n\n\nDescription\nWindows\nMac\n\n\n\n\nInsert chunk (Sweave and Knitr)\nCtrl+Alt+I\nCmd+Option+I\n\n\nKnit or render Document\nCtrl+Shift+K\nCmd+Shift+K\n\n\nRun current line/selection\nCtrl+Enter\nCmd+Return\n\n\nComment/uncomment current line/selection\nCtrl+Shift+C\nCmd+Shift+C\n\n\nOpen document\nCtrl+O\nCmd+O"
+  },
+  {
+    "objectID": "contents/Appendix.html#rmarkdown-for-pdf-document",
+    "href": "contents/Appendix.html#rmarkdown-for-pdf-document",
+    "title": "Appendix",
+    "section": "Rmarkdown for PDF document",
+    "text": "Rmarkdown for PDF document\n\nGetting Started\nFrom top-down of New file icon, crick R Markdown -&gt; Select PDF format -&gt; A new Rmarkdown (.Rmd) file pops up -&gt; Crick “Knit” bottom to run the Rmd file\n\n1.New .Rmd file2.Select PDF format3.Crick Knit4.Output\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRmarkdown for PDF document\nYou can create PDF documents from R Markdown.\n Template Rmarkdown document for PDF output: Download from here\n\nThe output looks like this.\n\n\n\n\n\n\nBefore createing PDF documents from R Markdown\n\n\nBefore render R Markdown documents to PDF on your Rstudio, make sure that your computer has a LaTeX distribution installed. You can download and install the TinyTeX distribution with the R package tinytex. Unlike other LaTex distributions like MacTeX, tinytex is a lightweight distribution that only includes the essential packages needed to render R Markdown documents to PDF.\ntinytex::install_tinytex()\n# to uninstall TinyTeX, run\n# tinytex::uninstall_tinytex()\nReference: “R Markdown Cookbook” by Yihui Xie, Christophe Dervieux, and Emily Riederer [here]",
+    "crumbs": [
+      "Class Materials",
+      "Appendix"
+    ]
+  },
+  {
+    "objectID": "contents/Appendix.html#rmarkdown-for-making-a-pdf-document",
+    "href": "contents/Appendix.html#rmarkdown-for-making-a-pdf-document",
+    "title": "Appendix",
+    "section": "Rmarkdown for making a PDF document",
+    "text": "Rmarkdown for making a PDF document\n\nGetting Started\n\n\n\n\n\nBefore createing PDF documents from R Markdown\n\n\nBefore render R Markdown documents to PDF on your Rstudio, make sure that your computer has a LaTeX distribution installed. You can download and install the TinyTeX distribution with the R package tinytex. Unlike other LaTex distributions like MacTeX, tinytex is a lightweight distribution that only includes the essential packages needed to render R Markdown documents to PDF.\ntinytex::install_tinytex()\n# to uninstall TinyTeX, run\n# tinytex::uninstall_tinytex()\nReference: “R Markdown Cookbook” by Yihui Xie, Christophe Dervieux, and Emily Riederer [here]\n\n\nFrom top-down of New file icon, crick R Markdown -&gt; Select PDF format -&gt; A new Rmarkdown (.Rmd) file pops up -&gt; Crick “Knit” bottom to run the Rmd file\n\n1.New .Rmd file2.Select PDF format3.Crick Knit4.Output\n\n\n\n\n\nStep 1\n\n\n\n\n\n\n\nStep 2: You can choose HTML if you want a HTML document.\n\n\n\n\n\n\n\nStep 3\n\n\n\n\n\n\n\nStep 4\n\n\n\n\n\n\n\n\n\n\nTemplate Rmarkdown document for PDF format\n\n\n\n Download .Rmd file from here.\n\nThe produced PDF looks like this.\n\n\n\n\n\n\n\n\n\n Introduction to Markdown Syntax\n\n\nRamrkdown and Quarto use Markdown syntax to format text. They are just some rules to format text (e.g., how to make a header, how to make a font bold or italic, how to make a list, etc.). See this document for the basic markdown syntax: Markdown Basics."
+  },
+  {
+    "objectID": "Apx2.html",
+    "href": "Apx2.html",
+    "title": "Introduction to R Statistical Analysis Software (under construction)",
+    "section": "",
+    "text": "Before createing PDF documents from R Markdown\n\n\nBefore render R Markdown documents to PDF on your Rstudio, make sure that your computer has a LaTeX distribution installed. You can download and install the TinyTeX distribution with the R package tinytex. Unlike other LaTex distributions like MacTeX, tinytex is a lightweight distribution that only includes the essential packages needed to render R Markdown documents to PDF.\ntinytex::install_tinytex()\n# to uninstall TinyTeX, run\n# tinytex::uninstall_tinytex()\nReference: “R Markdown Cookbook” by Yihui Xie, Christophe Dervieux, and Emily Riederer [here]\n\n\nFrom top-down of New file icon, crick R Markdown -&gt; Select PDF format -&gt; A new Rmarkdown (.Rmd) file pops up -&gt; Crick “Knit” bottom to run the Rmd file\n\n1.New .Rmd file2.Select PDF format3.Crick Knit4.Output\n\n\n\n\n\nStep 1\n\n\n\n\n\n\n\nStep 2: You can choose HTML if you want a HTML document.\n\n\n\n\n\n\n\nStep 3\n\n\n\n\n\n\n\nStep 4\n\n\n\n\n\n\n\n\n\n\nTemplate Rmarkdown document for PDF format\n\n\n\n Download .Rmd file from here.\n\nThe produced PDF looks like this.\n\n\n\n\n\n\n\n\n\n Introduction to Markdown Syntax\n\n\nRamrkdown and Quarto use Markdown syntax to format text. They are just some rules to format text (e.g., how to make a header, how to make a font bold or italic, how to make a list, etc.). See this document for the basic markdown syntax: Markdown Basics."
+  },
+  {
+    "objectID": "Apx2.html#rmarkdown-for-making-a-pdf-document",
+    "href": "Apx2.html#rmarkdown-for-making-a-pdf-document",
+    "title": "Introduction to R Statistical Analysis Software (under construction)",
+    "section": "",
+    "text": "Before createing PDF documents from R Markdown\n\n\nBefore render R Markdown documents to PDF on your Rstudio, make sure that your computer has a LaTeX distribution installed. You can download and install the TinyTeX distribution with the R package tinytex. Unlike other LaTex distributions like MacTeX, tinytex is a lightweight distribution that only includes the essential packages needed to render R Markdown documents to PDF.\ntinytex::install_tinytex()\n# to uninstall TinyTeX, run\n# tinytex::uninstall_tinytex()\nReference: “R Markdown Cookbook” by Yihui Xie, Christophe Dervieux, and Emily Riederer [here]\n\n\nFrom top-down of New file icon, crick R Markdown -&gt; Select PDF format -&gt; A new Rmarkdown (.Rmd) file pops up -&gt; Crick “Knit” bottom to run the Rmd file\n\n1.New .Rmd file2.Select PDF format3.Crick Knit4.Output\n\n\n\n\n\nStep 1\n\n\n\n\n\n\n\nStep 2: You can choose HTML if you want a HTML document.\n\n\n\n\n\n\n\nStep 3\n\n\n\n\n\n\n\nStep 4\n\n\n\n\n\n\n\n\n\n\nTemplate Rmarkdown document for PDF format\n\n\n\n Download .Rmd file from here.\n\nThe produced PDF looks like this.\n\n\n\n\n\n\n\n\n\n Introduction to Markdown Syntax\n\n\nRamrkdown and Quarto use Markdown syntax to format text. They are just some rules to format text (e.g., how to make a header, how to make a font bold or italic, how to make a list, etc.). See this document for the basic markdown syntax: Markdown Basics."
+  },
+  {
+    "objectID": "contents/Apx1.html",
+    "href": "contents/Apx1.html",
+    "title": "Introduction to R Statistical Analysis Software (under construction)",
+    "section": "",
+    "text": "See this for the full list of shortcut keys in Rstudio.\nBelow, I list some shortcut keys that are commonly used.\n\n\n\n\n\n\n\n\nDescription\nWindows\nMac\n\n\n\n\nInsert chunk (Sweave and Knitr)\nCtrl+Alt+I\nCmd+Option+I\n\n\nKnit or render Document\nCtrl+Shift+K\nCmd+Shift+K\n\n\nRun current line/selection\nCtrl+Enter\nCmd+Return\n\n\nComment/uncomment current line/selection\nCtrl+Shift+C\nCmd+Shift+C\n\n\nOpen document\nCtrl+O\nCmd+O",
+    "crumbs": [
+      "Appendix",
+      "Useful shorcut keys in the Rstudio"
+    ]
+  },
+  {
+    "objectID": "contents/Apx1.html#useful-shorcut-keys-in-the-rstudio",
+    "href": "contents/Apx1.html#useful-shorcut-keys-in-the-rstudio",
+    "title": "Introduction to R Statistical Analysis Software (under construction)",
+    "section": "",
+    "text": "See this for the full list of shortcut keys in Rstudio.\nBelow, I list some shortcut keys that are commonly used.\n\n\n\n\n\n\n\n\nDescription\nWindows\nMac\n\n\n\n\nInsert chunk (Sweave and Knitr)\nCtrl+Alt+I\nCmd+Option+I\n\n\nKnit or render Document\nCtrl+Shift+K\nCmd+Shift+K\n\n\nRun current line/selection\nCtrl+Enter\nCmd+Return\n\n\nComment/uncomment current line/selection\nCtrl+Shift+C\nCmd+Shift+C\n\n\nOpen document\nCtrl+O\nCmd+O",
+    "crumbs": [
+      "Appendix",
+      "Useful shorcut keys in the Rstudio"
+    ]
+  },
+  {
+    "objectID": "contents/Apx2.html",
+    "href": "contents/Apx2.html",
+    "title": "Introduction to R Statistical Analysis Software (under construction)",
+    "section": "",
+    "text": "Before createing PDF documents from R Markdown\n\n\nBefore render R Markdown documents to PDF on your Rstudio, make sure that your computer has a LaTeX distribution installed. You can download and install the TinyTeX distribution with the R package tinytex. Unlike other LaTex distributions like MacTeX, tinytex is a lightweight distribution that only includes the essential packages needed to render R Markdown documents to PDF.\ntinytex::install_tinytex()\n# to uninstall TinyTeX, run\n# tinytex::uninstall_tinytex()\nReference: “R Markdown Cookbook” by Yihui Xie, Christophe Dervieux, and Emily Riederer [here]\n\n\n\n\nFrom top-down of New file icon, crick “R Markdown” -&gt; Select “PDF” format -&gt; A new Rmarkdown (.Rmd) file pops up -&gt; Crick “Knit” bottom to run the Rmd file.\n\n1.New .Rmd file2.Select PDF format3.Crick Knit4.Output\n\n\n\n\n\nStep 1\n\n\n\n\n\n\n\nStep 2: You can choose HTML if you want a HTML document.\n\n\n\n\n\n\n\nStep 3\n\n\n\n\n\n\n\nStep 4\n\n\n\n\n\nTemplate Rmarkdown document for PDF format\n\nFor exmaple, you can copy this file to produce a PDF file like this.\n\n\n\n\nRamrkdown and Quarto use Markdown syntax to format text. They are just some rules to format text (e.g., how to make a header, how to make a font bold or italic, how to make a list, etc.). Check this document to see the basic markdown syntax:  Markdown Basics.\n\n\n\nIn R Markdown, you write code in a block called a code chunk. It looks like this: ````` ::: {.cell}\n:::",
+    "crumbs": [
+      "Appendix",
+      "Rmarkdown for making a PDF document"
+    ]
+  },
+  {
+    "objectID": "contents/Apx2.html#rmarkdown-for-making-a-pdf-document",
+    "href": "contents/Apx2.html#rmarkdown-for-making-a-pdf-document",
+    "title": "Introduction to R Statistical Analysis Software (under construction)",
+    "section": "",
+    "text": "Before createing PDF documents from R Markdown\n\n\nBefore render R Markdown documents to PDF on your Rstudio, make sure that your computer has a LaTeX distribution installed. You can download and install the TinyTeX distribution with the R package tinytex. Unlike other LaTex distributions like MacTeX, tinytex is a lightweight distribution that only includes the essential packages needed to render R Markdown documents to PDF.\ntinytex::install_tinytex()\n# to uninstall TinyTeX, run\n# tinytex::uninstall_tinytex()\nReference: “R Markdown Cookbook” by Yihui Xie, Christophe Dervieux, and Emily Riederer [here]\n\n\n\n\nFrom top-down of New file icon, crick “R Markdown” -&gt; Select “PDF” format -&gt; A new Rmarkdown (.Rmd) file pops up -&gt; Crick “Knit” bottom to run the Rmd file.\n\n1.New .Rmd file2.Select PDF format3.Crick Knit4.Output\n\n\n\n\n\nStep 1\n\n\n\n\n\n\n\nStep 2: You can choose HTML if you want a HTML document.\n\n\n\n\n\n\n\nStep 3\n\n\n\n\n\n\n\nStep 4\n\n\n\n\n\nTemplate Rmarkdown document for PDF format\n\nFor exmaple, you can copy this file to produce a PDF file like this.\n\n\n\n\nRamrkdown and Quarto use Markdown syntax to format text. They are just some rules to format text (e.g., how to make a header, how to make a font bold or italic, how to make a list, etc.). Check this document to see the basic markdown syntax:  Markdown Basics.\n\n\n\nIn R Markdown, you write code in a block called a code chunk. It looks like this: ````` ::: {.cell}\n:::",
+    "crumbs": [
+      "Appendix",
+      "Rmarkdown for making a PDF document"
+    ]
+  },
+  {
+    "objectID": "contents/Apx3.html",
+    "href": "contents/Apx3.html",
+    "title": "Introduction to R Statistical Analysis Software (under construction)",
+    "section": "",
+    "text": "R markdown and Quarto support LaTeX mathematical expressions.\nIf you are not familiar with LaTeX, you can find the list of basic LaTeX commands and example codes to write mathematical equations in the following document.\n Latex math notations and Example R codes with PDF output\nEspecially, Sections 1 and 2 might be helpful for students unfamiliar with LaTeX math expressions. These are the most commonly used LATEX commands when you write assignments for econometrics and microeconomics classes in APEC!",
+    "crumbs": [
+      "Appendix",
+      "LaTex Mathematical Expressions"
+    ]
+  },
+  {
+    "objectID": "contents/Apx3.html#latex-mathematical-symbols",
+    "href": "contents/Apx3.html#latex-mathematical-symbols",
+    "title": "Introduction to R Statistical Analysis Software (under construction)",
+    "section": "",
+    "text": "R markdown and Quarto support LaTeX mathematical expressions.\nIf you are not familiar with LaTeX, you can find the list of basic LaTeX commands and example codes to write mathematical equations in the following document.\n Latex math notations and Example R codes with PDF output\nEspecially, Sections 1 and 2 might be helpful for students unfamiliar with LaTeX math expressions. These are the most commonly used LATEX commands when you write assignments for econometrics and microeconomics classes in APEC!",
+    "crumbs": [
+      "Appendix",
+      "LaTex Mathematical Expressions"
+    ]
+  },
+  {
+    "objectID": "contents/Apx4.html",
+    "href": "contents/Apx4.html",
+    "title": "Introduction to R Statistical Analysis Software (under construction)",
+    "section": "",
+    "text": "Quarto is like an upgraded version of R Markdown. If you’re familiar with R Markdown, you know it’s a tool that lets you combine text, code, and data analysis all in one document. Quarto does the same thing but with more features and flexibility. Quarto works with R and other languages like Python, Julia, and more. It’s more versatile, allowing you to create documents and reports, websites, blogs, books, and even interactive apps. This website and all my slides for this courses were also created with Quarto!\n\n\n\n\n\n\nDo I need to install Quarto CLI (Command Line Interface) to use Quarto in Rstudio?\n\n\nNo, you don’t need to. Recent versions of RStudio come with Quarto already bundled, so you don’t need to install the Quarto CLI separately.\nReference: “Is it necessaryto install Quarto separately from Rstudio?”\n\n\n\n\n\n\n\n\n\n\nHow to use Quarto in Rstudio?\n\n\nIf you are new to Quarto, I strongly recommend to read this official document to get started.\n\n\nFrom top-down of New file icon, crick “Quarto Document…” -&gt; Select “HTML” (or “PDF”) format -&gt; A new Quarto (.qmd) file pops up -&gt; Crick “Render” bottom to run the qmd file. The output document will be shown in the Viewer pane.\nIf “Render on Save” buttom is checked, the document will be rendered automatically when you save the file. This is particularly useful when you want to see real-time updates of your document without manually clicking the “Render” button each time you make a change.\n\n1.New .Rmd file2.Select HTML format3.Crick Render4.Output\n\n\n\n\n\nStep 1\n\n\n\n\n\n\n\nStep 2: You can choose HTML if you want a HTML document.\n\n\n\n\n\n\n\nStep 3\n\n\n\n\n\n\n\nStep 4\n\n\n\n\n\n\n\n\nThe basic usage of Quarto is the same as R Markdown.\n Quarto document Cheet Sheet",
+    "crumbs": [
+      "Appendix",
+      "Introduction to Quarto"
+    ]
+  },
+  {
+    "objectID": "contents/Apx4.html#introduction-to-quarto",
+    "href": "contents/Apx4.html#introduction-to-quarto",
+    "title": "Introduction to R Statistical Analysis Software (under construction)",
+    "section": "",
+    "text": "Quarto is like an upgraded version of R Markdown. If you’re familiar with R Markdown, you know it’s a tool that lets you combine text, code, and data analysis all in one document. Quarto does the same thing but with more features and flexibility. Quarto works with R and other languages like Python, Julia, and more. It’s more versatile, allowing you to create documents and reports, websites, blogs, books, and even interactive apps. This website and all my slides for this courses were also created with Quarto!\n\n\n\n\n\n\nDo I need to install Quarto CLI (Command Line Interface) to use Quarto in Rstudio?\n\n\nNo, you don’t need to. Recent versions of RStudio come with Quarto already bundled, so you don’t need to install the Quarto CLI separately.\nReference: “Is it necessaryto install Quarto separately from Rstudio?”\n\n\n\n\n\n\n\n\n\n\nHow to use Quarto in Rstudio?\n\n\nIf you are new to Quarto, I strongly recommend to read this official document to get started.\n\n\nFrom top-down of New file icon, crick “Quarto Document…” -&gt; Select “HTML” (or “PDF”) format -&gt; A new Quarto (.qmd) file pops up -&gt; Crick “Render” bottom to run the qmd file. The output document will be shown in the Viewer pane.\nIf “Render on Save” buttom is checked, the document will be rendered automatically when you save the file. This is particularly useful when you want to see real-time updates of your document without manually clicking the “Render” button each time you make a change.\n\n1.New .Rmd file2.Select HTML format3.Crick Render4.Output\n\n\n\n\n\nStep 1\n\n\n\n\n\n\n\nStep 2: You can choose HTML if you want a HTML document.\n\n\n\n\n\n\n\nStep 3\n\n\n\n\n\n\n\nStep 4\n\n\n\n\n\n\n\n\nThe basic usage of Quarto is the same as R Markdown.\n Quarto document Cheet Sheet",
+    "crumbs": [
+      "Appendix",
+      "Introduction to Quarto"
     ]
   }
 ]

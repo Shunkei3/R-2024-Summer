@@ -33,7 +33,7 @@ Learning Objectives
 
 ### Lecture Slides
 
-{{< fa laptop-code >}}  Click [here](https://shunkei3.github.io/R-slides/Lec_notes/Lec3/Lec3.html){target="_blank"} for Lecture 3's slides..
+{{< fa laptop-code >}}  Click [here](https://shunkei3.github.io/R-slides/Lec_notes/Lec3/Lec3.html){target="_blank"} for Lecture 3's slides.
 
 
 Quick view of the slides:
