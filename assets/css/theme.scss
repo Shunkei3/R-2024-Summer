@@ -8,13 +8,15 @@ $font-family-sans-serif:      IBM Plex Sans Condensed, sans-serif !default;
 $font-family-serif:           IBM Plex Sans Condensed, serif !default;  /* Not actually a serif font but whatever */
 
 // The style is borrowed from Dr.Dr. Andrew Heiss
-// https://github.com/andrewheiss/econs24.classes.andrewheiss.com/blob/main/html/custom.scss
+// https://github.com/andrewheiss/econs24.classes.andrewheiss.-com/blob/main/html/custom.scss
 
 
 // Colors
 $dark-green: #0e372d;
-$light-green: #43cb9a;
+$green: #1f7a5f;
+$light-green: #32dc9f;
 $blue: #375a7f;
+$light-blue: #7ea7d8;
 $cream: #FDFBF7;
 $gray: #64605f;
 $purple: #9158A2;
@@ -23,8 +25,8 @@ $black: #000000;
 $umn-maroon:#7a0019;
 $umn-gold:#ffcc33;
 
-$font-size-base:              1.15rem !default;
-$headings-font-weight:        700 !default;
+$font-size-base: 1.15rem !default;
+$headings-font-weight: 700 !default;
 
 $h1-font-size: $font-size-base * 2.35;
 $h2-font-size: $font-size-base * 1.8;
@@ -39,21 +41,118 @@ $sidebar-font-size: 1.1rem;
 $sidebar-font-size-section: 0.95rem;
 $footer-font-size: 0.95rem;
 
-$link-color: $light-green;
-$link-hover-color: $orange;
 
-
+$link-color: $green;
+$link-hover-color: $umn-maroon;
 
 $monokai-bg: #2e3440;
 
 // Slightly bigger callouts
-.callout.callout-style-default .callout-body,
-.callout.callout-style-default > div.callout-header {
-  font-size: 1.1rem !important;
+// .callout.callout-style-default .callout-body,
+// .callout.callout-style-default > div.callout-header {
+//   font-size: 1.5rem !important;
+// }
+
+// .callout-icon-container {
+//   padding-top: 0 !important;
+// }
+
+
+// Another custom callout box here
+.solutionbox {
+  margin-top: 1em;
+  margin-bottom: 1em;  
+  border-radius: .25rem;
+  border-left: solid #acacac .3rem;
+  border-right: solid 1px silver;
+  border-top: solid 1px silver;
+  border-bottom: solid 1px silver;
+  border-left-color: $light-blue !important;
 }
 
-.callout-icon-container {
-  padding-top: 0 !important;
+.solutionbox-icon{
+  height: 1.5rem;
+  width: 1.5rem;
+  display: inline-block;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 1.5rem 1.5rem;
+  margin-top: .4rem;
+  padding-right: 2rem; // space between icon and text
+  // background-image: url('bullseye-solid.svg');
+  background-image: url("image/electricity-icon.png");
+}
+
+.solutionbox-header{
+  // margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-bottom: none;
+  font-weight: 600;
+  opacity: 85%;
+  font-size:  $font-size-base; // size of the header
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  display: flex;
+  background-color: $light-blue;
+  color: black;
+  height: 2em;
+  overflow: hidden;
+}
+
+.solutionbox-body{
+  font-size: 3; // size of text in the body
+  font-weight: 400;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.solutionbox-header p {
+  padding-top: 0.2em;
+}
+
+.solutionbox-body > :last-child {
+  padding-bottom: 0.5rem;
+  margin-bottom: 0;
+}
+
+// Another custom callout box here
+// https://www.andreashandel.com/posts/2023-06-13-custom-callouts-quarto/
+.goals {
+  margin: 1em 0;
+  border: 2px solid gray;
+  border-left: 10px solid orange; 
+  border-radius: 10px;
+}
+
+.goals-header {
+  margin-left: 0em;
+  padding-left:  60px;
+  padding-top:  5px;
+  padding-bottom: 0.1em;
+  color: black;
+  background-color: orange;
+  border-top-right-radius: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  height: 2em;
+  background-image: url("image/challenge-target-icon.png");
+  padding-right: 1.8rem; // space between icon and text
+}
+
+.goals-container {
+  padding-top: 5px;
+  padding-left: 10px;
+  color: black;
+  background-color: white;
+  border-bottom-right-radius: 10px;
+}
+
+.goals-container  > :last-child {
+  padding-bottom: 0.5rem;
+  margin-bottom: 0;
 }
 
 
@@ -110,10 +209,10 @@ ol {
   position: relative;
 }
 
-.contact-policy p {
-  font-size: 1rem;
-  line-height: 1.5;
-}
+// .contact-policy p {
+//   font-size: 1rem;
+//   line-height: 1.5;
+// }
 
 .course-details-smaller li {
   font-size: 1rem;
@@ -182,21 +281,21 @@ ol {
 
 
 // News stuff
-.back-nav {
-  margin-bottom: 1.5rem;
-}
+// .back-nav {
+//   margin-bottom: 1.5rem;
+// }
 
-.news .quarto-title-meta {
-  font-size: 1.1rem;
-  border-left: 5px solid $purple;
-  padding: 0 0.5rem 1rem;
-  margin: 1rem 0 2.5rem;
-  background-color: lighten($purple, 30%);
-}
+// .news .quarto-title-meta {
+//   font-size: 1.1rem;
+//   border-left: 5px solid $purple;
+//   padding: 0 0.5rem 1rem;
+//   margin: 1rem 0 2.5rem;
+//   background-color: lighten($purple, 30%);
+// }
 
-.news .quarto-categories {
-  padding-top: 0.5em;
-}
+// .news .quarto-categories {
+//   padding-top: 0.5em;
+// }
 
 
 // Content page stuff
@@ -275,15 +374,15 @@ main.page-columns > header > .title.h1 {
   font-weight: 700;
 }
 
-// .sidebar nav[role="doc-toc"] > ul li a {
-//   padding-top: 0.3rem;
-//   padding-bottom: 0.3rem;
+.sidebar nav[role="doc-toc"] > ul li a {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
 
-//   &.active {
-//     border-left: 1px solid $orange;
-//     color: $orange !important;
-//   }
-// }
+  &.active {
+    border-left: 1px solid $orange;
+    color: $orange !important;
+  }
+}
 
 // Code stuff
 // Shrink blocks of code
@@ -314,3 +413,6 @@ pre.text, pre.sourceCode, .cell-output pre {
 pre.text {
   color: #ffffff;
 }
+
+
+
