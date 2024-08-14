@@ -48,3 +48,19 @@ Quick view of the Lecture 1 slides:
 {{< fa file >}} [Base R  Cheat Sheet](https://iqss.github.io/dss-workshops/R/Rintro/base-r-cheat-sheet.pdf){target="_blank"}
 
 {{< fa file >}} Exercise Problems solutions
+
+
+
+:::{.solutionbox}
+::::{.solutionbox-header}
+:::: {.solutionbox-icon}
+::::
+Faster matrix operations in R 
+::::
+:::{.solutionbox-body}
++ By default, R ships with two libraries for common mathematical operations: Basic Linear Algebra Subprograms (BLAS) and LAPACK (Linear Algebra Package). For MAC users, instead of the BLAS library that comes with R, you can use Apple's vecLib (libBLAS.dylib), which is optimized for Apple to perform computations on large vectors. I don't know if this works on your machine (especially for Windows). But you can try it to speed up R! The process is not complicated. Just follow the instructions in the link below.
+
++ {{< fa newspaper >}} [Accelerating R](https://higgicd.github.io/posts/accelerating_r/){target="_blank"} by Dr. Christopher D. Higgins
++ [Even faster matrix math in R on macOS with M1](https://mpopov.com/blog/2021/10/10/even-faster-matrix-math-in-r-on-macos-with-m1/){target="_blank"} by Mikhail Popov
+:::
+:::
