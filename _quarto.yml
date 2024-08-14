@@ -52,7 +52,7 @@ format:
     code-overflow: wrap
     toc: true
 
-callout-appearance: simple
+# callout-appearance: simple
 
 execute:
   freeze: auto
