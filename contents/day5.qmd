@@ -10,9 +10,9 @@ title: "Day 5: Monte Carlo Simulation"
 Learning Objectives
 ::::
 ::::{.goals-container}
-+ To be able to use `for loop` function
-+ To be ablt to run simpel Monte Calro Simulations
-+ To be able to create R functions
++ To be able to use `for loop` function.
++ To be able to write R functions yourself.
++ To be able to write R code for simple Monte Calro Simulations to test statistical properties. 
 ::::
 :::
 

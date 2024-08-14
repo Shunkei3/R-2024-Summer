@@ -2,6 +2,10 @@
 title: "Day 2: Data Wrangling with `data.table` package"
 ---
 
+
+The R package `data.table` is an extension of the `data.frame` class and is equipped with lots of additional powerful functionalities designed to handle large datasets. It is built for speed and efficiency. Unlike functions of the `dplyr` package (another popular R package for data wrangling), in which you need to use a specific function for each task, the syntax of `data.table` is so simple and consistent that you can do almost everything with just a few commands. Let's see how it works in this lecture.
+
+
 <br>
 
 :::{.goals}
@@ -47,6 +51,12 @@ Quick view of the slides:
 {{< fa file >}} [Exercise Problems]
 
 {{< fa file >}} [Solutions for the Exercise Problems]
+
+
+The data.table package supports multithreading, allowing it to efficiently handle large datasets using multiple CPU cores simultaneously. To set up multithreading in data.table, you need to configure your system a bit (at least for Mac users). I followed {{< fa newspaper >}} [this instruction](https://github.com/Rdatatable/data.table/wiki/Installation#linux-and-mac), and it worked well for me. If you are interested in this, you can try it out!
+
+{{< fa file >}} [How to setup multithreading in data.table](
+
 
 {{< fa file >}} [`data.table` homepage](https://rdatatable.gitlab.io/data.table/)
 

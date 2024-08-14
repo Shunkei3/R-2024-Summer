@@ -2,6 +2,8 @@
 title: "Day 3: Introduction to Data Visualization with `ggplot2` package"
 ---
 
+If you want to visualize your data, the R package `ggplo2` does everything you need. It allows you to create clear and attractive graphs. The flexibility of ggplot2 makes it easy to customize your plots exactly how you want. Let's get started!
+
 <br>
 
 :::{.goals}
@@ -9,8 +11,8 @@ title: "Day 3: Introduction to Data Visualization with `ggplot2` package"
 Learning Objectives
 ::::
 ::::{.goals-container}
-+ Learn the basic operations of `ggplot2` package to create figures. 
-+ You will be able to create:
++ Learn the basic sysntax of geom_* function of the `ggplot2` package to create figures. 
++ To be able to create:
   + scatter plot
   + line plot
   + bar plot
@@ -18,6 +20,7 @@ Learning Objectives
   + box plot
   + density plot
   + facet plot
++ To be able to transform the data to make it suitable for visualization with ggplot functions.
 ::::
 :::
 
@@ -25,9 +28,9 @@ Learning Objectives
 
 ### Preparation
 
-+ Before the class, look at what kind of plots you can create with `ggplot2` package from the [official website](https://r-graph-gallery.com/all-graphs.html)
++ Before the class, see what kind of plots you can create with the `ggplot2` package from the [official website](https://r-graph-gallery.com/all-graphs.html){target="_blank"}.
 
-+ [Here](https://ggplot2.tidyverse.org/articles/ggplot2.html) is a brief overview of the key components used in the ggplot2 package. Specifically, if you understand that any complicated plot is composed of multiple simple plot layers, then it is easy to understand how to create a plot with ggplot2!
++ [Here](https://ggplot2.tidyverse.org/articles/ggplot2.html){target="_blank"} is a brief overview of the key components used in the ggplot2 package. Specifically, if you understand that any complicated plot is composed of multiple simple plot layers, then it is easy to understand how to create a plot with ggplot2!
 
 <br>
 
@@ -47,6 +50,11 @@ Quick view of the slides:
 
 ### Supplementary Materials
 
-+ `ggplot2` homepage: [ggplot2](https://ggplot2.tidyverse.org/)
++ `ggplot2` homepage: [ggplot2](https://ggplot2.tidyverse.org/){target="_blank"}
 
 + {{< fa file >}} [Data visualization with ggplot2](https://posit.co/wp-content/uploads/2022/10/data-visualization-1.pdf){target="_blank"}
+
+
+<!-- ::: {.callout-note}
+**Note:**
+::: -->

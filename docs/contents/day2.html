@@ -266,6 +266,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>The R package <code>data.table</code> is an extension of the <code>data.frame</code> class and is equipped with lots of additional powerful functionalities designed to handle large datasets. It is built for speed and efficiency. Unlike functions of the <code>dplyr</code> package (another popular R package for data wrangling), in which you need to use a specific function for each task, the syntax of <code>data.table</code> is so simple and consistent that you can do almost everything with just a few commands. Let’s see how it works in this lecture.</p>
 <p><br></p>
 <div class="goals">
 <div class="goals-header">
@@ -307,6 +308,8 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="supplementary-materials">Supplementary Materials</h3>
 <p><i class="fa-solid fa-file" aria-label="file"></i> [Exercise Problems]</p>
 <p><i class="fa-solid fa-file" aria-label="file"></i> [Solutions for the Exercise Problems]</p>
+<p>The data.table package supports multithreading, allowing it to efficiently handle large datasets using multiple CPU cores simultaneously. To set up multithreading in data.table, you need to configure your system a bit (at least for Mac users). I followed <i class="fa-solid fa-newspaper" aria-label="newspaper"></i> <a href="https://github.com/Rdatatable/data.table/wiki/Installation#linux-and-mac">this instruction</a>, and it worked well for me. If you are interested in this, you can try it out!</p>
+<p><i class="fa-solid fa-file" aria-label="file"></i> [How to setup multithreading in data.table](</p>
 <p><i class="fa-solid fa-file" aria-label="file"></i> <a href="https://rdatatable.gitlab.io/data.table/"><code>data.table</code> homepage</a></p>
 <p><i class="fa-solid fa-file" aria-label="file"></i> <a href="https://raw.githubusercontent.com/rstudio/cheatsheets/master/datatable.pdf"><code>data.table</code> cheat sheet</a></p>
 <p><i class="fa-solid fa-file" aria-label="file"></i> <a href="https://cran.r-project.org/web/packages/data.table/vignettes/datatable-sd-usage.html">Using .SD for Data Analysis</a> (This is an advanced topic, but it is very useful to know how to use <code>.SD</code> in data.table.)</p>
