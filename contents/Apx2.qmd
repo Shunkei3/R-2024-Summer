@@ -2,7 +2,7 @@
 title: Rmarkdown for making a PDF document
 ---
 
-This section provides a brief introduction to Rmarkdown, a user-friendly and powerful tool for creating dynamic documents. Rmarkdown makes it easy to combine code, text, and output in a single file, allowing you to develop reports, presentations, dashboards, and more. We're creating a PDF document here as an example, but you can apply the same procedure to create an HTML document and other formats. In the next section, we will see how to use Quarto, an upgraded version of R Markdown. Once you know how to use Rmarkdown, you can easily use Quarto.
+This section briefly introduces Rmarkdown, a simple tool to blend text, code, and output in one file. It lets you create summary reports, presentation slides, dashboards, and more. We'll look at creating a PDF document as an example, but you can use the same steps for HTML and other formats. The following section will cover Quarto, an improved version of R Markdown. Once you're familiar with Rmarkdown, you'll find Quarto easy to use.
 
 :::{.solutionbox}
 ::::{.solutionbox-header}
@@ -68,7 +68,7 @@ Let's take a closer look at each of these components briefly.
 
 ### YAML Header
 
-The YAML header is a set of key-value pairs enclosed by `---` at the beginning and end of the document. It contains metadata about the document, such as the title, author, and output format. Here is an example of a YAML header:
+The Rmarkdown document starts with a YAML header. It is a set of `key:value` pairs bounded by triple dashes `---`. It contains metadata about the document, such as the title, author, and output format. Here is an example of a YAML header:
 
 ```r
 ---
@@ -79,8 +79,7 @@ output: pdf_document
 ---
 ```
 
-In the output option, you can specify the output format of the document. For example, `output: pdf_document` will render the document as a PDF file. Other options include `output: html_document` for an HTML file and `word_document` for a Word document. You can further customize the output format by adding additional options. For example, `pdf_document` has options such as `toc` for a table of contents and `number_sections` to number the sections.
-
+In the output option, you can specify the document's output format. For example, `output: pdf_document` will render the document as a PDF file. Other options include `output: html_document` for an HTML file and `word_document` for a Word document^[`output: pdf_document`, `output: html_document`, and `output: word_document` can be used for simple documents, but you have better output options from `bookdown` ([Xie, 2024](https://bookdown.org/)), which is an R Markdown extension. For example, use `output: bookdown::bookdown::pdf_document2` to create a PDF document. This option lets you use advanced functionalities such as cross-referencing for equations, tables, and figures.]. You can further customize the output format by adding additional options. For example, `pdf_document` has options such as `toc` for a table of contents and `number_sections` to number the sections.
 ```r
 ---
 title: "My Document"
@@ -149,7 +148,7 @@ Although the base rmarkdown package does not provide direct support for cross-re
 
 **Global Options**
 
-Instead of manually setting the same chunk options in every code chunk (e.g., figure size), you can configure chunk options globally at the beginning of the document using the `knitr::opts_chunk$set()` function ( `opts_chunk$set()` function of the `knitr` package sets the default options for all code chunks in the document). For example, you can set the default figure size and alignment like this:
+Instead of manually setting the same chunk options in every code chunk (e.g., figure size), you can configure the default options for all code chunks in the document using the `knitr::opts_chunk$set()` function ( `opts_chunk$set()` function of the `knitr` package). For example, you can set the default figure size and alignment like this:
 
 ````markdown
 `r ''````{r, setup}
