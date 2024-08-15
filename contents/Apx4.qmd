@@ -13,7 +13,7 @@ Do I need to install Quarto CLI (Command Line Interface) to use Quarto in Rstudi
 :::{.solutionbox-body}
 No, you don't need to. Recent versions of RStudio come with Quarto already bundled, so you don’t need to install the Quarto CLI separately. 
 
-*Reference: ["Is it necessaryto install Quarto separately  from Rstudio?"](https://github.com/quarto-dev/quarto-cli/discussions/5854){target="_blank"}*
+*Reference: ["Is it necessary to install Quarto separately  from Rstudio?"](https://github.com/quarto-dev/quarto-cli/discussions/5854){target="_blank"}*
 :::
 :::
 
@@ -36,7 +36,7 @@ If you are new to Quarto, I strongly recommend to read [this official document](
 
 From top-down of New file icon, crick "Quarto Document..." -> Select "HTML" (or "PDF") format -> A new Quarto (`.qmd`) file pops up -> Crick "Render" bottom to run the qmd file. The output document will be shown in the Viewer pane.
 
-If "Render on Save" buttom is checked, the document will be rendered automatically when you save the file. This is particularly useful when you want to see real-time updates of your document without manually clicking the “Render” button each time you make a change.
+If "Render on Save" bottom is checked, the document will be rendered automatically when you save the file. This is particularly useful when you want to see real-time updates of your document without manually clicking the “Render” button each time you make a change.
 
 :::{.panel-tabset}
 

@@ -1,6 +1,13 @@
 ---
-title: "Day 5: Monte Carlo Simulation"
+title: "Day 5: Function, Loop, Monte Carlo Simulation"
 ---
+
+
+
+## Preparation
+
+
+
 
 
 ### Learning Objectives
@@ -24,4 +31,21 @@ Take a look
 
 ### Lecture Slides
 {{< fa laptop-code >}}  Lecture 5: [slides](https://shunkei3.github.io/R-slides/Lec_notes/Lec5/Lec5.html){target="_blank"}
+
+<br>
+
+Quick view of the Lecture 1 slides:
+
+
+```{=html}
+<div style="display: flex; justify-content: center;"> 
+<iframe width="900" height="600" src="https://shunkei3.github.io/R-slides/Lec_notes/Lec5/Lec5.html" title="Webpage example"></iframe>
+</div>
+```
+
+## Supplementary Materials
+
++ [Section 19 Functions](https://r4ds.had.co.nz/functions.html)
++ [Section 20 Iteration](https://r4ds.had.co.nz/iteration.html) in R for Data Science
+
 

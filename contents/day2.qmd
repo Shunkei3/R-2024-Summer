@@ -5,7 +5,6 @@ title: "Day 2: Data Wrangling with `data.table` package"
 
 The R package `data.table` is an extension of the `data.frame` class and is equipped with lots of additional powerful functionalities designed to handle large datasets. It is built for speed and efficiency. Unlike functions of the `dplyr` package (another popular R package for data wrangling), in which you need to use a specific function for each task, the syntax of `data.table` is so simple and consistent that you can do almost everything with just a few commands. Let's see how it works in this lecture.
 
-
 <br>
 
 :::{.goals}

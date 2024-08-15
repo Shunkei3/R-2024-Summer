@@ -210,7 +210,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../contents/day5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 5: Monte Carlo Simulation</span></a>
+ <span class="menu-text">Day 5: Function, Loop, Monte Carlo Simulation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -273,7 +273,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#getting-started" id="toc-getting-started" class="nav-link active" data-scroll-target="#getting-started">1. Getting Started</a></li>
-  <li><a href="#basic-coponents-of-rmarkdown" id="toc-basic-coponents-of-rmarkdown" class="nav-link" data-scroll-target="#basic-coponents-of-rmarkdown">2. Basic Coponents of Rmarkdown</a>
+  <li><a href="#basic-components-of-rmarkdown" id="toc-basic-components-of-rmarkdown" class="nav-link" data-scroll-target="#basic-components-of-rmarkdown">2. Basic Components of Rmarkdown</a>
   <ul class="collapse">
   <li><a href="#yaml-header" id="toc-yaml-header" class="nav-link" data-scroll-target="#yaml-header">YAML Header</a></li>
   <li><a href="#markdown-syntax" id="toc-markdown-syntax" class="nav-link" data-scroll-target="#markdown-syntax">Markdown Syntax</a></li>
@@ -367,8 +367,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <p><br></p>
 </section>
-<section id="basic-coponents-of-rmarkdown" class="level2">
-<h2 class="anchored" data-anchor-id="basic-coponents-of-rmarkdown">2. Basic Coponents of Rmarkdown</h2>
+<section id="basic-components-of-rmarkdown" class="level2">
+<h2 class="anchored" data-anchor-id="basic-components-of-rmarkdown">2. Basic Components of Rmarkdown</h2>
 <p>An R Markdown document is divided into three main parts:</p>
 <ul>
 <li>YAML header</li>
@@ -400,7 +400,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="markdown-syntax" class="level3">
 <h3 class="anchored" data-anchor-id="markdown-syntax">Markdown Syntax</h3>
-<p>Ramrkdown and Quarto use Markdown syntax to format text. These are just some&nbsp;rules&nbsp;for formatting texts (e.g., how to make a header, how to make a font bold or italic, how to make a list, etc.). Check this document to see the basic Markdown syntax: <i class="fa-solid fa-newspaper" aria-label="newspaper"></i> <a href="https://quarto.org/docs/authoring/markdown-basics.html" target="_blank">Markdown Basics</a>..</p>
+<p>Ramrkdown and Quarto use Markdown syntax to format text. These are just some&nbsp;rules&nbsp;for formatting texts (e.g., how to make a header, how to make a font bold or italic, how to make a list, etc.). Check this document to see how to use Markdown syntax to syle your texts: <i class="fa-solid fa-newspaper" aria-label="newspaper"></i> <a href="https://quarto.org/docs/authoring/markdown-basics.html" target="_blank">Markdown Basics</a>..</p>
 <p><br></p>
 </section>
 <section id="code-chunks" class="level3">
@@ -410,6 +410,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="in">print("Hello, World!")</span></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <!-- ````markdown
+
 
 
 
@@ -431,8 +432,9 @@ print("Hello, World!")
 
 
 
+
 ```` -->
-<p>There are many options you can configure for code chunks. For more detailed information about chunk options, please refer to <i class="fa-solid fa-newspaper" aria-label="newspaper"></i> <a href="https://yihui.org/knitr/options/" target="_blank">this articule</a>. Chunk options are specified in the body of a code chunk after <code>#|</code> (you can also define chunk options inside the curly braces ```<code>{r}</code>, but Quarto utilizes #| for setting chunk options. To ensure consistency in syntax between Rmarkdown and Quarto documents, it is advisable to use <code>#|</code>).</p>
+<p>There are many options you can configure for code chunks. For more detailed information about chunk options, please refer to <i class="fa-solid fa-newspaper" aria-label="newspaper"></i> <a href="https://yihui.org/knitr/options/" target="_blank">this article</a>. Chunk options are specified in the body of a code chunk after <code>#|</code> (you can also define chunk options inside the curly braces ```<code>{r}</code>, but Quarto utilizes #| for setting chunk options. To ensure consistency in syntax between Rmarkdown and Quarto documents, it is advisable to use <code>#|</code>).</p>
 <p>For example, you can hide the code from the final document by setting <code>echo: false</code>:</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{r, summary-pressure}</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="in">#| echo: false</span></span>
@@ -499,7 +501,7 @@ Note
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  chunk_output_type<span class="sc">:</span> console</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><br></p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Notebook mode (Default)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">How to desable Notebook mode?</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Notebook mode (Default)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">How to disable Notebook mode?</a></li></ul>
 <div class="tab-content">
 <div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
 <div class="quarto-figure quarto-figure-center">

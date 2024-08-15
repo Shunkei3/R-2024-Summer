@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Day 5: Monte Carlo Simulation – Introduction to R Statistical Analysis Software (under construction)</title>
+<title>Day 5: Function, Loop, Monte Carlo Simulation – Introduction to R Statistical Analysis Software (under construction)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -108,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../contents/day1.html">Class Materials</a></li><li class="breadcrumb-item"><a href="../contents/day5.html">Day 5: Monte Carlo Simulation</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../contents/day1.html">Class Materials</a></li><li class="breadcrumb-item"><a href="../contents/day5.html">Day 5: Function, Loop, Monte Carlo Simulation</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -176,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../contents/day5.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Day 5: Monte Carlo Simulation</span></a>
+ <span class="menu-text">Day 5: Function, Loop, Monte Carlo Simulation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -238,18 +238,22 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
-  <li><a href="#preparation" id="toc-preparation" class="nav-link" data-scroll-target="#preparation">Preparation</a></li>
+  <li><a href="#preparation" id="toc-preparation" class="nav-link active" data-scroll-target="#preparation">Preparation</a>
+  <ul class="collapse">
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
+  <li><a href="#preparation-1" id="toc-preparation-1" class="nav-link" data-scroll-target="#preparation-1">Preparation</a></li>
   <li><a href="#lecture-slides" id="toc-lecture-slides" class="nav-link" data-scroll-target="#lecture-slides">Lecture Slides</a></li>
+  </ul></li>
+  <li><a href="#supplementary-materials" id="toc-supplementary-materials" class="nav-link" data-scroll-target="#supplementary-materials">Supplementary Materials</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../contents/day1.html">Class Materials</a></li><li class="breadcrumb-item"><a href="../contents/day5.html">Day 5: Monte Carlo Simulation</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../contents/day1.html">Class Materials</a></li><li class="breadcrumb-item"><a href="../contents/day5.html">Day 5: Function, Loop, Monte Carlo Simulation</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Day 5: Monte Carlo Simulation</h1>
+<h1 class="title">Day 5: Function, Loop, Monte Carlo Simulation</h1>
 </div>
 
 
@@ -266,6 +270,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="preparation" class="level2">
+<h2 class="anchored" data-anchor-id="preparation">Preparation</h2>
 <section id="learning-objectives" class="level3">
 <h3 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h3>
 <div class="goals">
@@ -281,13 +287,26 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<section id="preparation" class="level3">
-<h3 class="anchored" data-anchor-id="preparation">Preparation</h3>
+<section id="preparation-1" class="level3">
+<h3 class="anchored" data-anchor-id="preparation-1">Preparation</h3>
 <p>Take a look</p>
 </section>
 <section id="lecture-slides" class="level3">
 <h3 class="anchored" data-anchor-id="lecture-slides">Lecture Slides</h3>
 <p><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i> Lecture 5: <a href="https://shunkei3.github.io/R-slides/Lec_notes/Lec5/Lec5.html" target="_blank">slides</a></p>
+<p><br></p>
+<p>Quick view of the Lecture 1 slides:</p>
+<div style="display: flex; justify-content: center;"> 
+<iframe width="900" height="600" src="https://shunkei3.github.io/R-slides/Lec_notes/Lec5/Lec5.html" title="Webpage example"></iframe>
+</div>
+</section>
+</section>
+<section id="supplementary-materials" class="level2">
+<h2 class="anchored" data-anchor-id="supplementary-materials">Supplementary Materials</h2>
+<ul>
+<li><a href="https://r4ds.had.co.nz/functions.html">Section 19 Functions</a></li>
+<li><a href="https://r4ds.had.co.nz/iteration.html">Section 20 Iteration</a> in R for Data Science</li>
+</ul>
 
 
 </section>

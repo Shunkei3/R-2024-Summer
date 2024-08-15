@@ -54,7 +54,7 @@ From top-down of New file icon, crick "R Markdown" -> Select "PDF" format -> A n
 <br>
 
 
-## 2. Basic Coponents of Rmarkdown
+## 2. Basic Components of Rmarkdown
 
 An R Markdown document is divided into three main parts: 
 
@@ -96,7 +96,7 @@ output:
 
 ### Markdown Syntax
 
-Ramrkdown and Quarto use Markdown syntax to format text. These are just some rules for formatting texts (e.g., how to make a header, how to make a font bold or italic, how to make a list, etc.). Check this document to see the basic Markdown syntax: {{< fa newspaper >}} [Markdown Basics](https://quarto.org/docs/authoring/markdown-basics.html){target="_blank"}..
+Ramrkdown and Quarto use Markdown syntax to format text. These are just some rules for formatting texts (e.g., how to make a header, how to make a font bold or italic, how to make a list, etc.). Check this document to see how to use Markdown syntax to syle your texts: {{< fa newspaper >}} [Markdown Basics](https://quarto.org/docs/authoring/markdown-basics.html){target="_blank"}..
 
 
 <br>
@@ -117,7 +117,7 @@ print("Hello, World!")
 ```
 ```` -->
 
-There are many options you can configure for code chunks. For more detailed information about chunk options, please refer to  {{< fa newspaper >}} [this articule](https://yihui.org/knitr/options/){target="_blank"}. Chunk options are specified in the body of a code chunk after `#|` (you can also define chunk options inside the curly braces ````{r}`, but Quarto utilizes #| for setting chunk options. To ensure consistency in syntax between Rmarkdown and Quarto documents, it is advisable to use `#|`).
+There are many options you can configure for code chunks. For more detailed information about chunk options, please refer to  {{< fa newspaper >}} [this article](https://yihui.org/knitr/options/){target="_blank"}. Chunk options are specified in the body of a code chunk after `#|` (you can also define chunk options inside the curly braces ````{r}`, but Quarto utilizes #| for setting chunk options. To ensure consistency in syntax between Rmarkdown and Quarto documents, it is advisable to use `#|`).
 
 
 For example, you can hide the code from the final document by setting `echo: false`:
@@ -209,7 +209,7 @@ editor_options:
 ### Notebook mode (Default)
 ![Rmarkdown: inline output (Notebook mode)](z_photos/notebook-demo.png){width=60%}
 
-### How to desable Notebook mode?
+### How to disable Notebook mode?
 
 Choose "**Chunk Output in Console**". 
 

@@ -1,4 +1,4 @@
-## Useful shorcut keys in the Rstudio
+## Useful shortcut keys in the Rstudio
 
 See [this](https://support.posit.co/hc/en-us/articles/200711853-Keyboard-Shortcuts-in-the-RStudio-IDE) for the full list of shortcut keys in Rstudio.
 

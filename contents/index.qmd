@@ -32,7 +32,7 @@ This is a one-week course designed as an introduction to R statistical software 
 
 <br>
 
-## Leraning Objectives
+## Learning Objectives
 
 By completing the course, students will be able to 
 
