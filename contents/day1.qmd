@@ -9,26 +9,31 @@ title: "Day 1: Introduction to R"
 Learning Objectives
 ::::
 ::::{.goals-container}
-+ Understand the basic operation of R and R studio interface
-+ Learn how to write and run R scripts
++ to learn about the basic features of **Rstudio**{style = "color:steelblue"}.
++ to understand different types of R-base data structures and how to create and manipulate them.
++ understand how to do Matrix/Linear Algebra in R.
++ to be able to install and load R packages.
++ to be able to load and save data in R. 
 ::::
 :::
 
 
 ### Preparation
-If you are completely new to R and R studio, these sections from the book "R for Data Science" might be helpful to read before the class:
+If you are completely new to R and R studio, these sections from the book "R for Data Science" might be helpful to read before the class. Each section is very brief. Also, don't worry about the code in the book.:
 
 + [Section 1.4: Prerequisites](https://r4ds.had.co.nz/introduction.html#prerequisites){target="_blank"}
-+ [Section 4; Workflow: basics](https://r4ds.had.co.nz/workflow-basics.html){target="_blank"}
-+ [Section 6: Workflow: scripts](https://r4ds.had.co.nz/workflow-scripts.html){target="_blank"}
 
++ [Section 2: Workflow: basics](https://r4ds.hadley.nz/workflow-basics.){target="_blank"}
+
++ [Section 6: Workflow scripts and projects](https://r4ds.hadley.nz/workflow-scripts)
+  + We'll use RStudio projects instead of set working directory manually. Section 6.2.3 RStudio projects is helpful if you are not familiar with RStudio projects.
 
 ### Lecture Slides
 
 {{< fa laptop-code >}}  Click [here](https://shunkei3.github.io/R-slides/Lec_notes/Lec0/Lec0.html){target="_blank"} for Lecture 0's slides.
 
 
-{{< fa laptop-code >}}  Click [here](https://shunkei3.github.io/R-slides/Lec_notes/Lec1/Lec.html){target="_blank"} for Lecture 1's slides.
+{{< fa laptop-code >}}  Click [here](https://shunkei3.github.io/R-slides/Lec_notes/Lec1/Lec1.html){target="_blank"} for Lecture 1's slides.
 
 <br>
 
@@ -43,6 +48,8 @@ Quick view of the Lecture 1 slides:
 
 
 ### Supplementary Materials
+
+{{< fa file >}} You can find a lot of features of R studio from [here](https://rstudio.github.io/cheatsheets/html/rstudio-ide.html?_gl=1*4yeznz*_ga*MjA3NjIxNzk0Ny4xNzE1NjIyMzk3*_ga_2C0WZ1JHG0*MTcyMzc2ODk2Ny41Ni4xLjE3MjM3NzM3NzQuMC4wLjA.).
 
 {{< fa file >}} [Base R  Cheat Sheet](https://iqss.github.io/dss-workshops/R/Rintro/base-r-cheat-sheet.pdf){target="_blank"}
 

@@ -2,7 +2,7 @@
   {
     "objectID": "contents/Apx3.html",
     "href": "contents/Apx3.html",
-    "title": "Introduction to R Statistical Analysis Software (under construction)",
+    "title": "Introduction to R Statistical Analysis Software",
     "section": "",
     "text": "R markdown and Quarto support LaTeX mathematical expressions.\nIf you are not familiar with LaTeX, you can find the list of basic LaTeX commands and example codes to write mathematical equations in the following document.\n Latex math notations and Example R codes with PDF output\nEspecially, Sections 1 and 2 might be helpful for students unfamiliar with LaTeX math expressions. These are the most commonly used LATEX commands when you write assignments for econometrics and microeconomics classes in APEC!",
     "crumbs": [
@@ -13,7 +13,7 @@
   {
     "objectID": "contents/Apx3.html#latex-mathematical-symbols",
     "href": "contents/Apx3.html#latex-mathematical-symbols",
-    "title": "Introduction to R Statistical Analysis Software (under construction)",
+    "title": "Introduction to R Statistical Analysis Software",
     "section": "",
     "text": "R markdown and Quarto support LaTeX mathematical expressions.\nIf you are not familiar with LaTeX, you can find the list of basic LaTeX commands and example codes to write mathematical equations in the following document.\n Latex math notations and Example R codes with PDF output\nEspecially, Sections 1 and 2 might be helpful for students unfamiliar with LaTeX math expressions. These are the most commonly used LATEX commands when you write assignments for econometrics and microeconomics classes in APEC!",
     "crumbs": [
@@ -90,45 +90,34 @@
   {
     "objectID": "contents/day2.html",
     "href": "contents/day2.html",
-    "title": "Day 2: Data Wrangling with data.table package",
+    "title": "Day 2: Data Wrangling with data.table package (Under Construction)",
     "section": "",
     "text": "The R package data.table is an extension of the data.frame class and is equipped with lots of additional powerful functionalities designed to handle large datasets. It is built for speed and efficiency. Unlike functions of the dplyr package (another popular R package for data wrangling), in which you need to use a specific function for each task, the syntax of data.table is so simple and consistent that you can do almost everything with just a few commands. Let’s see how it works in this lecture.\n\n\n\nLearning Objectives\n\n\n\nTo be able to use the basic data wrangling skills with the data.table package:\n\nsubset rows\nselect and compute on columns\nrename columns\nperform aggregations by group\nmerge multiple datasets\nreshape wide-to-long and long-to-wide, respectively\n\nto be able to use %&gt;% operator of the magrittr package.\n\n\n\n\n\nPreparation\n\nTake a look at  Introduction to data.table.\n\n\n\n\nLecture Slides\n Click here for Lecture 2’s slides.\nQuick view of the slides:\n \n\n\n\n\n\nSupplementary Materials\n [Exercise Problems]\n [Solutions for the Exercise Problems]\nThe data.table package supports multithreading, allowing it to efficiently handle large datasets using multiple CPU cores simultaneously. To set up multithreading in data.table, you need to configure your system a bit (at least for Mac users). I followed  this instruction, and it worked well for me. If you are interested in this, you can try it out!\n [How to setup multithreading in data.table](\n data.table homepage\n data.table cheat sheet\n Using .SD for Data Analysis (This is an advanced topic, but it is very useful to know how to use .SD in data.table.)",
     "crumbs": [
       "Class Materials",
-      "Day 2: Data Wrangling with `data.table` package"
+      "Day 2: Data Wrangling with `data.table` package (Under Construction)"
     ]
   },
   {
     "objectID": "contents/day5.html",
     "href": "contents/day5.html",
-    "title": "Day 5: Function, Loop, Monte Carlo Simulation",
+    "title": "Day 5: Function, Loop, Monte Carlo Simulation (Under Construction)",
     "section": "",
-    "text": "Learning Objectives\n\n\n\nTo be able to use for loop function.\nTo be able to write R functions yourself.\nTo be able to write R code for simple Monte Calro Simulations to test statistical properties.\n\n\n\n\n\n\nTake a look\n\n\n\n Lecture 5: slides\n\nQuick view of the Lecture 1 slides:",
+    "text": "Monte Carlo simulations are a powerful tool in Econometrics and Statistics fields. From the student perspective, it is a great way to understand the statistical properties of the various estimators and inference techniques. In this class, we will learn how to write R code to conduct Monte Carlo simulations.",
     "crumbs": [
       "Class Materials",
-      "Day 5: Function, Loop, Monte Carlo Simulation"
-    ]
-  },
-  {
-    "objectID": "contents/day5.html#preparation",
-    "href": "contents/day5.html#preparation",
-    "title": "Day 5: Function, Loop, Monte Carlo Simulation",
-    "section": "",
-    "text": "Learning Objectives\n\n\n\nTo be able to use for loop function.\nTo be able to write R functions yourself.\nTo be able to write R code for simple Monte Calro Simulations to test statistical properties.\n\n\n\n\n\n\nTake a look\n\n\n\n Lecture 5: slides\n\nQuick view of the Lecture 1 slides:",
-    "crumbs": [
-      "Class Materials",
-      "Day 5: Function, Loop, Monte Carlo Simulation"
+      "Day 5: Function, Loop, Monte Carlo Simulation (Under Construction)"
     ]
   },
   {
     "objectID": "contents/day5.html#supplementary-materials",
     "href": "contents/day5.html#supplementary-materials",
-    "title": "Day 5: Function, Loop, Monte Carlo Simulation",
+    "title": "Day 5: Function, Loop, Monte Carlo Simulation (Under Construction)",
     "section": "Supplementary Materials",
     "text": "Supplementary Materials\n\nSection 19 Functions\nSection 20 Iteration in R for Data Science",
     "crumbs": [
       "Class Materials",
-      "Day 5: Function, Loop, Monte Carlo Simulation"
+      "Day 5: Function, Loop, Monte Carlo Simulation (Under Construction)"
     ]
   },
   {
@@ -136,7 +125,7 @@
     "href": "contents/plan.html",
     "title": "Schedule",
     "section": "",
-    "text": "Tentative Schedule\n\n\n\nDate\nTopic\n\n\n\n\n8/19 (Mon)\nIntroduction to R and R studio interface\n\n\n\nBasic operation of R\n\n\n8/20 (Tue)\nData wrangling with data.table\n\n\n8/21 (Wed)\nData visualization with ggplot2 package\n\n\n8/22 (Wed)\nRegression analysis with R, and Monte Carlo simulation\n\n\n8/23 (Thu)\nRegression analysis with R, and Monte Carlo simulation\n\n\n8/24 (Fri)\nWrite functions, Introduction to Quarto, Review",
+    "text": "Tentative Schedule\n\n\n\n\n\n\n\nDate\nTopic\n\n\n\n\n8/19 (Mon)\nIntroduction to R and R studio interface\n\n\n\nBasics of R\n\n\n8/20 (Tue)\nData wrangling with data.table package\n\n\n8/21 (Wed)\nData visualization with ggplot2 package\n\n\n8/22 (Thu)\nRegression Analysis and Report the Results　\n\n\n8/23 (Fri)\nFunction, Loops, and Monte Carlo Simulation”\n\n\n\nI’m planning to introduce Rmarkdown, and Quarto documents at some point. If I cannot cover them in the class, I will provide materials to learn by yourself.",
     "crumbs": [
       "Schedule"
     ]
@@ -224,18 +213,18 @@
   {
     "objectID": "contents/day4.html",
     "href": "contents/day4.html",
-    "title": "Day 4: Regression Analysis",
+    "title": "Day 4: Regression Analysis (Under Construction)",
     "section": "",
     "text": "Learning Objectives\n\n\n\nto be able to use lm() function\nto be able to create a summary table of regression results\nto be able to create a summary table of discriptive statistics\n\n\n\n\n\nPreparation\n\n\n\nLecture Slides\n Click here for Lecture 3’s slides.\n\nQuick view of the Lecture 1 slides:\n \n\n\n\n\n\nSupplementary Materials",
     "crumbs": [
       "Class Materials",
-      "Day 4: Regression Analysis"
+      "Day 4: Regression Analysis (Under Construction)"
     ]
   },
   {
     "objectID": "contents/Apx4.html",
     "href": "contents/Apx4.html",
-    "title": "Introduction to R Statistical Analysis Software (under construction)",
+    "title": "Introduction to R Statistical Analysis Software",
     "section": "",
     "text": "Quarto is like an upgraded version of R Markdown. It’s a tool that lets you combine text, code, and data analysis all in one document. Quarto does the same thing but with more features and flexibility. Quarto works with R and other languages like Python, Julia, and more. It’s more versatile, allowing you to create documents and reports, websites, blogs, books, and even interactive apps. This website and all my slides for this courses were also created with Quarto! (Similarly, you can use R Markdown to create websites and slides, but Quarto has more features and flexibility.)\n\n\n\n\n\n\nDo I need to install Quarto CLI (Command Line Interface) to use Quarto in Rstudio?\n\n\nNo, you don’t need to. Recent versions of RStudio come with Quarto already bundled, so you don’t need to install the Quarto CLI separately.\nReference: “Is it necessary to install Quarto separately from Rstudio?”\n\n\n\n\n\n\n\n\n\n\nHow to use Quarto in Rstudio?\n\n\nIf you are new to Quarto, I strongly recommend to read this official document to get started.\n\n\nFrom top-down of New file icon, crick “Quarto Document…” -&gt; Select “HTML” (or “PDF”) format -&gt; A new Quarto (.qmd) file pops up -&gt; Crick “Render” bottom to run the qmd file. The output document will be shown in the Viewer pane.\nIf “Render on Save” bottom is checked, the document will be rendered automatically when you save the file. This is particularly useful when you want to see real-time updates of your document without manually clicking the “Render” button each time you make a change.\n\n1.New .Rmd file2.Select HTML format3.Crick Render4.Output\n\n\n\n\n\nStep 1\n\n\n\n\n\n\n\nStep 2: You can choose HTML if you want a HTML document.\n\n\n\n\n\n\n\nStep 3\n\n\n\n\n\n\n\nStep 4\n\n\n\n\n\n\n\n\nThe basic usage of Quarto is the same as R Markdown.\n Quarto document Cheet Sheet",
     "crumbs": [
@@ -244,9 +233,9 @@
     ]
   },
   {
-    "objectID": "contents/Apx4.html#introduction-to-quarto",
-    "href": "contents/Apx4.html#introduction-to-quarto",
-    "title": "Introduction to R Statistical Analysis Software (under construction)",
+    "objectID": "contents/Apx4.html#introduction-to-quarto-under-construction",
+    "href": "contents/Apx4.html#introduction-to-quarto-under-construction",
+    "title": "Introduction to R Statistical Analysis Software",
     "section": "",
     "text": "Quarto is like an upgraded version of R Markdown. It’s a tool that lets you combine text, code, and data analysis all in one document. Quarto does the same thing but with more features and flexibility. Quarto works with R and other languages like Python, Julia, and more. It’s more versatile, allowing you to create documents and reports, websites, blogs, books, and even interactive apps. This website and all my slides for this courses were also created with Quarto! (Similarly, you can use R Markdown to create websites and slides, but Quarto has more features and flexibility.)\n\n\n\n\n\n\nDo I need to install Quarto CLI (Command Line Interface) to use Quarto in Rstudio?\n\n\nNo, you don’t need to. Recent versions of RStudio come with Quarto already bundled, so you don’t need to install the Quarto CLI separately.\nReference: “Is it necessary to install Quarto separately from Rstudio?”\n\n\n\n\n\n\n\n\n\n\nHow to use Quarto in Rstudio?\n\n\nIf you are new to Quarto, I strongly recommend to read this official document to get started.\n\n\nFrom top-down of New file icon, crick “Quarto Document…” -&gt; Select “HTML” (or “PDF”) format -&gt; A new Quarto (.qmd) file pops up -&gt; Crick “Render” bottom to run the qmd file. The output document will be shown in the Viewer pane.\nIf “Render on Save” bottom is checked, the document will be rendered automatically when you save the file. This is particularly useful when you want to see real-time updates of your document without manually clicking the “Render” button each time you make a change.\n\n1.New .Rmd file2.Select HTML format3.Crick Render4.Output\n\n\n\n\n\nStep 1\n\n\n\n\n\n\n\nStep 2: You can choose HTML if you want a HTML document.\n\n\n\n\n\n\n\nStep 3\n\n\n\n\n\n\n\nStep 4\n\n\n\n\n\n\n\n\nThe basic usage of Quarto is the same as R Markdown.\n Quarto document Cheet Sheet",
     "crumbs": [
@@ -257,7 +246,7 @@
   {
     "objectID": "contents/Apx1.html",
     "href": "contents/Apx1.html",
-    "title": "Introduction to R Statistical Analysis Software (under construction)",
+    "title": "Introduction to R Statistical Analysis Software",
     "section": "",
     "text": "See this for the full list of shortcut keys in Rstudio.\nBelow, I list some shortcut keys that are commonly used.\n\n\n\n\n\n\n\n\nDescription\nWindows\nMac\n\n\n\n\nInsert chunk (Sweave and Knitr)\nCtrl+Alt+I\nCmd+Option+I\n\n\nKnit or render Document\nCtrl+Shift+K\nCmd+Shift+K\n\n\nRun current line/selection\nCtrl+Enter\nCmd+Return\n\n\nComment/uncomment current line/selection\nCtrl+Shift+C\nCmd+Shift+C\n\n\nOpen document\nCtrl+O\nCmd+O",
     "crumbs": [
@@ -268,7 +257,7 @@
   {
     "objectID": "contents/Apx1.html#useful-shortcut-keys-in-the-rstudio",
     "href": "contents/Apx1.html#useful-shortcut-keys-in-the-rstudio",
-    "title": "Introduction to R Statistical Analysis Software (under construction)",
+    "title": "Introduction to R Statistical Analysis Software",
     "section": "",
     "text": "See this for the full list of shortcut keys in Rstudio.\nBelow, I list some shortcut keys that are commonly used.\n\n\n\n\n\n\n\n\nDescription\nWindows\nMac\n\n\n\n\nInsert chunk (Sweave and Knitr)\nCtrl+Alt+I\nCmd+Option+I\n\n\nKnit or render Document\nCtrl+Shift+K\nCmd+Shift+K\n\n\nRun current line/selection\nCtrl+Enter\nCmd+Return\n\n\nComment/uncomment current line/selection\nCtrl+Shift+C\nCmd+Shift+C\n\n\nOpen document\nCtrl+O\nCmd+O",
     "crumbs": [
@@ -281,7 +270,7 @@
     "href": "contents/day1.html",
     "title": "Day 1: Introduction to R",
     "section": "",
-    "text": "Learning Objectives\n\n\n\nUnderstand the basic operation of R and R studio interface\nLearn how to write and run R scripts\n\n\n\n\nPreparation\nIf you are completely new to R and R studio, these sections from the book “R for Data Science” might be helpful to read before the class:\n\nSection 1.4: Prerequisites\nSection 4; Workflow: basics\nSection 6: Workflow: scripts\n\n\n\nLecture Slides\n Click here for Lecture 0’s slides.\n Click here for Lecture 1’s slides.\n\nQuick view of the Lecture 1 slides:\n \n\n\n\n\nSupplementary Materials\n Base R Cheat Sheet\n Exercise Problems solutions\n\n\n\n\n\nFaster matrix operations in R\n\n\n\nBy default, R ships with two libraries for common mathematical operations: Basic Linear Algebra Subprograms (BLAS) and LAPACK (Linear Algebra Package). For MAC users, instead of the BLAS library that comes with R, you can use Apple’s vecLib (libBLAS.dylib), which is optimized for Apple to perform computations on large vectors. I don’t know if this works on your machine (especially for Windows). But you can try it to speed up R! The process is not complicated. Just follow the instructions in the link below.\n Accelerating R by Dr. Christopher D. Higgins\nEven faster matrix math in R on macOS with M1 by Mikhail Popov",
+    "text": "Learning Objectives\n\n\n\nto learn about the basic features of Rstudio{style = “color:steelblue”}.\nto understand different types of R-base data structures and how to create and manipulate them.\nunderstand how to do Matrix/Linear Algebra in R.\nto be able to install and load R packages.\nto be able to load and save data in R.\n\n\n\n\nPreparation\nIf you are completely new to R and R studio, these sections from the book “R for Data Science” might be helpful to read before the class. Each section is very brief. Also, don’t worry about the code in the book.:\n\nSection 1.4: Prerequisites\nSection 2: Workflow: basics\nSection 6: Workflow scripts and projects\n\nWe’ll use RStudio projects instead of set working directory manually. Section 6.2.3 RStudio projects is helpful if you are not familiar with RStudio projects.\n\n\n\n\nLecture Slides\n Click here for Lecture 0’s slides.\n Click here for Lecture 1’s slides.\n\nQuick view of the Lecture 1 slides:\n \n\n\n\n\nSupplementary Materials\n You can find a lot of features of R studio from here.\n Base R Cheat Sheet\n Exercise Problems solutions\n\n\n\n\n\nFaster matrix operations in R\n\n\n\nBy default, R ships with two libraries for common mathematical operations: Basic Linear Algebra Subprograms (BLAS) and LAPACK (Linear Algebra Package). For MAC users, instead of the BLAS library that comes with R, you can use Apple’s vecLib (libBLAS.dylib), which is optimized for Apple to perform computations on large vectors. I don’t know if this works on your machine (especially for Windows). But you can try it to speed up R! The process is not complicated. Just follow the instructions in the link below.\n Accelerating R by Dr. Christopher D. Higgins\nEven faster matrix math in R on macOS with M1 by Mikhail Popov",
     "crumbs": [
       "Class Materials",
       "Day 1: Introduction to R"

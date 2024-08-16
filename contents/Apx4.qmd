@@ -1,4 +1,4 @@
-## Introduction to Quarto
+## Introduction to Quarto (Under Construction)
 
 Quarto is like an upgraded version of R Markdown. It’s a tool that lets you combine text, code, and data analysis all in one document. Quarto does the same thing but with more features and flexibility. Quarto works with R and other languages like Python, Julia, and more. It’s more versatile, allowing you to create documents and reports, websites, blogs, books, and even interactive apps. This website and all my slides for this courses were also created with Quarto! (Similarly, you can use R Markdown to create websites and slides, but Quarto has more features and flexibility.)
 

@@ -7,9 +7,11 @@ title: "Schedule"
 | Date        | Topic                                                  |
 |-------------|--------------------------------------------------------|
 | 8/19 (Mon)  | Introduction to R and R studio interface               |
-|             | Basic operation of R                                   |
-| 8/20 (Tue)  | Data wrangling with data.table                         |
+|             | Basics of R                                  |
+| 8/20 (Tue)  | Data wrangling with data.table package                      |
 | 8/21 (Wed)  | Data visualization with ggplot2 package                |
-| 8/22 (Wed)  | Regression analysis with R, and Monte Carlo simulation |
-| 8/23 (Thu)  | Regression analysis with R, and Monte Carlo simulation |
-| 8/24 (Fri)  | Write functions, Introduction to Quarto, Review        |
+| 8/22 (Thu)  | Regression Analysis and Report the Results　|
+| 8/23 (Fri)  | Function, Loops, and Monte Carlo Simulation"       |
+
+
+I'm planning to introduce Rmarkdown, and Quarto documents at some point. If I cannot cover them in the class, I will provide materials to learn by yourself.
