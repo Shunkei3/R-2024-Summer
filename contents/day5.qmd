@@ -1,14 +1,8 @@
 ---
-title: "Day 5: Function, Loop, Monte Carlo Simulation"
+title: "Day 5: Function, Loop, Monte Carlo Simulation (Under Construction)"
 ---
 
-
-
-## Preparation
-
-
-
-
+Monte Carlo simulations are a powerful tool in Econometrics and Statistics fields. From the student perspective, it is a great way to understand the statistical properties of the various estimators and inference techniques. In this class, we will learn how to write R code to conduct Monte Carlo simulations.
 
 ### Learning Objectives
 
@@ -17,9 +11,9 @@ title: "Day 5: Function, Loop, Monte Carlo Simulation"
 Learning Objectives
 ::::
 ::::{.goals-container}
++ To acquire the skills to write your own R functions.
 + To be able to use `for loop` function.
-+ To be able to write R functions yourself.
-+ To be able to write R code for simple Monte Calro Simulations to test statistical properties. 
++ To be able to write R code for simple Monte Carlo Simulations to test statistical properties. 
 ::::
 :::
 
