@@ -79,12 +79,12 @@
   {
     "objectID": "contents/day3.html",
     "href": "contents/day3.html",
-    "title": "Day 3: Introduction to Data Visualization with ggplot2 package",
+    "title": "Day 3: Introduction to Data Visualization with ggplot2 package (Under Construction)",
     "section": "",
     "text": "If you want to visualize your data, the R package ggplo2 does everything you need. It allows you to create clear and attractive graphs. The flexibility of ggplot2 makes it easy to customize your plots exactly how you want. Let’s get started!\n\n\n\nLearning Objectives\n\n\n\nLearn the basic sysntax of geom_* function of the ggplot2 package to create figures.\nTo be able to create:\n\nscatter plot\nline plot\nbar plot\nhistogram\nbox plot\ndensity plot\nfacet plot\n\nTo be able to transform the data to make it suitable for visualization with ggplot functions.\n\n\n\n\n\nPreparation\n\nBefore the class, see what kind of plots you can create with the ggplot2 package from the official website.\nHere is a brief overview of the key components used in the ggplot2 package. Specifically, if you understand that any complicated plot is composed of multiple simple plot layers, then it is easy to understand how to create a plot with ggplot2!\n\n\n\n\nLecture Slides\n Click here for Lecture 3’s slides.\nQuick view of the slides:\n \n\n\n\n\nSupplementary Materials\n\nggplot2 homepage: ggplot2\n Data visualization with ggplot2",
     "crumbs": [
       "Class Materials",
-      "Day 3: Introduction to Data Visualization with `ggplot2` package"
+      "Day 3: Introduction to Data Visualization with `ggplot2` package (Under Construction)"
     ]
   },
   {
