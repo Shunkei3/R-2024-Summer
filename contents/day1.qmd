@@ -22,14 +22,14 @@ Learning Objectives
 
 
 ### Preparation
-If you are entirely new to R and RStudio, these sections from the book "R for Data Science" might be helpful to read before the class. Each section is very brief. Also, don't worry about the code in the book.:
+If you are entirely new to R and RStudio, the following sections from the book "R for Data Science" might be helpful to read before the class. Each section is short. Also, don't worry about the code written in the book.
 
 + [Section 1.4: Prerequisites](https://r4ds.had.co.nz/introduction.html#prerequisites){target="_blank"}
 
 + [Section 2: Workflow: basics](https://r4ds.hadley.nz/workflow-basics.){target="_blank"}
 
 + [Section 6: Workflow scripts and projects](https://r4ds.hadley.nz/workflow-scripts)
-  + We'll use RStudio projects instead of setting working directory manually. "Section 6.2.3 RStudio projects" explains RStudio projects.
+  + We'll use RStudio projects instead of setting working directory manually. [Section 6.2.3: RStudio projects](https://r4ds.hadley.nz/workflow-scripts#rstudio-projects) explains RStudio projects.
 
 ### Lecture Slides
 
@@ -49,6 +49,7 @@ Quick view of the Lecture 1's slides:
 </div>
 ```
 
+<br>
 
 ### Supplementary Materials
 
