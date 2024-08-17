@@ -158,25 +158,25 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../contents/day2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 2: Data Wrangling with <code>data.table</code> package (Under Construction)</span></a>
+ <span class="menu-text">Day 2: Data Wrangling with the <code>data.table</code> package</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../contents/day3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 3: Introduction to Data Visualization with <code>ggplot2</code> package (Under Construction)</span></a>
+ <span class="menu-text">Day 3: Introduction to Data Visualization with the <code>ggplot2</code> package (Under Construction)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../contents/day4.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 4: Regression Analysis (Under Construction)</span></a>
+ <span class="menu-text">Day 4: Introduction to Regression Analysis in R (Under Construction)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../contents/day5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 5: Function, Loop, Monte Carlo Simulation (Under Construction)</span></a>
+ <span class="menu-text">Day 5: Function, Loop, and Monte Carlo Simulation (Under Construction)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -273,7 +273,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="goals-container">
 <ul>
-<li>to learn about the basic features of Rstudio.</li>
+<li>to be able to use the basic features of RStudio.</li>
 <li>to understand different types of R-base data structures and how to create and manipulate them.</li>
 <li>understand how to do Matrix/Linear Algebra in R.</li>
 <li>to be able to install and load R packages.</li>
@@ -283,13 +283,13 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="preparation" class="level3">
 <h3 class="anchored" data-anchor-id="preparation">Preparation</h3>
-<p>If you are completely new to R and R studio, these sections from the book “R for Data Science” might be helpful to read before the class. Each section is very brief. Also, don’t worry about the code in the book.:</p>
+<p>If you are entirely new to R and RStudio, these sections from the book “R for Data Science” might be helpful to read before the class. Each section is very brief. Also, don’t worry about the code in the book.:</p>
 <ul>
 <li><p><a href="https://r4ds.had.co.nz/introduction.html#prerequisites" target="_blank">Section 1.4: Prerequisites</a></p></li>
 <li><p><a href="https://r4ds.hadley.nz/workflow-basics." target="_blank">Section 2: Workflow: basics</a></p></li>
 <li><p><a href="https://r4ds.hadley.nz/workflow-scripts">Section 6: Workflow scripts and projects</a></p>
 <ul>
-<li>We’ll use RStudio projects instead of set working directory manually. Section 6.2.3 RStudio projects is helpful if you are not familiar with RStudio projects.</li>
+<li>We’ll use RStudio projects instead of setting working directory manually. “Section 6.2.3 RStudio projects” explains RStudio projects.</li>
 </ul></li>
 </ul>
 </section>
@@ -298,7 +298,7 @@ ul.task-list li input[type="checkbox"] {
 <p><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i> Click <a href="https://shunkei3.github.io/R-slides/Lec_notes/Lec0/Lec0.html" target="_blank">here</a> for Lecture 0’s slides.</p>
 <p><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i> Click <a href="https://shunkei3.github.io/R-slides/Lec_notes/Lec1/Lec1.html" target="_blank">here</a> for Lecture 1’s slides.</p>
 <p><br></p>
-<p>Quick view of the Lecture 1 slides:</p>
+<p>Quick view of the Lecture 1’s slides:</p>
 <div style="display: flex; justify-content: center;"> 
 <iframe width="900" height="600" src="https://shunkei3.github.io/R-slides/Lec_notes/Lec1/Lec1.html" title="Webpage example"></iframe>
 </div>
@@ -317,7 +317,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="solutionbox-body">
 <ul>
-<li><p>By default, R ships with two libraries for common mathematical operations: Basic Linear Algebra Subprograms (BLAS) and LAPACK (Linear Algebra Package). For MAC users, instead of the BLAS library that comes with R, you can use Apple’s vecLib (libBLAS.dylib), which is optimized for Apple to perform computations on large vectors. I don’t know if this works on your machine (especially for Windows). But you can try it to speed up R! The process is not complicated. Just follow the instructions in the link below.</p></li>
+<li><p>By default, R uses two libraries for common mathematical operations: Basic Linear Algebra Subprograms (BLAS) and LAPACK (Linear Algebra Package). For MAC users, instead of the BLAS library that comes with R, you can use Apple’s vecLib (libBLAS.dylib), which is optimized for Apple to perform computations on large vectors. I don’t know if this works on your machine (especially for Windows). But you can try it to speed up R! The process is not complicated. Just follow the instructions in the link below.</p></li>
 <li><p><i class="fa-solid fa-newspaper" aria-label="newspaper"></i> <a href="https://higgicd.github.io/posts/accelerating_r/" target="_blank">Accelerating R</a> by Dr.&nbsp;Christopher D. Higgins</p></li>
 <li><p><a href="https://mpopov.com/blog/2021/10/10/even-faster-matrix-math-in-r-on-macos-with-m1/" target="_blank">Even faster matrix math in R on macOS with M1</a> by Mikhail Popov</p></li>
 </ul>

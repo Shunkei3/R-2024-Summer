@@ -3,7 +3,9 @@ title: "Day 2: Data Wrangling with `data.table` package (Under Construction)"
 ---
 
 
-The R package `data.table` is an extension of the `data.frame` class and is equipped with lots of additional powerful functionalities designed to handle large datasets. It is built for speed and efficiency. Unlike functions of the `dplyr` package (another popular R package for data wrangling), in which you need to use a specific function for each task, the syntax of `data.table` is so simple and consistent that you can do almost everything with just a few commands. Let's see how it works in this lecture.
+The R package `data.table` is an extension of the `data.frame` class and is equipped with lots of additional powerful functionalities designed to handle large datasets. It is built for speed and efficiency. Unlike functions of the `dplyr` package (another popular R package for data wrangling), in which you need to use a specific function for each task, the syntax of `data.table` is so simple and consistent that you can do almost everything with just a few commands. 
+
+In this lecture, we will learn the basic data wrangling skills with the `data.table` package. In addition, I will also briefly introduce the `%>%` operator of the `magrittr` package as a tool to make your code more concise and readable.
 
 <br>
 
@@ -26,7 +28,8 @@ Learning Objectives
 <br>
 
 ### Preparation
-+ Take a look at {{< fa file >}} [Introduction to data.table](https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html).
++  {{< fa file >}} [This](https://rdatatable.gitlab.io/data.table/) is the official website for the `data.table` package. Specifically, I recommend you take a look at the  Introduction section.
++ [Section 18: Pipes](https://r4ds.had.co.nz/pipes.html) in the book of R for Data Science is a good introduction to the `%>%` operator of the `magrittr` package.
 
 <br>
 
@@ -52,7 +55,7 @@ Quick view of the slides:
 {{< fa file >}} [Solutions for the Exercise Problems]
 
 
-The data.table package supports multithreading, allowing it to efficiently handle large datasets using multiple CPU cores simultaneously. To set up multithreading in data.table, you need to configure your system a bit (at least for Mac users). I followed {{< fa newspaper >}} [this instruction](https://github.com/Rdatatable/data.table/wiki/Installation#linux-and-mac), and it worked well for me. If you are interested in this, you can try it out!
+The `data.table` package supports multithreading, allowing it to efficiently handle large datasets utilizing multiple CPU cores simultaneously. To set up multithreading in `data.table`, you need to do some configuration on your computer a bit (at least for Mac users). Follow {{< fa newspaper >}} [this instruction](https://github.com/Rdatatable/data.table/wiki/Installation#linux-and-mac). 
 
 {{< fa file >}} [How to setup multithreading in data.table](
 

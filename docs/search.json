@@ -79,45 +79,34 @@
   {
     "objectID": "contents/day3.html",
     "href": "contents/day3.html",
-    "title": "Day 3: Introduction to Data Visualization with ggplot2 package (Under Construction)",
+    "title": "Day 3: Introduction to Data Visualization with the ggplot2 package (Under Construction)",
     "section": "",
-    "text": "If you want to visualize your data, the R package ggplo2 does everything you need. It allows you to create clear and attractive graphs. The flexibility of ggplot2 makes it easy to customize your plots exactly how you want. Let’s get started!\n\n\n\nLearning Objectives\n\n\n\nLearn the basic sysntax of geom_* function of the ggplot2 package to create figures.\nTo be able to create:\n\nscatter plot\nline plot\nbar plot\nhistogram\nbox plot\ndensity plot\nfacet plot\n\nTo be able to transform the data to make it suitable for visualization with ggplot functions.\n\n\n\n\n\nPreparation\n\nBefore the class, see what kind of plots you can create with the ggplot2 package from the official website.\nHere is a brief overview of the key components used in the ggplot2 package. Specifically, if you understand that any complicated plot is composed of multiple simple plot layers, then it is easy to understand how to create a plot with ggplot2!\n\n\n\n\nLecture Slides\n Click here for Lecture 3’s slides.\nQuick view of the slides:\n \n\n\n\n\nSupplementary Materials\n\nggplot2 homepage: ggplot2\n Data visualization with ggplot2",
+    "text": "If you want to visualize your data, the R package ggplo2 does everything you need. It allows you to create clear and attractive graphs. The flexibility of ggplot2 makes it easy to customize your plots exactly how you want. Let’s get started!\n\n\n\nLearning Objectives\n\n\n\nLearn the basic sysntax of geom_* function of the ggplot2 package to create figures.\nTo be able to create:\n\nscatter plot\nline plot\nbar plot\nhistogram\nbox plot\ndensity plot\nfacet plot\n\nTo be able to transform the data to make it suitable for visualization with ggplot functions.\n\n\n\n\n\nPreparation\n\nBefore the class, see what kind of plots you can create with the ggplot2 package from the official website.\nHere is a brief overview of the key components used in the ggplot2 package. Specifically, if you understand that any complicated plot is composed of multiple simple plot layers, then it is easy to understand how to create a plot with ggplot2!\n\n\n\n\nLecture Slides\n Click here for Lecture 3’s slides.\nQuick view of the lecture slides:\n \n\n\n\n\nSupplementary Materials\n\nggplot2 homepage: ggplot2\n Data visualization with ggplot2",
     "crumbs": [
       "Class Materials",
-      "Day 3: Introduction to Data Visualization with `ggplot2` package (Under Construction)"
+      "Day 3: Introduction to Data Visualization with the `ggplot2` package (Under Construction)"
     ]
   },
   {
     "objectID": "contents/day2.html",
     "href": "contents/day2.html",
-    "title": "Day 2: Data Wrangling with data.table package (Under Construction)",
+    "title": "Day 2: Data Wrangling with the data.table package",
     "section": "",
-    "text": "The R package data.table is an extension of the data.frame class and is equipped with lots of additional powerful functionalities designed to handle large datasets. It is built for speed and efficiency. Unlike functions of the dplyr package (another popular R package for data wrangling), in which you need to use a specific function for each task, the syntax of data.table is so simple and consistent that you can do almost everything with just a few commands. Let’s see how it works in this lecture.\n\n\n\nLearning Objectives\n\n\n\nTo be able to use the basic data wrangling skills with the data.table package:\n\nsubset rows\nselect and compute on columns\nrename columns\nperform aggregations by group\nmerge multiple datasets\nreshape wide-to-long and long-to-wide, respectively\n\nto be able to use %&gt;% operator of the magrittr package.\n\n\n\n\n\nPreparation\n\nTake a look at  Introduction to data.table.\n\n\n\n\nLecture Slides\n Click here for Lecture 2’s slides.\nQuick view of the slides:\n \n\n\n\n\n\nSupplementary Materials\n [Exercise Problems]\n [Solutions for the Exercise Problems]\nThe data.table package supports multithreading, allowing it to efficiently handle large datasets using multiple CPU cores simultaneously. To set up multithreading in data.table, you need to configure your system a bit (at least for Mac users). I followed  this instruction, and it worked well for me. If you are interested in this, you can try it out!\n [How to setup multithreading in data.table](\n data.table homepage\n data.table cheat sheet\n Using .SD for Data Analysis (This is an advanced topic, but it is very useful to know how to use .SD in data.table.)",
+    "text": "The R package data.table is an extension of the data.frame class and is equipped with lots of additional powerful functionalities designed to handle large datasets. It is built for speed and efficiency. Unlike functions of the dplyr package (another popular R package for data wrangling), in which you need to use a specific function for each task, the syntax of data.table is so simple and consistent that you can do almost everything with just a few commands.\nIn this lecture, we will learn the basic data wrangling skills with the data.table package. In addition, I will also briefly introduce the %&gt;% operator of the magrittr package as a tool to make your code more concise and readable.\n\n\n\nLearning Objectives\n\n\n\nTo be able to use the basic data wrangling skills with the data.table package:\n\nsubset rows\nselect and compute on columns\nrename columns\nperform aggregations by group\nmerge multiple datasets\nreshape wide-to-long and long-to-wide, respectively\n\nto be able to use %&gt;% operator of the magrittr package.\n\n\n\n\n\nPreparation\n\n This is the official website for the data.table package. Specifically, I recommend you take a look at the Introduction section.\nSection 18: Pipes in the book of R for Data Science is a good introduction to the %&gt;% operator of the magrittr package.\n\n\n\n\nLecture Slides\n Click here for Lecture 2’s slides.\nQuick view of the slides:\n \n\n\n\n\n\nSupplementary Materials\n [Exercise Problems]\n [Solutions for the Exercise Problems]\nThe data.table package supports multithreading, allowing it to efficiently handle large datasets utilizing multiple CPU cores simultaneously. To set up multithreading in data.table, you need to do some configuration on your computer a bit (at least for Mac users). Follow  this instruction.\n [How to setup multithreading in data.table](\n data.table homepage\n data.table cheat sheet\n Using .SD for Data Analysis (This is an advanced topic, but it is very useful to know how to use .SD in data.table.)",
     "crumbs": [
       "Class Materials",
-      "Day 2: Data Wrangling with `data.table` package (Under Construction)"
+      "Day 2: Data Wrangling with the `data.table` package"
     ]
   },
   {
     "objectID": "contents/day5.html",
     "href": "contents/day5.html",
-    "title": "Day 5: Function, Loop, Monte Carlo Simulation (Under Construction)",
+    "title": "Day 5: Function, Loop, and Monte Carlo Simulation (Under Construction)",
     "section": "",
-    "text": "Monte Carlo simulations are a powerful tool in Econometrics and Statistics fields. From the student perspective, it is a great way to understand the statistical properties of the various estimators and inference techniques. In this class, we will learn how to write R code to conduct Monte Carlo simulations.",
+    "text": "Monte Carlo simulations are a powerful tool in Econometrics and Statistics fields. From the student perspective, it is a great way to understand the statistical properties of the various estimators and inference techniques. In this class, we will learn how to write R code to conduct Monte Carlo simulations.\n\nLearning Objectives\n\n\nLearning Objectives\n\n\n\nTo acquire the skills to write your own R functions.\nTo be able to use for loop function.\nTo be able to write R code for simple Monte Carlo Simulations to test statistical properties.\n\n\n\n\n\nPreparation\nTake a look at the following sections in the book of R for Data Science:\n\nSection 19 Functions\nSection 20 Iteration\n\n\n\nLecture Slides\n Lecture 5: slides\n\nQuick view of the lecture slides:\n \n\n\n\n\nSupplementary Materials\n\nExercise Problems\nSolutions for the Exercise Problems",
     "crumbs": [
       "Class Materials",
-      "Day 5: Function, Loop, Monte Carlo Simulation (Under Construction)"
-    ]
-  },
-  {
-    "objectID": "contents/day5.html#supplementary-materials",
-    "href": "contents/day5.html#supplementary-materials",
-    "title": "Day 5: Function, Loop, Monte Carlo Simulation (Under Construction)",
-    "section": "Supplementary Materials",
-    "text": "Supplementary Materials\n\nSection 19 Functions\nSection 20 Iteration in R for Data Science",
-    "crumbs": [
-      "Class Materials",
-      "Day 5: Function, Loop, Monte Carlo Simulation (Under Construction)"
+      "Day 5: Function, Loop, and Monte Carlo Simulation (Under Construction)"
     ]
   },
   {
@@ -181,6 +170,16 @@
     ]
   },
   {
+    "objectID": "contents/index.html#more-about-r-coding",
+    "href": "contents/index.html#more-about-r-coding",
+    "title": "Welcome to R Review Course!",
+    "section": "More about R coding",
+    "text": "More about R coding\nIf you are interested in learning more about R programming, I recommend that you take APEC 8221 (001) Programming for Econometrics (7 week course, 2 credits). You can still register!",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
     "objectID": "contents/recommended.html",
     "href": "contents/recommended.html",
     "title": "Recommended Textbooks",
@@ -213,12 +212,12 @@
   {
     "objectID": "contents/day4.html",
     "href": "contents/day4.html",
-    "title": "Day 4: Regression Analysis (Under Construction)",
+    "title": "Day 4: Introduction to Regression Analysis in R (Under Construction)",
     "section": "",
-    "text": "Learning Objectives\n\n\n\nto be able to use lm() function\nto be able to create a summary table of regression results\nto be able to create a summary table of discriptive statistics\n\n\n\n\n\nPreparation\n\n\n\nLecture Slides\n Click here for Lecture 3’s slides.\n\nQuick view of the Lecture 1 slides:\n \n\n\n\n\n\nSupplementary Materials",
+    "text": "In this lecture, we will learn how to use the lm() function to conduct regression analysis in R. To report the regression result with a table, we will use the modelsummary() function of the modelsummary package.\n\n\n\nLearning Objectives\n\n\n\nto be able to use the lm() function to conduct regression analysis in R.\nto be able to create a summary table of regression results with the modelsummary() function.\nto be able to create a summary table of descriptive statistics with the datasummary() function.\n\n\n\n\n\nPreparation\n\nThis is the official website for the modelsummary package. Let’s take a look at the website and see what kind of tables you can create with the modelsummary package.\n\n\n\n\nLecture Slides\n Click here for Lecture 3’s slides.\n\nQuick view of the lecture slides:\n \n\n\n\n\n\nSupplementary Materials\n\nExercise Problems\nSolutions for the Exercise Problems\nFor the estimation of fixed-effects model, you can use the fixest package.",
     "crumbs": [
       "Class Materials",
-      "Day 4: Regression Analysis (Under Construction)"
+      "Day 4: Introduction to Regression Analysis in R (Under Construction)"
     ]
   },
   {
@@ -248,7 +247,7 @@
     "href": "contents/Apx1.html",
     "title": "Introduction to R Statistical Analysis Software",
     "section": "",
-    "text": "See this for the full list of shortcut keys in Rstudio.\nBelow, I list some shortcut keys that are commonly used.\n\n\n\n\n\n\n\n\nDescription\nWindows\nMac\n\n\n\n\nInsert chunk (Sweave and Knitr)\nCtrl+Alt+I\nCmd+Option+I\n\n\nKnit or render Document\nCtrl+Shift+K\nCmd+Shift+K\n\n\nRun current line/selection\nCtrl+Enter\nCmd+Return\n\n\nComment/uncomment current line/selection\nCtrl+Shift+C\nCmd+Shift+C\n\n\nOpen document\nCtrl+O\nCmd+O",
+    "text": "See this for the full list of shortcut keys in RStudio.\nBelow, I listed some useful shortcut keys that are commonly used.\n\n\n\n\n\n\n\n\nDescription\nWindows\nMac\n\n\n\n\nOpen the Palette\nCtrl + Shift + P\nCmd + Shift + P\n\n\nRun current line/selection\nCtrl+Enter\nCmd+Return\n\n\nComment/uncomment current line/selection\nCtrl+Shift+C\nCmd+Shift+C\n\n\nNew R script\nCtrl+Shift+N\nCmd+Shift+N\n\n\nOpen document\nCtrl+O\nCmd+O\n\n\nSave document\nCtrl+S\nCmd+S\n\n\nInsert chunk\nCtrl+Alt+I\nCmd+Option+I\n\n\nKnit or render Document\nCtrl+Shift+K\nCmd+Shift+K",
     "crumbs": [
       "Appendix",
       "Useful shorcut keys in the Rstudio"
@@ -259,7 +258,7 @@
     "href": "contents/Apx1.html#useful-shortcut-keys-in-the-rstudio",
     "title": "Introduction to R Statistical Analysis Software",
     "section": "",
-    "text": "See this for the full list of shortcut keys in Rstudio.\nBelow, I list some shortcut keys that are commonly used.\n\n\n\n\n\n\n\n\nDescription\nWindows\nMac\n\n\n\n\nInsert chunk (Sweave and Knitr)\nCtrl+Alt+I\nCmd+Option+I\n\n\nKnit or render Document\nCtrl+Shift+K\nCmd+Shift+K\n\n\nRun current line/selection\nCtrl+Enter\nCmd+Return\n\n\nComment/uncomment current line/selection\nCtrl+Shift+C\nCmd+Shift+C\n\n\nOpen document\nCtrl+O\nCmd+O",
+    "text": "See this for the full list of shortcut keys in RStudio.\nBelow, I listed some useful shortcut keys that are commonly used.\n\n\n\n\n\n\n\n\nDescription\nWindows\nMac\n\n\n\n\nOpen the Palette\nCtrl + Shift + P\nCmd + Shift + P\n\n\nRun current line/selection\nCtrl+Enter\nCmd+Return\n\n\nComment/uncomment current line/selection\nCtrl+Shift+C\nCmd+Shift+C\n\n\nNew R script\nCtrl+Shift+N\nCmd+Shift+N\n\n\nOpen document\nCtrl+O\nCmd+O\n\n\nSave document\nCtrl+S\nCmd+S\n\n\nInsert chunk\nCtrl+Alt+I\nCmd+Option+I\n\n\nKnit or render Document\nCtrl+Shift+K\nCmd+Shift+K",
     "crumbs": [
       "Appendix",
       "Useful shorcut keys in the Rstudio"
@@ -270,7 +269,7 @@
     "href": "contents/day1.html",
     "title": "Day 1: Introduction to R",
     "section": "",
-    "text": "Learning Objectives\n\n\n\nto learn about the basic features of Rstudio.\nto understand different types of R-base data structures and how to create and manipulate them.\nunderstand how to do Matrix/Linear Algebra in R.\nto be able to install and load R packages.\nto be able to load and save data in R.\n\n\n\n\nPreparation\nIf you are completely new to R and R studio, these sections from the book “R for Data Science” might be helpful to read before the class. Each section is very brief. Also, don’t worry about the code in the book.:\n\nSection 1.4: Prerequisites\nSection 2: Workflow: basics\nSection 6: Workflow scripts and projects\n\nWe’ll use RStudio projects instead of set working directory manually. Section 6.2.3 RStudio projects is helpful if you are not familiar with RStudio projects.\n\n\n\n\nLecture Slides\n Click here for Lecture 0’s slides.\n Click here for Lecture 1’s slides.\n\nQuick view of the Lecture 1 slides:\n \n\n\n\n\nSupplementary Materials\n You can find a lot of features of R studio from here.\n Base R Cheat Sheet\n Exercise Problems solutions\n\n\n\n\n\nFaster matrix operations in R\n\n\n\nBy default, R ships with two libraries for common mathematical operations: Basic Linear Algebra Subprograms (BLAS) and LAPACK (Linear Algebra Package). For MAC users, instead of the BLAS library that comes with R, you can use Apple’s vecLib (libBLAS.dylib), which is optimized for Apple to perform computations on large vectors. I don’t know if this works on your machine (especially for Windows). But you can try it to speed up R! The process is not complicated. Just follow the instructions in the link below.\n Accelerating R by Dr. Christopher D. Higgins\nEven faster matrix math in R on macOS with M1 by Mikhail Popov",
+    "text": "Learning Objectives\n\n\n\nto be able to use the basic features of RStudio.\nto understand different types of R-base data structures and how to create and manipulate them.\nunderstand how to do Matrix/Linear Algebra in R.\nto be able to install and load R packages.\nto be able to load and save data in R.\n\n\n\n\nPreparation\nIf you are entirely new to R and RStudio, these sections from the book “R for Data Science” might be helpful to read before the class. Each section is very brief. Also, don’t worry about the code in the book.:\n\nSection 1.4: Prerequisites\nSection 2: Workflow: basics\nSection 6: Workflow scripts and projects\n\nWe’ll use RStudio projects instead of setting working directory manually. “Section 6.2.3 RStudio projects” explains RStudio projects.\n\n\n\n\nLecture Slides\n Click here for Lecture 0’s slides.\n Click here for Lecture 1’s slides.\n\nQuick view of the Lecture 1’s slides:\n \n\n\n\n\nSupplementary Materials\n You can find a lot of features of R studio from here.\n Base R Cheat Sheet\n Exercise Problems solutions\n\n\n\n\n\nFaster matrix operations in R\n\n\n\nBy default, R uses two libraries for common mathematical operations: Basic Linear Algebra Subprograms (BLAS) and LAPACK (Linear Algebra Package). For MAC users, instead of the BLAS library that comes with R, you can use Apple’s vecLib (libBLAS.dylib), which is optimized for Apple to perform computations on large vectors. I don’t know if this works on your machine (especially for Windows). But you can try it to speed up R! The process is not complicated. Just follow the instructions in the link below.\n Accelerating R by Dr. Christopher D. Higgins\nEven faster matrix math in R on macOS with M1 by Mikhail Popov",
     "crumbs": [
       "Class Materials",
       "Day 1: Introduction to R"
@@ -281,7 +280,7 @@
     "href": "contents/data.html",
     "title": "Data",
     "section": "",
-    "text": "We mostly use the data from web and some R packes. But we use the data to practice\nCreate “Data” folder in your working directory and download the datasets from this links .",
+    "text": "Follow the instruction below:\n\nCreate a new folder for this course (e.g., R_summer_2024).\nIn this course, we mostly use the data from websites and the data attached to R packages but we will occasionally use additional data that I will provide. Please download the datasets from this link .\n\nOnce you open the link, click on the Download button at the top. It will ask you to login or sign up. At the bottom of this window, please click “Or continue with download only” to download the file.\n\nAfter unzipping the file, it will automatically create a folder named Data. Move this folder to your R_summer_2024 folder.\nAdditionally, inside of your R_summer_2024 folder, you need to create a folder named Code.\nNow you’re ready to begin!\n\n\nYour R_summer_2024 folder should look like this:\n\n\n\nFolder structure for R_summer_2024",
     "crumbs": [
       "Class Materials",
       "Data"
@@ -292,18 +291,7 @@
     "href": "contents/data.html#download-the-datasets",
     "title": "Data",
     "section": "",
-    "text": "We mostly use the data from web and some R packes. But we use the data to practice\nCreate “Data” folder in your working directory and download the datasets from this links .",
-    "crumbs": [
-      "Class Materials",
-      "Data"
-    ]
-  },
-  {
-    "objectID": "contents/data.html#description-of-the-datasets",
-    "href": "contents/data.html#description-of-the-datasets",
-    "title": "Data",
-    "section": "Description of the datasets",
-    "text": "Description of the datasets\n\nLec 1\nLec 2\n\n\n\nLec 3\n\n\n\nLec 4:\n\nAER::CPS1988 - Cross-section data originating from the March 1988 Current Population Survey by the US Census Bureau.\nAER::CPSSW9204 - Earnings in the US in 1992 and 2004 for college-educated full-time workers aged 25–34\nAER::Journals - Subscriptions to economics journals at US libraries, for the year 2000.\nAER::CASchools - The dataset contains data on test performance, school characteristics and student demographic backgrounds for school districts in California.\n\nLec 5",
+    "text": "Follow the instruction below:\n\nCreate a new folder for this course (e.g., R_summer_2024).\nIn this course, we mostly use the data from websites and the data attached to R packages but we will occasionally use additional data that I will provide. Please download the datasets from this link .\n\nOnce you open the link, click on the Download button at the top. It will ask you to login or sign up. At the bottom of this window, please click “Or continue with download only” to download the file.\n\nAfter unzipping the file, it will automatically create a folder named Data. Move this folder to your R_summer_2024 folder.\nAdditionally, inside of your R_summer_2024 folder, you need to create a folder named Code.\nNow you’re ready to begin!\n\n\nYour R_summer_2024 folder should look like this:\n\n\n\nFolder structure for R_summer_2024",
     "crumbs": [
       "Class Materials",
       "Data"

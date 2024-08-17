@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Day 4: Regression Analysis (Under Construction) – Introduction to R Statistical Analysis Software</title>
+<title>Day 4: Introduction to Regression Analysis in R (Under Construction) – Introduction to R Statistical Analysis Software</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -108,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../contents/day1.html">Class Materials</a></li><li class="breadcrumb-item"><a href="../contents/day4.html">Day 4: Regression Analysis (Under Construction)</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../contents/day1.html">Class Materials</a></li><li class="breadcrumb-item"><a href="../contents/day4.html">Day 4: Introduction to Regression Analysis in R (Under Construction)</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -158,25 +158,25 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../contents/day2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 2: Data Wrangling with <code>data.table</code> package (Under Construction)</span></a>
+ <span class="menu-text">Day 2: Data Wrangling with the <code>data.table</code> package</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../contents/day3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 3: Introduction to Data Visualization with <code>ggplot2</code> package (Under Construction)</span></a>
+ <span class="menu-text">Day 3: Introduction to Data Visualization with the <code>ggplot2</code> package (Under Construction)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../contents/day4.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Day 4: Regression Analysis (Under Construction)</span></a>
+ <span class="menu-text">Day 4: Introduction to Regression Analysis in R (Under Construction)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../contents/day5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 5: Function, Loop, Monte Carlo Simulation (Under Construction)</span></a>
+ <span class="menu-text">Day 5: Function, Loop, and Monte Carlo Simulation (Under Construction)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -247,9 +247,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../contents/day1.html">Class Materials</a></li><li class="breadcrumb-item"><a href="../contents/day4.html">Day 4: Regression Analysis (Under Construction)</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../contents/day1.html">Class Materials</a></li><li class="breadcrumb-item"><a href="../contents/day4.html">Day 4: Introduction to Regression Analysis in R (Under Construction)</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Day 4: Regression Analysis (Under Construction)</h1>
+<h1 class="title">Day 4: Introduction to Regression Analysis in R (Under Construction)</h1>
 </div>
 
 
@@ -266,6 +266,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>In this lecture, we will learn how to use the <code>lm()</code> function to conduct regression analysis in R. To report the regression result with a table, we will use the <code>modelsummary()</code> function of the <code>modelsummary</code> package.</p>
 <p><br></p>
 <div class="goals">
 <div class="goals-header">
@@ -273,29 +274,37 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="goals-container">
 <ul>
-<li>to be able to use <code>lm()</code> function</li>
-<li>to be able to create a summary table of regression results</li>
-<li>to be able to create a summary table of discriptive statistics</li>
+<li>to be able to use the <code>lm()</code> function to conduct regression analysis in R.</li>
+<li>to be able to create a summary table of regression results with the <code>modelsummary()</code> function.</li>
+<li>to be able to create a summary table of descriptive statistics with the <code>datasummary()</code> function.</li>
 </ul>
 </div>
 </div>
 <p><br></p>
 <section id="preparation" class="level3">
 <h3 class="anchored" data-anchor-id="preparation">Preparation</h3>
+<ul>
+<li><a href="https://modelsummary.com/">This</a> is the official website for the <code>modelsummary</code> package. Let’s take a look at the website and see what kind of tables you can create with the <code>modelsummary</code> package.</li>
+</ul>
 <p><br></p>
 </section>
 <section id="lecture-slides" class="level3">
 <h3 class="anchored" data-anchor-id="lecture-slides">Lecture Slides</h3>
 <p><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i> Click <a href="https://shunkei3.github.io/R-slides/Lec_notes/Lec4/Lec4.html" target="_blank">here</a> for Lecture 3’s slides.</p>
 <p><br></p>
-<p>Quick view of the Lecture 1 slides:</p>
+<p>Quick view of the lecture slides:</p>
 <div style="display: flex; justify-content: center;"> 
-<iframe width="900" height="600" src="https://shunkei3.github.io/R-slides/Lec_notes/Lec1/Lec1.html" title="Webpage example"></iframe>
+<iframe width="900" height="600" src="https://shunkei3.github.io/R-slides/Lec_notes/Lec4/Lec4.html" title="Webpage example"></iframe>
 </div>
 <p><br></p>
 </section>
 <section id="supplementary-materials" class="level3">
 <h3 class="anchored" data-anchor-id="supplementary-materials">Supplementary Materials</h3>
+<ul>
+<li>Exercise Problems</li>
+<li>Solutions for the Exercise Problems</li>
+<li>For the estimation of fixed-effects model, you can use the <a href="https://lrberge.github.io/fixest/index.html"><code>fixest</code> package</a>.</li>
+</ul>
 
 
 </section>

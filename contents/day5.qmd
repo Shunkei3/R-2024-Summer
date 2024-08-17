@@ -1,5 +1,5 @@
 ---
-title: "Day 5: Function, Loop, Monte Carlo Simulation (Under Construction)"
+title: "Day 5: Function, Loop, and Monte Carlo Simulation (Under Construction)"
 ---
 
 Monte Carlo simulations are a powerful tool in Econometrics and Statistics fields. From the student perspective, it is a great way to understand the statistical properties of the various estimators and inference techniques. In this class, we will learn how to write R code to conduct Monte Carlo simulations.
@@ -19,8 +19,10 @@ Learning Objectives
 
 
 ### Preparation
+Take a look at the following sections in the book of R for Data Science:
 
-Take a look 
++ [Section 19 Functions](https://r4ds.had.co.nz/functions.html)
++ [Section 20 Iteration](https://r4ds.had.co.nz/iteration.html)
 
 
 ### Lecture Slides
@@ -28,7 +30,7 @@ Take a look
 
 <br>
 
-Quick view of the Lecture 1 slides:
+Quick view of the lecture slides:
 
 
 ```{=html}
@@ -37,9 +39,10 @@ Quick view of the Lecture 1 slides:
 </div>
 ```
 
-## Supplementary Materials
+### Supplementary Materials
++ Exercise Problems
++ Solutions for the Exercise Problems
 
-+ [Section 19 Functions](https://r4ds.had.co.nz/functions.html)
-+ [Section 20 Iteration](https://r4ds.had.co.nz/iteration.html) in R for Data Science
+
 
 
