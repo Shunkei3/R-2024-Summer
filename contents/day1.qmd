@@ -9,7 +9,7 @@ title: "Day 1: Introduction to R"
 Learning Objectives
 ::::
 ::::{.goals-container}
-+ to learn about the basic features of **Rstudio**{style = "color:steelblue"}.
++ to learn about the basic features of Rstudio.
 + to understand different types of R-base data structures and how to create and manipulate them.
 + understand how to do Matrix/Linear Algebra in R.
 + to be able to install and load R packages.
