@@ -278,23 +278,23 @@
   {
     "objectID": "contents/data.html",
     "href": "contents/data.html",
-    "title": "Data",
+    "title": "Introduction to R Statistical Analysis Software",
     "section": "",
     "text": "Follow the instruction below:\n\nCreate a new folder for this course (e.g., R_summer_2024).\nIn this course, we mostly use the data from websites and the data attached to R packages but we will occasionally use additional data that I will provide. Please download the datasets from this link .\n\nOnce you open the link, click on the Download button at the top. It will ask you to login or sign up. At the bottom of this window, please click “Or continue with download only” to download the file.\n\nAfter unzipping the file, it will automatically create a folder named Data. Move this folder to your R_summer_2024 folder.\nAdditionally, inside of your R_summer_2024 folder, you need to create a folder named Code.\nNow you’re ready to begin!\n\n\nYour R_summer_2024 folder should look like this:\n\n\n\nFolder structure for R_summer_2024",
     "crumbs": [
       "Class Materials",
-      "Data"
+      "Download the datasets"
     ]
   },
   {
     "objectID": "contents/data.html#download-the-datasets",
     "href": "contents/data.html#download-the-datasets",
-    "title": "Data",
+    "title": "Introduction to R Statistical Analysis Software",
     "section": "",
     "text": "Follow the instruction below:\n\nCreate a new folder for this course (e.g., R_summer_2024).\nIn this course, we mostly use the data from websites and the data attached to R packages but we will occasionally use additional data that I will provide. Please download the datasets from this link .\n\nOnce you open the link, click on the Download button at the top. It will ask you to login or sign up. At the bottom of this window, please click “Or continue with download only” to download the file.\n\nAfter unzipping the file, it will automatically create a folder named Data. Move this folder to your R_summer_2024 folder.\nAdditionally, inside of your R_summer_2024 folder, you need to create a folder named Code.\nNow you’re ready to begin!\n\n\nYour R_summer_2024 folder should look like this:\n\n\n\nFolder structure for R_summer_2024",
     "crumbs": [
       "Class Materials",
-      "Data"
+      "Download the datasets"
     ]
   }
 ]
