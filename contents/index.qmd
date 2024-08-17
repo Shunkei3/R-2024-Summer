@@ -59,7 +59,7 @@ Each lecture will be divided into three sessions, where each session consists of
 
 By just looking at code, you cannot acquire the skills for coding. The only way to learn coding is to do it yourself! At the end of each topic, we will work on small quizzes to check your understanding level. In addition, there will be exercise problems at the end of the slides. These exercise problems require you to combine multiple operations you learned in the lecture. Of course, I do not expect you to solve the quizzes and exercise problems immediately. I want you to go through the problems many times until you feel comfortable. The solutions are included in the slides.
 
-# More about R coding
+## More about R coding
 
 If you are interested in learning more about R programming, I recommend that you take APEC 8221 (001) Programming for Econometrics (7 week course, 2 credits). You can still register!
 
