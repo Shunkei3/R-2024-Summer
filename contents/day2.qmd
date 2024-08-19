@@ -29,7 +29,7 @@ Learning Objectives
 
 ### Preparation
 +  {{< fa file >}} [This](https://rdatatable.gitlab.io/data.table/) is the official website for the `data.table` package. Specifically, I recommend you take a look at the  Introduction section.
-+ [Section 18: Pipes](https://r4ds.had.co.nz/pipes.html) in the book of R for Data Science is a good introduction to the `%>%` operator of the `magrittr` package.
++ {{< fa file >}} [Section 18: Pipes](https://r4ds.had.co.nz/pipes.html) in the book of R for Data Science is a good introduction to the `%>%` operator of the `magrittr` package.
 
 <br>
 
@@ -50,22 +50,11 @@ Quick view of the slides:
 
 ### Supplementary Materials
 
-{{< fa file >}} [Exercise Problems]
+{{< fa file >}} [`data.table` homepage](https://rdatatable.gitlab.io/data.table/){target="_blank"}. 
 
-{{< fa file >}} [Solutions for the Exercise Problems]
+{{< fa file >}} [Using .SD for Data Analysis](https://cran.r-project.org/web/packages/data.table/vignettes/datatable-sd-usage.html){target="_blank"} (Although we will not cover this topic in the class, it would be useful if you know how to use `.SD` in data.table.)
 
-
-The `data.table` package supports multithreading, allowing it to efficiently handle large datasets utilizing multiple CPU cores simultaneously. To set up multithreading in `data.table`, you need to do some configuration on your computer a bit (at least for Mac users). Follow {{< fa newspaper >}} [this instruction](https://github.com/Rdatatable/data.table/wiki/Installation#linux-and-mac). 
-
-{{< fa file >}} [How to setup multithreading in data.table](
-
-
-{{< fa file >}} [`data.table` homepage](https://rdatatable.gitlab.io/data.table/)
-
-{{< fa file >}} [`data.table` cheat sheet](https://raw.githubusercontent.com/rstudio/cheatsheets/master/datatable.pdf)
-
-{{< fa file >}} [Using .SD for Data Analysis](https://cran.r-project.org/web/packages/data.table/vignettes/datatable-sd-usage.html) (This is an advanced topic, but it is very useful to know how to use `.SD` in data.table.)
-
+The `data.table` package supports multithreading, allowing it to efficiently handle large datasets utilizing multiple CPU cores simultaneously. To set up multithreading in `data.table`, you need to do some configuration on your computer a bit (at least for Mac users). Follow {{< fa newspaper >}} [this instruction](https://github.com/Rdatatable/data.table/wiki/Installation#linux-and-mac){target="_blank"}. 
 
 <!-- :::{.solutionbox}
 
