@@ -38,7 +38,10 @@ If you are entirely new to R and RStudio, the following sections from the book "
 
 {{< fa laptop-code >}}  Click [here](https://shunkei3.github.io/R-slides/Lec_notes/Lec1/Lec1.html){target="_blank"} for Lecture 1's slides.
 
+{{< fa file >}} [Exercise problems](https://shunkei3.github.io/R-slides/Lec_notes/Lec1/Lec1_exercise_solution.html){target="_blank"}: Exercise problems for Lecture 1. Solution is attached.
+
 <br>
+
 
 Quick view of the Lecture 1's slides:
 
@@ -52,8 +55,6 @@ Quick view of the Lecture 1's slides:
 <br>
 
 ### Supplementary Materials
-
-{{< fa file >}} [Exercise problems](https://shunkei3.github.io/R-slides/Lec_notes/Lec1/Lec1_exercise_solution.html){target="_blank"}: Exercise problems for Lecture 1. Solution is attached.
 
 {{< fa file >}} You can find a lot of features of R studio from [here](https://rstudio.github.io/cheatsheets/html/rstudio-ide.html?_gl=1*4yeznz*_ga*MjA3NjIxNzk0Ny4xNzE1NjIyMzk3*_ga_2C0WZ1JHG0*MTcyMzc2ODk2Ny41Ni4xLjE3MjM3NzM3NzQuMC4wLjA.){target="_blank"}.
 
