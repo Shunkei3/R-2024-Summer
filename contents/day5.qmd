@@ -1,5 +1,5 @@
 ---
-title: "Day 5: Function, Loop, and Monte Carlo Simulation (Under Construction)"
+title: "Day 5: Functions, Loops, and Monte Carlo Simulations (Under Construction)"
 ---
 
 Monte Carlo simulations are a powerful tool in Econometrics and Statistics fields. From the student perspective, it is a great way to understand the statistical properties of the various estimators and inference techniques. In this class, we will learn how to write R code to conduct Monte Carlo simulations.
@@ -26,7 +26,8 @@ Take a look at the following sections in the book of R for Data Science:
 
 
 ### Lecture Slides
-{{< fa laptop-code >}}  Lecture 5: [slides](https://shunkei3.github.io/R-slides/Lec_notes/Lec5/Lec5.html){target="_blank"}
+
+{{< fa laptop-code >}}  Click [here](https://shunkei3.github.io/R-slides/Lec_notes/Lec5/Lec5.html){target="_blank"} for Lecture 5's slides.
 
 <br>
 

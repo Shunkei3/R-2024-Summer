@@ -11,7 +11,7 @@ If you want to visualize your data, the R package `ggplo2` does everything you n
 Learning Objectives
 ::::
 ::::{.goals-container}
-+ Learn the basic sysntax of geom_* function of the `ggplot2` package to create figures. 
++ Learn the basic sysntax of `geom_*` function of the `ggplot2` package to create figures. 
 + To be able to create:
   + scatter plot
   + line plot
@@ -28,7 +28,7 @@ Learning Objectives
 
 ### Preparation
 
-+ Before the class, see what kind of plots you can create with the `ggplot2` package from the [official website](https://r-graph-gallery.com/all-graphs.html){target="_blank"}.
++ Before the class, see what kind of figures you can create with the `ggplot2` package from the [official website](https://r-graph-gallery.com/all-graphs.html){target="_blank"}.
 
 + [Here](https://ggplot2.tidyverse.org/articles/ggplot2.html){target="_blank"} is a brief overview of the key components used in the ggplot2 package. Specifically, if you understand that any complicated plot is composed of multiple simple plot layers, then it is easy to understand how to create a plot with ggplot2!
 
