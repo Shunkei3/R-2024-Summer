@@ -53,6 +53,8 @@ Quick view of the Lecture 1's slides:
 
 ### Supplementary Materials
 
+{{< fa file >}} 
+
 {{< fa file >}} You can find a lot of features of R studio from [here](https://rstudio.github.io/cheatsheets/html/rstudio-ide.html?_gl=1*4yeznz*_ga*MjA3NjIxNzk0Ny4xNzE1NjIyMzk3*_ga_2C0WZ1JHG0*MTcyMzc2ODk2Ny41Ni4xLjE3MjM3NzM3NzQuMC4wLjA.).
 
 {{< fa file >}} [Base R  Cheat Sheet](https://iqss.github.io/dss-workshops/R/Rintro/base-r-cheat-sheet.pdf){target="_blank"}
