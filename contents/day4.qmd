@@ -1,5 +1,5 @@
 ---
-title: "Day 4: Introduction to Regression Analysis in R (Under Construction)"
+title: "Day 4: Introduction to Regression Analysis in R"
 ---
 
 In this lecture, we will learn how to use the `lm()` function to conduct regression analysis in R. To report the regression result with a table, we will use the `modelsummary()` function of the `modelsummary` package. 

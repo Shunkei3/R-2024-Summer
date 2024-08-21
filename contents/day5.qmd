@@ -1,5 +1,5 @@
 ---
-title: "Day 5: Functions, Loops, and Monte Carlo Simulations (Under Construction)"
+title: "Day 5: Functions, Loops, and Monte Carlo Simulations"
 ---
 
 Monte Carlo simulations are a powerful tool in Econometrics and Statistics fields. From the student perspective, it is a great way to understand the statistical properties of the various estimators and inference techniques. In this class, we will learn how to write R code to conduct Monte Carlo simulations.
