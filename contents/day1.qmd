@@ -60,6 +60,12 @@ Quick view of the Lecture 1's slides:
 
 {{< fa file >}} [Base R  Cheat Sheet](https://iqss.github.io/dss-workshops/R/Rintro/base-r-cheat-sheet.pdf){target="_blank"}
 
+
+{{< fa file  >}} [rio Package: Import, Export, and Convert Data Files](https://cran.r-project.org/web/packages/rio/vignettes/rio.html)
+
++ `import()` and `export()` function from the `rio` package can be used to import and export data in various formats. 
+
+
 <br>
 
 :::{.solutionbox}

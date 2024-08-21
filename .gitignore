@@ -14,3 +14,6 @@ contents/note.md
 /repo_lec_R_review/Data/*
 /repo_lec_R_review/Data0
 /repo_lec_R_review/z_doc/misc
+
+/.quarto/
+/_site/

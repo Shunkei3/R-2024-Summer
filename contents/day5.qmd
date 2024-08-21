@@ -29,7 +29,8 @@ Take a look at the following sections in the book of R for Data Science:
 
 {{< fa laptop-code >}}  Click [here](https://shunkei3.github.io/R-slides/Lec_notes/Lec5/Lec5.html){target="_blank"} for Lecture 5's slides.
 
-{{< fa file >}} [Exercise problems](https://shunkei3.github.io/R-slides/Lec_notes/Lec1/Lec1_exercise_solution.html){target="_blank"}: Exercise problems for Lecture 5. Solution is attached.
+{{< fa file >}} Exercise problems
+<!-- {{< fa file >}} [Exercise problems](https://shunkei3.github.io/R-slides/Lec_notes/Lec1/Lec1_exercise_solution.html){target="_blank"}: Exercise problems for Lecture 5. Solution is attached. -->
 
 <br>
 

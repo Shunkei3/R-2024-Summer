@@ -36,7 +36,7 @@ Learning Objectives
 ### Lecture Slides
 {{< fa laptop-code >}}  Click [here](https://shunkei3.github.io/R-slides/Lec_notes/Lec2/Lec2.html){target="_blank"} for Lecture 2's slides.
 
-<!-- {{< fa file >}} [Exercise problems](https://shunkei3.github.io/R-slides/Lec_notes/Lec1/Lec1_exercise_solution.html){target="_blank"}: Exercise problems for Lecture 2. Solution is attached. -->
+{{< fa file >}} [Exercise problems](https://shunkei3.github.io/R-slides/Lec_notes/Lec2/Lec2_exercise_solution.html){target="_blank"}: Exercise problems for Lecture 2. Solution is attached.
 
 Quick view of the slides:
 
