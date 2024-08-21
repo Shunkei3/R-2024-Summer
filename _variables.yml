@@ -1,0 +1,25 @@
+author: Shunkei Kakimoto
+
+instructor:
+  name: Shunkei Kakimoto
+  email: kakim002@umn.edu
+  # url: ""
+  github: Shunkei3
+  office: "316a"
+
+course:
+  semester: "Summer 2024"
+  time: "1:00–4:00 pm"
+  location: "135B Ruttan"
+  dates: "August 19–August 23, 2024"
+  github: "https://github.com/Shunkei3/R-2024-Summer"
+  # url: ""
+  copyright_year: "2024"
+
+university:
+  name: University of Minnesota
+  url: "https://twin-cities.umn.edu/"
+
+school:
+  name: Department of Applied Economics at the University of Minnesota
+  url: "https://apec.umn.edu/"

@@ -1,0 +1,300 @@
+[
+  {
+    "objectID": "contents/Apx3.html",
+    "href": "contents/Apx3.html",
+    "title": "Introduction to R Statistical Analysis Software",
+    "section": "",
+    "text": "R markdown and Quarto support LaTeX mathematical expressions.\nIf you are not familiar with LaTeX, you can find the list of basic LaTeX commands and example codes to write mathematical equations in the following document.\n Latex math notations and Example R codes with PDF output\nEspecially, Sections 1 and 2 might be helpful for students unfamiliar with LaTeX math expressions. These are the most commonly used LATEX commands when you write assignments for econometrics and microeconomics classes in APEC!",
+    "crumbs": [
+      "Appendix",
+      "LaTex Mathematical Expressions"
+    ]
+  },
+  {
+    "objectID": "contents/Apx3.html#latex-mathematical-symbols",
+    "href": "contents/Apx3.html#latex-mathematical-symbols",
+    "title": "Introduction to R Statistical Analysis Software",
+    "section": "",
+    "text": "R markdown and Quarto support LaTeX mathematical expressions.\nIf you are not familiar with LaTeX, you can find the list of basic LaTeX commands and example codes to write mathematical equations in the following document.\n Latex math notations and Example R codes with PDF output\nEspecially, Sections 1 and 2 might be helpful for students unfamiliar with LaTeX math expressions. These are the most commonly used LATEX commands when you write assignments for econometrics and microeconomics classes in APEC!",
+    "crumbs": [
+      "Appendix",
+      "LaTex Mathematical Expressions"
+    ]
+  },
+  {
+    "objectID": "contents/Apx2.html",
+    "href": "contents/Apx2.html",
+    "title": "Rmarkdown for making a PDF document",
+    "section": "",
+    "text": "This section briefly introduces Rmarkdown, a simple tool to blend text, code, and output in one file. It lets you create summary reports, presentation slides, dashboards, and more. We’ll look at creating a PDF document as an example, but you can use the same steps for HTML and other formats. The following section will cover Quarto, an improved version of R Markdown. Once you’re familiar with Rmarkdown, you’ll find Quarto easy to use.",
+    "crumbs": [
+      "Appendix",
+      "Rmarkdown for making a PDF document"
+    ]
+  },
+  {
+    "objectID": "contents/Apx2.html#getting-started",
+    "href": "contents/Apx2.html#getting-started",
+    "title": "Rmarkdown for making a PDF document",
+    "section": "1. Getting Started",
+    "text": "1. Getting Started\nFrom top-down of New file icon, crick “R Markdown” -&gt; Select “PDF” format -&gt; A new Rmarkdown (.Rmd) file pops up -&gt; Crick “Knit” bottom to run the Rmd file.\n\n1.New .Rmd file2.Select PDF format3.Crick Knit4.Output\n\n\n\n\n\nStep 1\n\n\n\n\n\n\n\nStep 2: You can choose HTML if you want a HTML document.\n\n\n\n\n\n\n\nStep 3\n\n\n\n\n\n\n\nStep 4",
+    "crumbs": [
+      "Appendix",
+      "Rmarkdown for making a PDF document"
+    ]
+  },
+  {
+    "objectID": "contents/Apx2.html#basic-components-of-rmarkdown",
+    "href": "contents/Apx2.html#basic-components-of-rmarkdown",
+    "title": "Rmarkdown for making a PDF document",
+    "section": "2. Basic Components of Rmarkdown",
+    "text": "2. Basic Components of Rmarkdown\nAn R Markdown document is divided into three main parts:\n\nYAML header\ntext body\ncode chunks.\n\nLet’s take a closer look at each of these components briefly.\n\n\nYAML Header\nThe Rmarkdown document starts with a YAML header. It is a set of key:value pairs bounded by triple dashes ---. It contains metadata about the document, such as the title, author, and output format. Here is an example of a YAML header:\n---\ntitle: \"My Document\"\nauthor: \"Your Name\"\ndate: \"2022-10-10\"\noutput: pdf_document\n---\nIn the output option, you can specify the document’s output format. For example, output: pdf_document will render the document as a PDF file. Other options include output: html_document for an HTML file and word_document for a Word document1. You can further customize the output format by adding additional options. For example, pdf_document has options such as toc for a table of contents and number_sections to number the sections.\n---\ntitle: \"My Document\"\nauthor: \"Your Name\"\ndate: \"2022-10-10\"\noutput:\n  pdf_document:\n    toc: true\n    number_sections: true\n---\n\n\n\nMarkdown Syntax\nRamrkdown and Quarto use Markdown syntax to format text. These are just some rules for formatting texts (e.g., how to make a header, how to make a font bold or italic, how to make a list, etc.). Check this document to see how to use Markdown syntax to syle your texts:  Markdown Basics..\n\n\n\nCode Chunks\nIn R Markdown document, you write R code in a block called a code chunk. It looks like this:\n```{r}\nprint(\"Hello, World!\")\n```\n\nThere are many options you can configure for code chunks. For more detailed information about chunk options, please refer to  this article. Chunk options are specified in the body of a code chunk after #| (you can also define chunk options inside the curly braces ```{r}, but Quarto utilizes #| for setting chunk options. To ensure consistency in syntax between Rmarkdown and Quarto documents, it is advisable to use #|).\nFor example, you can hide the code from the final document by setting echo: false:\n```{r, summary-pressure}\n#| echo: false\nsummary(pressure)\n```\nYou can name the code chunk inside the ```{r}. This is useful for several reasons. For example, if error happens in the code chunk when rendering the document, you can easily locate the code chunk that caused the error because R Markdown will display the label of the code chunk in the error message. Also, if you want to cross-reference a figure or table in the text, you can use the label of the code chunk2.\nHere is another example of a code chunk that generates a figure. In this case, the code chunk is labeled fig-pressure, and the figure caption is set to “A figure caption”. The width of the figure is set to 50% of the width of the image container.\n```{r, fig-pressure}\n#| fig.cap: \"A figure caption\"\n#| out.width: 50%\n\nplot(pressure)\n```\nAlthough the base rmarkdown package does not provide direct support for cross-referencing, if you are using the bookdown package and setting output: bookdown::pdf_document2 or/and output: bookdown::html_document2 in the YAML header, you can use the make cross-reference figures and tables using the syntax @ref(type:label). For example, if you want to refer to a figure with the label fig-pressure, you can refer the figure with @ref(fig:fig-pressure). Try it on your Rmarkdown document!. For more detailed information about cross-referencing, please refer to  this document.\n\nGlobal Options\nInstead of manually setting the same chunk options in every code chunk (e.g., figure size), you can configure the default options for all code chunks in the document using the knitr::opts_chunk$set() function ( opts_chunk$set() function of the knitr package). For example, you can set the default figure size and alignment like this:\n```{r, setup}\n#| include: false\n\nknitr::opts_chunk$set(\n  fig.width = 6, \n  fig.height = 4,\n  fig.align = \"center\"\n)\n```\ninclude: false means that the code and results associated with this chunk will not be appeared in the output document. Usually this setup chunk is placed at the beginning of the document, right after the YAML header.\n\n\n\n\n\n\nNote\n\n\n\nThis knitr::opts_chunk$set() is unique to Rmarkdown. In Quarto, you can set the default options for all code chunks in the document under execute field in the YAML header. We will see this in the Quarto section.\n\n\n\n\n\n\n\n\nTemplate Rmarkdown file for PDF format\n\n\n This is an example of an Rmarkdown file used to create a PDF document. The produced PDF file looks like  this. In this document, I also demonstrated how to use cross-referencing in the text. You can copy this file and modify it to suit your needs!\n\n\n\n\n\n\n\n\nTips: How to display output of code in the cosole pane, not in the R markdown document?\n\n\nBy default, RStudio enables inline output (Notebook mode) on all R Markdown documents. This means that if you run a code chunk in R markdown on R studio, all the output, including the figure, is displayed below the end of the code chunk you just run (See the picture below). While this feature lets you interact with any R Markdown like a notebook, sometimes it is inconvenient, especially if you have a large code chunk. You can turn off this feature and display the code output in the console pane like in the usual R script (I had been bothered for long time until I found this solution.) Go to the gear button in the editor toolbar, and choose “Chunk Output in Console.” You will see that the chunk_output_type option is added to the YAML header of your R Markdown document.\neditor_options:\n  chunk_output_type: console\n\n\nNotebook mode (Default)How to disable Notebook mode?\n\n\n\n\n\nRmarkdown: inline output (Notebook mode)\n\n\n\n\nChoose “Chunk Output in Console”.\n\n\n\nHow to disable inline output (Notebook mode)\n\n\n\n\n\nReference: Section 3.2 Notebook in “R Markdown: The Definitive Guide” by Yihui Xie, J. J. Allaire, Garrett Grolemund",
+    "crumbs": [
+      "Appendix",
+      "Rmarkdown for making a PDF document"
+    ]
+  },
+  {
+    "objectID": "contents/Apx2.html#summary",
+    "href": "contents/Apx2.html#summary",
+    "title": "Rmarkdown for making a PDF document",
+    "section": "3. Summary",
+    "text": "3. Summary\n\nI hope you now have a better understanding of how to use Rmarkdown. The trickiest part might be setting up the YAML header and code chunk options. But don’t worry! You can always start with a template and modify it to fit your needs.\nCheck this official website for Rmarkdown for more detailed information:  R Markdown Introduction.",
+    "crumbs": [
+      "Appendix",
+      "Rmarkdown for making a PDF document"
+    ]
+  },
+  {
+    "objectID": "contents/Apx2.html#footnotes",
+    "href": "contents/Apx2.html#footnotes",
+    "title": "Rmarkdown for making a PDF document",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\noutput: pdf_document, output: html_document, and output: word_document can be used for simple documents, but you have better output options from bookdown (Xie, 2024), which is an R Markdown extension. For example, use output: bookdown::bookdown::pdf_document2 to create a PDF document. This option lets you use advanced functionalities such as cross-referencing for equations, tables, and figures.↩︎\nCross-referencing is not provided directly within the base rmarkdown package, but is provided as an extension in bookdown (Xie 2023a). For further information, see this document  this document↩︎",
+    "crumbs": [
+      "Appendix",
+      "Rmarkdown for making a PDF document"
+    ]
+  },
+  {
+    "objectID": "contents/day3.html",
+    "href": "contents/day3.html",
+    "title": "Day 3: Introduction to Data Visualization with the ggplot2 package",
+    "section": "",
+    "text": "If you want to visualize your data, the R package ggplo2 does everything you need. It allows you to create clear and attractive graphs. The flexibility of ggplot2 makes it easy to customize your plots exactly how you want. Let’s get started!\n\n\n\nLearning Objectives\n\n\n\nLearn the basic sysntax of geom_* function of the ggplot2 package to create figures.\nTo be able to create:\n\nscatter plot\nline plot\nbar plot\nhistogram\nbox plot\ndensity plot\nfacet plot\n\nTo be able to transform the data to make it suitable for visualization with ggplot functions.\n\n\n\n\n\nPreparation\n\nBefore the class, see what kind of figures you can create with the ggplot2 package from the official website.\nHere is a brief overview of the key components used in the ggplot2 package. Specifically, if you understand that any complicated plot is composed of multiple simple plot layers, then it is easy to understand how to create a plot with ggplot2!\n\n\n\n\nLecture Slides\n Click here for Lecture 3’s slides.\n Exercise problems: Exercise problems for Lecture 1. Solution is attached.\n\nQuick view of the lecture slides:\n \n\n\n\n\nSupplementary Materials\n\nggplot2 homepage: ggplot2\n Data visualization with ggplot2",
+    "crumbs": [
+      "Class Materials",
+      "Day 3: Introduction to Data Visualization with the `ggplot2` package"
+    ]
+  },
+  {
+    "objectID": "contents/day2.html",
+    "href": "contents/day2.html",
+    "title": "Day 2: Data Wrangling with the data.table package",
+    "section": "",
+    "text": "The R package data.table is an extension of the data.frame class and is equipped with lots of additional powerful functionalities designed to handle large datasets. It is built for speed and efficiency. Unlike functions of the dplyr package (another popular R package for data wrangling), in which you need to use a specific function for each task, the syntax of data.table is so simple and consistent that you can do almost everything with just a few commands.\nIn this lecture, we will learn the basic data wrangling skills with the data.table package. In addition, I will also briefly introduce the %&gt;% operator of the magrittr package as a tool to make your code more concise and readable.\n\n\n\nLearning Objectives\n\n\n\nTo be able to use the basic data wrangling skills with the data.table package:\n\nsubset rows\nselect and compute on columns\nrename columns\nperform aggregations by group\nmerge multiple datasets\nreshape wide-to-long and long-to-wide, respectively\n\nto be able to use %&gt;% operator of the magrittr package.\n\n\n\n\n\nPreparation\n\n This is the official website for the data.table package. Specifically, I recommend you take a look at the Introduction section.\n Section 18: Pipes in the book of R for Data Science is a good introduction to the %&gt;% operator of the magrittr package.\n\n\n\n\nLecture Slides\n Click here for Lecture 2’s slides.\n\nQuick view of the slides:\n \n\n\n\n\n\nSupplementary Materials\n data.table homepage.\n Using .SD for Data Analysis (Although we will not cover this topic in the class, it would be useful if you know how to use .SD in data.table.)\nThe data.table package supports multithreading, allowing it to efficiently handle large datasets utilizing multiple CPU cores simultaneously. To set up multithreading in data.table, you need to do some configuration on your computer a bit (at least for Mac users). Follow  this instruction.",
+    "crumbs": [
+      "Class Materials",
+      "Day 2: Data Wrangling with the `data.table` package"
+    ]
+  },
+  {
+    "objectID": "contents/day5.html",
+    "href": "contents/day5.html",
+    "title": "Day 5: Functions, Loops, and Monte Carlo Simulations (Under Construction)",
+    "section": "",
+    "text": "Monte Carlo simulations are a powerful tool in Econometrics and Statistics fields. From the student perspective, it is a great way to understand the statistical properties of the various estimators and inference techniques. In this class, we will learn how to write R code to conduct Monte Carlo simulations.\n\nLearning Objectives\n\n\nLearning Objectives\n\n\n\nTo acquire the skills to write your own R functions.\nTo be able to use for loop function.\nTo be able to write R code for simple Monte Carlo Simulations to test statistical properties.\n\n\n\n\n\nPreparation\nTake a look at the following sections in the book of R for Data Science:\n\nSection 19 Functions\nSection 20 Iteration\n\n\n\nLecture Slides\n Click here for Lecture 5’s slides.\n Exercise problems: Exercise problems for Lecture 5. Solution is attached.\n\nQuick view of the lecture slides:\n \n\n\n\n\nSupplementary Materials\n\nExercise Problems\nSolutions for the Exercise Problems",
+    "crumbs": [
+      "Class Materials",
+      "Day 5: Functions, Loops, and Monte Carlo Simulations (Under Construction)"
+    ]
+  },
+  {
+    "objectID": "contents/plan.html",
+    "href": "contents/plan.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Tentative Schedule\n\n\n\n\n\n\n\nDate\nTopic\n\n\n\n\n8/19 (Mon)\nIntroduction to R and R studio interface\n\n\n\nBasics of R\n\n\n8/20 (Tue)\nData wrangling with data.table package\n\n\n8/21 (Wed)\nData visualization with ggplot2 package\n\n\n8/22 (Thu)\nRegression Analysis and Report the Results　\n\n\n8/23 (Fri)\nFunction, Loops, and Monte Carlo Simulation”\n\n\n\nI’m planning to introduce Rmarkdown, and Quarto documents at some point. If I cannot cover them in the class, I will provide materials to learn by yourself.",
+    "crumbs": [
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "contents/index.html",
+    "href": "contents/index.html",
+    "title": "Welcome to R Review Course!",
+    "section": "",
+    "text": "Shunkei Kakimoto\n 316a\n kakim002@umn.edu\n\n\n\n\n\n August 19–August 23, 2024\n 1:00–4:00 pm\n 135B Ruttan\n Syllabus (PDF)",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "contents/index.html#course-description",
+    "href": "contents/index.html#course-description",
+    "title": "Welcome to R Review Course!",
+    "section": "Course Description",
+    "text": "Course Description\nThis is a one-week course designed as an introduction to R statistical software for incoming graduate students. R is the leading software used in Ph.D.-level econometric classes in APEC (APEC 8211-8214). For example, we extensively use R to conduct Monte Carlo simulations to understand the properties of different estimators and inference methods. In this course, we will go through the basics of R programming. Although the topics we can cover within five days are limited, I selected essential topics that would be directly helpful to establish a solid foundation for students’ R skills. These skills will not only be beneficial for first-year Ph.D. Econometrics classes but also for your personal research, empowering you to conduct independent studies and contribute to the field.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "contents/index.html#learning-objectives",
+    "href": "contents/index.html#learning-objectives",
+    "title": "Welcome to R Review Course!",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\nBy completing the course, students will be able to\n\ncreate an R project and know how to access and save data.\nhandle different types of base R objects (e.g. list, vector, matrix, and data.frame).\nuse basic data wrangling skills with the data.table package (e.g. subset rows, select and compute on columns, rename columns, perform aggregations by group, merge multiple datasets, and reshape wide-to-long and long-to-wide, respectively).\nuse basic ggplot functions to visualize data\nwrite their own R functions.\nwrite code for simple Monte Carlo Simulations with loop.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "contents/index.html#in-preparation-for-the-course",
+    "href": "contents/index.html#in-preparation-for-the-course",
+    "title": "Welcome to R Review Course!",
+    "section": "In preparation for the course",
+    "text": "In preparation for the course\n\nDownload and Install R and R studio on your laptop. To do this, follow the procedure described in this website\nGet UCard access to Ruttan Hall:\n\nRequest access to the building (Ruttan Hall)\n\nFinish the Survey.\nBring your laptop to the class.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "contents/index.html#lecture-style",
+    "href": "contents/index.html#lecture-style",
+    "title": "Welcome to R Review Course!",
+    "section": "Lecture Style",
+    "text": "Lecture Style\nEach lecture will be divided into three sessions, where each session consists of a 50-minute lecture and a 10-minute break.\nBy just looking at code, you cannot acquire the skills for coding. The only way to learn coding is to do it yourself! At the end of each topic, we will work on small quizzes to check your understanding level. In addition, there will be exercise problems at the end of the slides. These exercise problems require you to combine multiple operations you learned in the lecture. Of course, I do not expect you to solve the quizzes and exercise problems immediately. I want you to go through the problems many times until you feel comfortable. The solutions are included in the slides.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "contents/index.html#more-about-r-coding",
+    "href": "contents/index.html#more-about-r-coding",
+    "title": "Welcome to R Review Course!",
+    "section": "More about R coding",
+    "text": "More about R coding\nIf you are interested in learning more about R programming, I recommend that you take APEC 8221 (001) Programming for Econometrics (7 week course, 2 credits). You can still register!",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "contents/recommended.html",
+    "href": "contents/recommended.html",
+    "title": "Recommended Textbooks",
+    "section": "",
+    "text": "Below is the recommendation for reference. All the materials are freely available online.",
+    "crumbs": [
+      "Recommended Textbooks"
+    ]
+  },
+  {
+    "objectID": "contents/recommended.html#textbooks",
+    "href": "contents/recommended.html#textbooks",
+    "title": "Recommended Textbooks",
+    "section": "Textbooks",
+    "text": "Textbooks\n R for Data Science 2nd edition and Solutions to Exercises\nThis book mainly uses the dplyr package, which we do not cover in this course (Instead, we use data.table package.) But still, some chapters are highly useful for learning the basics of R. Specifically, take a look at the following chapters:\n\nChapter 2 Workflow: basics\nChapter 6 Workflow: scripts and projects\nChapter 25 Functions\nChapter 26 Iteration\nChapter 27 A field guide to base R\n\n\n Introduction to data.table\nI highly recommend this as an introduction to data.table syntax.\n ggplot2: Elegant Graphics for Data Analysis (3e)\n Modern Data Visualization with R by Robert Kabacoff\n Matloff, Norman. The art of R programming: A tour of statistical software design. No Starch Press, 2011.\nThe Programming for Econometrics class uses this book.",
+    "crumbs": [
+      "Recommended Textbooks"
+    ]
+  },
+  {
+    "objectID": "contents/recommended.html#syntax-cheat-sheets",
+    "href": "contents/recommended.html#syntax-cheat-sheets",
+    "title": "Recommended Textbooks",
+    "section": "Syntax Cheat Sheets",
+    "text": "Syntax Cheat Sheets\n Data Transformation with data.table",
+    "crumbs": [
+      "Recommended Textbooks"
+    ]
+  },
+  {
+    "objectID": "contents/day4.html",
+    "href": "contents/day4.html",
+    "title": "Day 4: Introduction to Regression Analysis in R (Under Construction)",
+    "section": "",
+    "text": "In this lecture, we will learn how to use the lm() function to conduct regression analysis in R. To report the regression result with a table, we will use the modelsummary() function of the modelsummary package.\n\n\n\nLearning Objectives\n\n\n\nto be able to use the lm() function to conduct regression analysis in R.\nto be able to create a summary table of regression results with the modelsummary() function.\nto be able to create a summary table of descriptive statistics with the datasummary() function.\n\n\n\n\n\nPreparation\n\nThis is the official website for the modelsummary package. Let’s take a look at the website and see what kind of tables you can create with the modelsummary package.\n\n\n\n\nLecture Slides\n Click here for Lecture 4’s slides.\n Exercise problems: Exercise problems for Lecture 4. Solution is attached.\n\nQuick view of the lecture slides:\n \n\n\n\n\n\nSupplementary Materials\n\nExercise Problems\nSolutions for the Exercise Problems\nFor the estimation of fixed-effects model, you can use the fixest package.",
+    "crumbs": [
+      "Class Materials",
+      "Day 4: Introduction to Regression Analysis in R (Under Construction)"
+    ]
+  },
+  {
+    "objectID": "contents/Apx4.html",
+    "href": "contents/Apx4.html",
+    "title": "Introduction to R Statistical Analysis Software",
+    "section": "",
+    "text": "Quarto is like an upgraded version of R Markdown. It’s a tool that lets you combine text, code, and data analysis all in one document. Quarto does the same thing but with more features and flexibility. Quarto works with R and other languages like Python, Julia, and more. It’s more versatile, allowing you to create documents and reports, websites, blogs, books, and even interactive apps. This website and all my slides for this courses were also created with Quarto! (Similarly, you can use R Markdown to create websites and slides, but Quarto has more features and flexibility.)\n\n\n\n\n\n\nDo I need to install Quarto CLI (Command Line Interface) to use Quarto in Rstudio?\n\n\nNo, you don’t need to. Recent versions of RStudio come with Quarto already bundled, so you don’t need to install the Quarto CLI separately.\nReference: “Is it necessary to install Quarto separately from Rstudio?”\n\n\n\n\n\n\n\n\n\n\nHow to use Quarto in Rstudio?\n\n\nIf you are new to Quarto, I strongly recommend to read this official document to get started.\n\n\nFrom top-down of New file icon, crick “Quarto Document…” -&gt; Select “HTML” (or “PDF”) format -&gt; A new Quarto (.qmd) file pops up -&gt; Crick “Render” bottom to run the qmd file. The output document will be shown in the Viewer pane.\nIf “Render on Save” bottom is checked, the document will be rendered automatically when you save the file. This is particularly useful when you want to see real-time updates of your document without manually clicking the “Render” button each time you make a change.\n\n1.New .Rmd file2.Select HTML format3.Crick Render4.Output\n\n\n\n\n\nStep 1\n\n\n\n\n\n\n\nStep 2: You can choose HTML if you want a HTML document.\n\n\n\n\n\n\n\nStep 3\n\n\n\n\n\n\n\nStep 4\n\n\n\n\n\n\n\n\nThe basic usage of Quarto is the same as R Markdown.\n Quarto document Cheet Sheet",
+    "crumbs": [
+      "Appendix",
+      "Introduction to Quarto"
+    ]
+  },
+  {
+    "objectID": "contents/Apx4.html#introduction-to-quarto-under-construction",
+    "href": "contents/Apx4.html#introduction-to-quarto-under-construction",
+    "title": "Introduction to R Statistical Analysis Software",
+    "section": "",
+    "text": "Quarto is like an upgraded version of R Markdown. It’s a tool that lets you combine text, code, and data analysis all in one document. Quarto does the same thing but with more features and flexibility. Quarto works with R and other languages like Python, Julia, and more. It’s more versatile, allowing you to create documents and reports, websites, blogs, books, and even interactive apps. This website and all my slides for this courses were also created with Quarto! (Similarly, you can use R Markdown to create websites and slides, but Quarto has more features and flexibility.)\n\n\n\n\n\n\nDo I need to install Quarto CLI (Command Line Interface) to use Quarto in Rstudio?\n\n\nNo, you don’t need to. Recent versions of RStudio come with Quarto already bundled, so you don’t need to install the Quarto CLI separately.\nReference: “Is it necessary to install Quarto separately from Rstudio?”\n\n\n\n\n\n\n\n\n\n\nHow to use Quarto in Rstudio?\n\n\nIf you are new to Quarto, I strongly recommend to read this official document to get started.\n\n\nFrom top-down of New file icon, crick “Quarto Document…” -&gt; Select “HTML” (or “PDF”) format -&gt; A new Quarto (.qmd) file pops up -&gt; Crick “Render” bottom to run the qmd file. The output document will be shown in the Viewer pane.\nIf “Render on Save” bottom is checked, the document will be rendered automatically when you save the file. This is particularly useful when you want to see real-time updates of your document without manually clicking the “Render” button each time you make a change.\n\n1.New .Rmd file2.Select HTML format3.Crick Render4.Output\n\n\n\n\n\nStep 1\n\n\n\n\n\n\n\nStep 2: You can choose HTML if you want a HTML document.\n\n\n\n\n\n\n\nStep 3\n\n\n\n\n\n\n\nStep 4\n\n\n\n\n\n\n\n\nThe basic usage of Quarto is the same as R Markdown.\n Quarto document Cheet Sheet",
+    "crumbs": [
+      "Appendix",
+      "Introduction to Quarto"
+    ]
+  },
+  {
+    "objectID": "contents/Apx1.html",
+    "href": "contents/Apx1.html",
+    "title": "Introduction to R Statistical Analysis Software",
+    "section": "",
+    "text": "See this for the full list of shortcut keys in RStudio.\nBelow, I listed some useful shortcut keys that are commonly used.\n\n\n\n\n\n\n\n\nDescription\nWindows\nMac\n\n\n\n\nOpen the Palette\nCtrl + Shift + P\nCmd + Shift + P\n\n\nRun current line/selection\nCtrl+Enter\nCmd+Return\n\n\nComment/uncomment current line/selection\nCtrl+Shift+C\nCmd+Shift+C\n\n\nNew R script\nCtrl+Shift+N\nCmd+Shift+N\n\n\nOpen document\nCtrl+O\nCmd+O\n\n\nSave document\nCtrl+S\nCmd+S\n\n\nInsert chunk\nCtrl+Alt+I\nCmd+Option+I\n\n\nKnit or render Document\nCtrl+Shift+K\nCmd+Shift+K",
+    "crumbs": [
+      "Appendix",
+      "Useful shorcut keys in the Rstudio"
+    ]
+  },
+  {
+    "objectID": "contents/Apx1.html#useful-shortcut-keys-in-the-rstudio",
+    "href": "contents/Apx1.html#useful-shortcut-keys-in-the-rstudio",
+    "title": "Introduction to R Statistical Analysis Software",
+    "section": "",
+    "text": "See this for the full list of shortcut keys in RStudio.\nBelow, I listed some useful shortcut keys that are commonly used.\n\n\n\n\n\n\n\n\nDescription\nWindows\nMac\n\n\n\n\nOpen the Palette\nCtrl + Shift + P\nCmd + Shift + P\n\n\nRun current line/selection\nCtrl+Enter\nCmd+Return\n\n\nComment/uncomment current line/selection\nCtrl+Shift+C\nCmd+Shift+C\n\n\nNew R script\nCtrl+Shift+N\nCmd+Shift+N\n\n\nOpen document\nCtrl+O\nCmd+O\n\n\nSave document\nCtrl+S\nCmd+S\n\n\nInsert chunk\nCtrl+Alt+I\nCmd+Option+I\n\n\nKnit or render Document\nCtrl+Shift+K\nCmd+Shift+K",
+    "crumbs": [
+      "Appendix",
+      "Useful shorcut keys in the Rstudio"
+    ]
+  },
+  {
+    "objectID": "contents/day1.html",
+    "href": "contents/day1.html",
+    "title": "Day 1: Introduction to R",
+    "section": "",
+    "text": "Learning Objectives\n\n\n\nto be able to use the basic features of RStudio.\nto understand different types of R-base data structures and how to create and manipulate them.\nunderstand how to do Matrix/Linear Algebra in R.\nto be able to install and load R packages.\nto be able to load and save data in R.\n\n\n\n\nPreparation\nIf you are entirely new to R and RStudio, the following sections from the book “R for Data Science” might be helpful to read before the class. Each section is short. Also, don’t worry about the code written in the book.\n\nSection 1.4: Prerequisites\nSection 2: Workflow: basics\nSection 6: Workflow scripts and projects\n\nWe’ll use RStudio projects instead of setting working directory manually. Section 6.2.3: RStudio projects explains RStudio projects.\n\n\n\n\nLecture Slides\n Click here for Lecture 0’s slides.\n Click here for Lecture 1’s slides.\n Exercise problems: Exercise problems for Lecture 1. Solution is attached.\n\nQuick view of the Lecture 1’s slides:\n \n\n\n\n\n\nSupplementary Materials\n You can find a lot of features of R studio from here.\n Base R Cheat Sheet\n\n\n\n\n\n\nFaster matrix operations in R\n\n\n\nBy default, R uses two libraries for common mathematical operations: Basic Linear Algebra Subprograms (BLAS) and LAPACK (Linear Algebra Package). For MAC users, instead of the BLAS library that comes with R, you can use Apple’s vecLib (libBLAS.dylib), which is optimized for Apple to perform computations on large vectors. I don’t know if this works on your machine (especially for Windows). But you can try it to speed up R! The process is not complicated. Just follow the instructions in the link below.\n Accelerating R by Dr. Christopher D. Higgins\nEven faster matrix math in R on macOS with M1 by Mikhail Popov",
+    "crumbs": [
+      "Class Materials",
+      "Day 1: Introduction to R"
+    ]
+  },
+  {
+    "objectID": "contents/data.html",
+    "href": "contents/data.html",
+    "title": "Introduction to R Statistical Analysis Software",
+    "section": "",
+    "text": "Follow the instruction below:\n\nCreate a new folder for this course (e.g., R_summer_2024).\nIn this course, we mostly use the data from websites and the data attached to R packages but we will occasionally use additional data that I will provide. Please download the datasets from this link .\n\nOnce you open the link, click on the Download button at the top. It will ask you to login or sign up. At the bottom of this window, please click “Or continue with download only” to download the file.\n\nAfter unzipping the file, it will automatically create a folder named Data. Move this folder to your R_summer_2024 folder.\nAdditionally, inside of your R_summer_2024 folder, you need to create a folder named Code.\nNow you’re ready to begin!\n\n\nYour R_summer_2024 folder should look like this:\n\n\n\nFolder structure for R_summer_2024",
+    "crumbs": [
+      "Class Materials",
+      "Download the datasets"
+    ]
+  },
+  {
+    "objectID": "contents/data.html#download-the-datasets",
+    "href": "contents/data.html#download-the-datasets",
+    "title": "Introduction to R Statistical Analysis Software",
+    "section": "",
+    "text": "Follow the instruction below:\n\nCreate a new folder for this course (e.g., R_summer_2024).\nIn this course, we mostly use the data from websites and the data attached to R packages but we will occasionally use additional data that I will provide. Please download the datasets from this link .\n\nOnce you open the link, click on the Download button at the top. It will ask you to login or sign up. At the bottom of this window, please click “Or continue with download only” to download the file.\n\nAfter unzipping the file, it will automatically create a folder named Data. Move this folder to your R_summer_2024 folder.\nAdditionally, inside of your R_summer_2024 folder, you need to create a folder named Code.\nNow you’re ready to begin!\n\n\nYour R_summer_2024 folder should look like this:\n\n\n\nFolder structure for R_summer_2024",
+    "crumbs": [
+      "Class Materials",
+      "Download the datasets"
+    ]
+  }
+]

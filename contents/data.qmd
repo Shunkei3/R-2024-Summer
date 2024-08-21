@@ -1,0 +1,37 @@
+<!-- ---
+title: "Data"
+--- -->
+
+## Download the datasets
+
+Follow the instruction below:
+
++ Create a new folder for this course (e.g., `R_summer_2024`). 
++ In this course, we mostly use the data from websites and the data attached to R packages but we will occasionally use additional data that I will provide. Please download the datasets from [this link {{< fa download >}}](https://www.dropbox.com/scl/fo/onuxrv9z5p9onfb5jaf56/AEcFPsDrbLlPfPy9cXwEpyE?rlkey=z3ozk85mv02ujwytv9yu4sjno&st=so8hay8r&dl=0){target="_blank"}.
+  + Once you open the link, click on the `Download` button at the top. [It will ask you to login or sign up. At the bottom of this window, please click "Or continue with download only" to download the file.]{style="color: blue;"}
++ After unzipping the file, it will automatically create a folder named `Data`. Move this folder to your `R_summer_2024` folder.
++ Additionally, inside of your `R_summer_2024` folder, you need to create a folder named `Code`.
++ Now you're ready to begin!
+
+<br>
+
+Your `R_summer_2024` folder should look like this:
+
+![Folder structure for R_summer_2024](z_photos/folder.png){width=80%}
+
+
+
+<!-- ## Description of the datasets
+
++ Lec 1
++ Lec 2
+  + 
++ Lec 3
+  + 
++ Lec 4: 
+  + `AER::CPS1988` - Cross-section data originating from the March 1988 Current Population Survey by the US Census Bureau.
+  + `AER::CPSSW9204` -  Earnings in the US in 1992 and 2004 for college-educated full-time workers aged 25–34
+  + `AER::Journals` - Subscriptions to economics journals at US libraries, for the year 2000.
+  + `AER::CASchools` - The dataset contains data on test performance, school characteristics and student demographic backgrounds for school districts in California.
++ Lec 5  -->
+

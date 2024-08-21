@@ -1,0 +1,17 @@
+## Useful shortcut keys in the RStudio
+
+See [this](https://support.posit.co/hc/en-us/articles/200711853-Keyboard-Shortcuts-in-the-RStudio-IDE) for the full list of shortcut keys in RStudio.
+
+Below, I listed some useful shortcut keys that are commonly used. 
+
+
+Description                        | Windows        | Mac
+------------------------------------------| ------------------ | -------------
+Open the Palette | Ctrl + Shift + P | Cmd + Shift + P
+Run current line/selection  |Ctrl+Enter  |Cmd+Return
+Comment/uncomment current line/selection  | Ctrl+Shift+C | Cmd+Shift+C
+New R script | Ctrl+Shift+N | Cmd+Shift+N
+Open document | Ctrl+O | Cmd+O
+Save document | Ctrl+S | Cmd+S
+Insert chunk    | Ctrl+Alt+I     | Cmd+Option+I
+Knit or render Document |Ctrl+Shift+K  |Cmd+Shift+K

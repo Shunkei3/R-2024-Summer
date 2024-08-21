@@ -1,0 +1,63 @@
+---
+title: "Day 3: Introduction to Data Visualization with the `ggplot2` package"
+---
+
+If you want to visualize your data, the R package `ggplo2` does everything you need. It allows you to create clear and attractive graphs. The flexibility of ggplot2 makes it easy to customize your plots exactly how you want. Let's get started!
+
+<br>
+
+:::{.goals}
+::::{.goals-header}
+Learning Objectives
+::::
+::::{.goals-container}
++ Learn the basic sysntax of `geom_*` function of the `ggplot2` package to create figures. 
++ To be able to create:
+  + scatter plot
+  + line plot
+  + bar plot
+  + histogram
+  + box plot
+  + density plot
+  + facet plot
++ To be able to transform the data to make it suitable for visualization with ggplot functions.
+::::
+:::
+
+<br>
+
+### Preparation
+
++ Before the class, see what kind of figures you can create with the `ggplot2` package from the [official website](https://r-graph-gallery.com/all-graphs.html){target="_blank"}.
+
++ [Here](https://ggplot2.tidyverse.org/articles/ggplot2.html){target="_blank"} is a brief overview of the key components used in the ggplot2 package. Specifically, if you understand that any complicated plot is composed of multiple simple plot layers, then it is easy to understand how to create a plot with ggplot2!
+
+<br>
+
+### Lecture Slides
+
+{{< fa laptop-code >}}  Click [here](https://shunkei3.github.io/R-slides/Lec_notes/Lec3/Lec3.html){target="_blank"} for Lecture 3's slides.
+
+{{< fa file >}} [Exercise problems](https://shunkei3.github.io/R-slides/Lec_notes/Lec1/Lec1_exercise_solution.html){target="_blank"}: Exercise problems for Lecture 1. Solution is attached.
+
+<br>
+
+Quick view of the lecture slides:
+
+
+```{=html}
+<div style="display: flex; justify-content: center;"> 
+<iframe width="900" height="600" src="https://shunkei3.github.io/R-slides/Lec_notes/Lec3/Lec3.html" title="Webpage example"></iframe>
+</div>
+```
+
+### Supplementary Materials
+
++ `ggplot2` homepage: [ggplot2](https://ggplot2.tidyverse.org/){target="_blank"}
+
++ {{< fa file >}} [Data visualization with ggplot2](https://posit.co/wp-content/uploads/2022/10/data-visualization-1.pdf){target="_blank"}
+
+
+<!-- ::: {.callout-note}
+**Note:**
+::: -->
