@@ -5,6 +5,7 @@ project:
 website:
   title: "Introduction to R Statistical Analysis Software"
   description: "Homepage for R - Review course in APEC at the University of Minnesota, Summer 2024."
+  google-analytics: "'G-2CNBSQRRD2'"
   navbar:
     background: primary
     right:

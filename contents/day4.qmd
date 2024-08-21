@@ -29,6 +29,8 @@ Learning Objectives
 
 {{< fa laptop-code >}}  Click [here](https://shunkei3.github.io/R-slides/Lec_notes/Lec4/Lec4.html){target="_blank"} for Lecture 4's slides.
 
+{{< fa file >}} [Exercise problems](https://shunkei3.github.io/R-slides/Lec_notes/Lec1/Lec1_exercise_solution.html){target="_blank"}: Exercise problems for Lecture 4. Solution is attached.
+
 <br>
 
 Quick view of the lecture slides:

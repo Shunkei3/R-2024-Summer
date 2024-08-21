@@ -28,7 +28,7 @@ Learning Objectives
 <br>
 
 ### Preparation
-+  {{< fa file >}} [This](https://rdatatable.gitlab.io/data.table/) is the official website for the `data.table` package. Specifically, I recommend you take a look at the  Introduction section.
++  {{< fa file >}} [This](https://rdatatable.gitlab.io/data.table/) is the official website for the `data.table` package. Specifically, I recommend you take a look at the Introduction section.
 + {{< fa file >}} [Section 18: Pipes](https://r4ds.had.co.nz/pipes.html) in the book of R for Data Science is a good introduction to the `%>%` operator of the `magrittr` package.
 
 <br>
@@ -36,6 +36,7 @@ Learning Objectives
 ### Lecture Slides
 {{< fa laptop-code >}}  Click [here](https://shunkei3.github.io/R-slides/Lec_notes/Lec2/Lec2.html){target="_blank"} for Lecture 2's slides.
 
+<!-- {{< fa file >}} [Exercise problems](https://shunkei3.github.io/R-slides/Lec_notes/Lec1/Lec1_exercise_solution.html){target="_blank"}: Exercise problems for Lecture 2. Solution is attached. -->
 
 Quick view of the slides:
 

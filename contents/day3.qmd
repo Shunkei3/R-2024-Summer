@@ -1,5 +1,5 @@
 ---
-title: "Day 3: Introduction to Data Visualization with the `ggplot2` package (Under Construction)"
+title: "Day 3: Introduction to Data Visualization with the `ggplot2` package"
 ---
 
 If you want to visualize your data, the R package `ggplo2` does everything you need. It allows you to create clear and attractive graphs. The flexibility of ggplot2 makes it easy to customize your plots exactly how you want. Let's get started!
@@ -38,6 +38,9 @@ Learning Objectives
 
 {{< fa laptop-code >}}  Click [here](https://shunkei3.github.io/R-slides/Lec_notes/Lec3/Lec3.html){target="_blank"} for Lecture 3's slides.
 
+{{< fa file >}} [Exercise problems](https://shunkei3.github.io/R-slides/Lec_notes/Lec1/Lec1_exercise_solution.html){target="_blank"}: Exercise problems for Lecture 1. Solution is attached.
+
+<br>
 
 Quick view of the lecture slides:
 

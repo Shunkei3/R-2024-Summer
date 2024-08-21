@@ -9,6 +9,7 @@
 .DS_Store
 .quarto
 
+contents/note.md
 
 /repo_lec_R_review/Data/*
 /repo_lec_R_review/Data0
