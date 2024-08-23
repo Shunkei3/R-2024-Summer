@@ -2,7 +2,7 @@
 title: "Day 5: Functions, Loops, and Monte Carlo Simulations"
 ---
 
-Monte Carlo simulations are a powerful tool in Econometrics and Statistics fields. From the student perspective, it is a great way to understand the statistical properties of the various estimators and inference techniques. In this class, we will learn how to write R code to conduct Monte Carlo simulations.
+Monte Carlo simulations are potent tools in Econometrics and Statistics. From the student's perspective, they are helpful in understanding statistical and econometric theories, properties of the various estimators, and inference techniques. This class will teach you how to write R code to conduct Monte Carlo simulations. 
 
 ### Learning Objectives
 
@@ -11,7 +11,7 @@ Monte Carlo simulations are a powerful tool in Econometrics and Statistics field
 Learning Objectives
 ::::
 ::::{.goals-container}
-+ To acquire the skills to write your own R functions.
++ To be abel to write your own R functions.
 + To be able to use `for loop` function.
 + To be able to write R code for simple Monte Carlo Simulations to test statistical properties. 
 ::::
@@ -29,8 +29,7 @@ Take a look at the following sections in the book of R for Data Science:
 
 {{< fa laptop-code >}}  Click [here](https://shunkei3.github.io/R-slides/Lec_notes/Lec5/Lec5.html){target="_blank"} for Lecture 5's slides.
 
-{{< fa file >}} Exercise problems
-<!-- {{< fa file >}} [Exercise problems](https://shunkei3.github.io/R-slides/Lec_notes/Lec1/Lec1_exercise_solution.html){target="_blank"}: Exercise problems for Lecture 5. Solution is attached. -->
+{{< fa file >}} [Exercise problems](https://shunkei3.github.io/R-slides/Lec_notes/Lec5/Lec5_exercise_solutions.html){target="_blank"}: Exercise problems for Lecture 5. Solution is attached.
 
 <br>
 

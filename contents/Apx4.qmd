@@ -13,7 +13,7 @@ Do I need to install Quarto CLI (Command Line Interface) to use Quarto in Rstudi
 :::{.solutionbox-body}
 No, you don't need to. Recent versions of RStudio come with Quarto already bundled, so you don’t need to install the Quarto CLI separately. 
 
-*Reference: ["Is it necessary to install Quarto separately  from Rstudio?"](https://github.com/quarto-dev/quarto-cli/discussions/5854){target="_blank"}*
+*Reference: ["Is it necessary to install Quarto separately from Rstudio?"](https://github.com/quarto-dev/quarto-cli/discussions/5854){target="_blank"}*
 :::
 :::
 
